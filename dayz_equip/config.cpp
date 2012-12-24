@@ -1413,6 +1413,16 @@ class CfgMagazines {
 		descriptionShort = $STR_EQUIP_DESC_24;
 	};
 	
+	class HumanFlesh : CA_Magazine {
+		scope = public;
+		count = 1;
+		type = 256;
+		displayName = $STR_EQUIP_NAME_47;
+		model = "\dayz_equip\models\food_steak_gear.p3d";
+		picture = "\dayz_equip\textures\equip_steak_ca.paa";
+		descriptionShort = $STR_EQUIP_DESC_47;
+	};
+	
 	class FoodEdible : CA_Magazine {
 		isFood = 1;
 		count = 1;

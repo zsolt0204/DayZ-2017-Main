@@ -559,6 +559,18 @@
       <German>A British Army Soldiers uniform. Can be unpacked and worn.</German>
       <Russian>A British Army Soldiers uniform. Can be unpacked and worn.</Russian>
     </Key>
+	<Key ID="STR_EQUIP_NAME_47">
+      <Original>Human Flesh</Original>
+      <English>Human Flesh</English>
+      <German>SHuman Flesh</German>
+      <Russian>Human Flesh</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_47">
+      <Original>A chunk of Human Flesh and a symbol of all that is wrong in these wretched lands.</Original>
+      <English>A chunk of Human Flesh and a symbol of all that is wrong in these wretched lands.</English>
+      <German>A chunk of Human Flesh and a symbol of all that is wrong in these wretched lands.</German>
+      <Russian>A chunk of Human Flesh and a symbol of all that is wrong in these wretched lands.</Russian>
+    </Key>
 	</Package>
 	<Package name="weaponHolders">
 			<Key ID="STR_WPN_HOLDR_1">	
