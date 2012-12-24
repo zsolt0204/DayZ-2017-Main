@@ -106,6 +106,9 @@ class CfgSurvival {
 		class Default {
 			yield = 2;
 		};
+		class Player: Default {
+			yield = 5;
+		};
 		class Cow: Default {
 			yield = 8;
 		};

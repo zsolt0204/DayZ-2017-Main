@@ -507,6 +507,12 @@
 			<German>Benzinkanister füllen</German>
 			<Russian>Наполнить канистры</Russian>
 		</Key>
+		<Key ID="str_actions_self_11">
+			<Original>Gut Human</Original>
+			<English>Gut Human</English>
+			<German>Gut Huma</German>
+			<Russian>Gut Human</Russian>
+		</Key>
 		<Key ID="str_actions_medical_01">
 			<Original>Drag Body</Original>
 			<English>Drag Body</English>

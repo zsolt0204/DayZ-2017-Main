@@ -100,6 +100,16 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 		s_player_butcher = -1;
 	};
 	
+	//skin player
+	if (!alive cursorTarget and _isMan and _hasKnife and !_isHarvested and _canDo) then {
+		if (s_player_butcher < 0) then {
+			s_player_butcher = player addAction [localize "str_actions_self_11", "\z\addons\dayz_code\actions\gather_meat.sqf",cursorTarget, 3, true, true, "", ""];
+		};
+	} else {
+		player removeAction s_player_butcher;
+		s_player_butcher = -1;
+	};
+	
 	//Fireplace Actions check
 	if(inflamed cursorTarget and _hasRawMeat and _canDo) then {
 		if (s_player_cook < 0) then {
