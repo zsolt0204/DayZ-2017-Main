@@ -239,7 +239,7 @@ class CfgVehicles {
 		model = "\ice_apo_resistance\Backpack1.p3d";
 		picture = "\ice_apo_resistance\icons\backpack1_ca.paa";
 		icon = "\ca\weapons_e\data\icons\mapIcon_backpack_CA.paa";
-		transportMaxWeapons = 0;
+		transportMaxWeapons = 3;
 		transportMaxMagazines = 16;
 	};
 	
@@ -249,7 +249,7 @@ class CfgVehicles {
 		model = "\ice_apo_resistance\Backpack2.p3d";
 		picture = "\ice_apo_resistance\icons\backpack2_ca.paa";
 		icon = "\ca\weapons_e\data\icons\mapIcon_backpack_CA.paa";
-		transportMaxWeapons = 0;
+		transportMaxWeapons = 6;
 		transportMaxMagazines = 24;
 	};
 	
@@ -259,7 +259,7 @@ class CfgVehicles {
 		model = "\ice_apo_resistance\Backpack3.p3d";
 		picture = "\ice_apo_resistance\icons\backpack3_ca.paa";
 		icon = "\ca\weapons_e\data\icons\mapIcon_backpack_CA.paa";
-		transportMaxWeapons = 0;
+		transportMaxWeapons = 1;
 		transportMaxMagazines = 8;
 	};
 	
@@ -269,7 +269,7 @@ class CfgVehicles {
 		model = "\ice_apo_resistance\Backpack4.p3d";
 		picture = "\ice_apo_resistance\icons\backpack4_ca.paa";
 		icon = "\ca\weapons_e\data\icons\mapIcon_backpack_CA.paa";
-		transportMaxWeapons = 0;
+		transportMaxWeapons = 4;
 		transportMaxMagazines = 20;
 	};
 	
