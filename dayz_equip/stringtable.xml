@@ -571,6 +571,18 @@
       <German>A chunk of Human Flesh and a symbol of all that is wrong in these wretched lands.</German>
       <Russian>A chunk of Human Flesh and a symbol of all that is wrong in these wretched lands.</Russian>
     </Key>
+	<Key ID="STR_EQUIP_NAME_48">						
+		<Original>Cooked Human Meat</Original>						
+		<English>Cooked Human Meat</English>						
+		<German>Cooked Human Meat</German>
+		<Russian>Cooked Human Meat</Russian>
+	</Key>
+	<Key ID="STR_EQUIP_DESC_48">
+      <Original>Cooked Human Meat. Provides sustenance, but comes with a high risk of infection and other complications.</Original>
+      <English>Cooked Human Meat. Provides sustenance, but comes with a high risk of infection and other complications.</English>
+      <German>Cooked Human Meat. Provides sustenance, but comes with a high risk of infection and other complications.</German>
+      <Russian>Cooked Human Meat. Provides sustenance, but comes with a high risk of infection and other complications.</Russian>
+    </Key>
 	</Package>
 	<Package name="weaponHolders">
 			<Key ID="STR_WPN_HOLDR_1">	

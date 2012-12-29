@@ -57,6 +57,7 @@ Dayz_GUI_B = 0.26; // -0.26
 dayz_resetSelfActions = {
 	s_player_fire =			-1;
 	s_player_cook =			-1;
+	s_player_humancook =	-1;
 	s_player_fireout =		-1;
 	s_player_butcher =		-1;
 	s_player_packtent = 	-1;

@@ -125,6 +125,12 @@
 			<German>Du hast %1 %2 gekocht</German>
 			<Russian>Вы приготовили: %1 %2</Russian>		<!-- As in "you have successfully cooked 5 raw steak" -->
 		</Key>
+		<Key ID="str_success_human_cooked">
+			<Original>You have cooked %1 %2</Original>
+			<English>You have cooked %1 %2</English>
+			<German>Du hast %1 %2 gekocht</German>
+			<Russian>Вы приготовили: %1 %2</Russian>		<!-- As in "you have successfully cooked 5 raw steak" -->
+		</Key>
 		<Key ID="str_success_tent_pack">
 			<Original>Your tent has been packed</Original>
 			<English>Your tent has been packed</English>
@@ -518,6 +524,12 @@
 			<English>Gut Human</English>
 			<German>Gut Huma</German>
 			<Russian>Gut Human</Russian>
+		</Key>
+		<Key ID="str_actions_self_12">
+			<Original>Cook Human Flesh</Original>
+			<English>Cook Human Flesh</English>
+			<German>Cook Human Flesh</German>
+			<Russian>Cook Human Flesh</Russian>
 		</Key>
 		<Key ID="str_actions_medical_01">
 			<Original>Drag Body</Original>

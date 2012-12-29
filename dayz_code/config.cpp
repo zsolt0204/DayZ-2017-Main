@@ -33,8 +33,8 @@ class CfgMods
 		picture = "z\addons\dayz_code\gui\dayz_logo_ca.paa";
 		hidePicture = 0;
 		hideName = 0;
-		action = "http://www.dayzmod.com";
-		version = "1.7.4.4";
+		action = "http://www.opendayz.net";
+		version = "1.1";
 		hiveVersion = 0.96; //0.93
 	};
 };

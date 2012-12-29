@@ -114,6 +114,7 @@ class CfgVehicles
 	class SkodaBase: Car
 	{
 		scope=private;
+		model = "\datsun_civil_apoc\skodovka";
 		picture="\Ca\wheeled\data\ico\skodovka_CA.paa";
 		Icon="\Ca\wheeled\data\map_ico\icomap_skoda_CA.paa";
 		mapSize = 6;

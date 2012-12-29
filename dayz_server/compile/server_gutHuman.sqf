@@ -5,7 +5,7 @@ _meat = 0;
 _loop = true;
 if (local _item) then {
 	for "_x" from 1 to _qty do {
-		_item addMagazine "FoodSteakRaw";
+		_item addMagazine "RawHumanFlesh";
 	};
 	sleep 2;
 	_timer = time;

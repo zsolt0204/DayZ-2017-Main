@@ -1412,8 +1412,8 @@ class CfgMagazines {
 		picture = "\dayz_equip\textures\equip_steak_ca.paa";
 		descriptionShort = $STR_EQUIP_DESC_24;
 	};
-	
-	class HumanFlesh : CA_Magazine {
+	// human
+	class RawHumanFlesh : CA_Magazine {
 		scope = public;
 		count = 1;
 		type = 256;
@@ -1421,6 +1421,30 @@ class CfgMagazines {
 		model = "\dayz_equip\models\food_steak_gear.p3d";
 		picture = "\dayz_equip\textures\equip_steak_ca.paa";
 		descriptionShort = $STR_EQUIP_DESC_47;
+	};
+	
+	//human
+	class RiskFood : CA_Magazine {
+		isFood = 1;
+		count = 1;
+		type = 256;
+		bloodRegen = 200;
+		
+		class ItemActions {
+			class Eat {
+				text = $STR_EAT_FOOD;
+				script = "spawn player_eat;";
+			};
+		};
+	};
+	
+	class HumanFleshCooked : RiskFood {
+		scope = public;
+		displayName = $STR_EQUIP_NAME_48;
+		model = "\dayz_equip\models\food_steak_cooked_gear.p3d";
+		picture = "\dayz_equip\textures\equip_steak_cooked_ca.paa";
+		descriptionShort = $STR_EQUIP_DESC_48;
+		bloodRegen = 800;
 	};
 	
 	class FoodEdible : CA_Magazine {
@@ -1436,6 +1460,7 @@ class CfgMagazines {
 			};
 		};
 	};
+
 	
 	class FoodSteakCooked : FoodEdible {
 		scope = public;
