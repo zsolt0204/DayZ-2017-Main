@@ -37,11 +37,10 @@ Credits
  - DayZ Mod
    - Dean 'Rocket' Hall
    - DayZ Community Developers
- - ArmA 1 SF Mlods
+ - ArmA 1 SF Mlods & - Original Units & Skodas
    - Icewindo
    - Bohemia Interactive Studios
    - Johannes
- - Original Units & Skodas
    - GSC Gameworld
  - OpenDayZ.net
    - Pwnoz0r
@@ -64,7 +63,3 @@ Credits
    - Luke Howitt [Art & Modeling]
    - Karwin Leutscher [Media & Video]
 
-Terms Of Use
-------------
-
-DayZ 2017 Is Provided Under A Commons License Which Is Found [Here] (http://opendayz.net/index.php?pages/TermsofUse/).
