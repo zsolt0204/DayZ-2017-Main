@@ -8,7 +8,7 @@ _wait = 5 - _qty;
 
 if ("RawHumanFlesh" in magazines player) then {
 	player playActionNow "Medic";
-	[player,"cook",0,false] call dayz_zombieSpeak;
+	[player,"cook",0,true] call dayz_zombieSpeak;
 	_id = [player,70,true,(getPosATL player)] spawn player_alertZombies;
 	sleep _wait;
 	for "_x" from 1 to _qty do {

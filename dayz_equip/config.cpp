@@ -1419,7 +1419,7 @@ class CfgMagazines {
 		type = 256;
 		displayName = $STR_EQUIP_NAME_47;
 		model = "\dayz_equip\models\food_steak_gear.p3d";
-		picture = "\dayz_equip\textures\equip_steak_ca.paa";
+		picture = "\dayz_equip\textures\i_heart_ca.paa";
 		descriptionShort = $STR_EQUIP_DESC_47;
 	};
 	
@@ -1442,7 +1442,7 @@ class CfgMagazines {
 		scope = public;
 		displayName = $STR_EQUIP_NAME_48;
 		model = "\dayz_equip\models\food_steak_cooked_gear.p3d";
-		picture = "\dayz_equip\textures\equip_steak_cooked_ca.paa";
+		picture = "\dayz_equip\textures\i_heartcooked_ca.paa";
 		descriptionShort = $STR_EQUIP_DESC_48;
 		bloodRegen = 800;
 	};

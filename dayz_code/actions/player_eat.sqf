@@ -8,6 +8,8 @@ if (vehicle player != player) exitWith {cutText ["You may not eat while in a veh
 
 _item = _this;
 _hasfoodmag = _this in magazines player;
+_rndInfection = (random 10);
+_EatInfection = (_rndInfection < 1);
 
 _config =	configFile >> "CfgMagazines" >> _item;
 _text = 	getText (_config >> "displayName");
@@ -15,6 +17,16 @@ _regen = 	getNumber (_config >> "bloodRegen");
 
 if (!_hasfoodmag) exitWith {cutText [format[(localize "str_player_31"),_text,"consume"] , "PLAIN DOWN"]};
 
+
+if (_EatInfection) then {
+   //Set Infection if not already
+   if (_item == "HumanFleshCooked" ) then {
+    r_player_infected = true;
+    player setVariable["USEC_infected",true,true];
+	};
+};
+
+// end infect code
 player playActionNow "PutDown";
 player removeMagazine _item;
 sleep 1;
