@@ -12,10 +12,10 @@ Soldier1_DZ = 	"Soldier1_DZ";
 Rocket_DZ = 	"Rocket_DZ";
 Beard_DZ =	"Beard_DZ";
 Dimitry_DZ = 	"Dimitry_DZ";
-//Czech_Norris_DZ = 	"Czech_Norris_DZ";
+Czech_Norris_DZ = 	"Czech_Norris_DZ";
 Alexej_DZ = 	"Alexej_DZ";
 Stanislav_DZ = 	"Stanislav_DZ";
-Marek_DZ = 	"Marek_DZ";
+SG_IRA_Soldier_CO_DZ =	"SG_IRA_Soldier_CO_DZ";
 
 dayz_combatLog = "";
 

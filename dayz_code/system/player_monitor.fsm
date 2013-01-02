@@ -1183,7 +1183,7 @@ class FSM
     {
       name = "Process";
       init = /*%FSM<STATEINIT""">*/"if (dayz_selectGender == ""Survivor2_DZ"") then {" \n
-       "        dayz_selectGender = [""Survivor2_DZ"",""Beard_DZ"",""Dimitry_DZ"",""Alexej_DZ"",""Stanislav_DZ"",""Marek_DZ""] select floor (random 6);" \n
+       "        dayz_selectGender = [""Survivor2_DZ"",""Beard_DZ"",""Dimitry_DZ"",""Alexej_DZ"",""Stanislav_DZ""] select floor (random 5);" \n
        "};" \n
        "_model = dayz_selectGender;"/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;

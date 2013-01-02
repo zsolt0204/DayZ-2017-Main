@@ -79,7 +79,7 @@ if (!_isNew) then {
 	_model =		_primary select 7;
 	_hiveVer =		_primary select 8;
 	
-	if (!(_model in ["SurvivorW2_DZ","Survivor2_DZ","Beard_DZ","Dimitry_DZ","Alexej_DZ","Stanislav_DZ","Marek_DZ"])) then {
+	if (!(_model in ["SurvivorW2_DZ","Survivor2_DZ","Beard_DZ","Dimitry_DZ","Alexej_DZ","Stanislav_DZ","Czech_Norris","SG_IRA_Soldier_CO_DZ"])) then {
 		_model = "Survivor2_DZ";
 	};
 	

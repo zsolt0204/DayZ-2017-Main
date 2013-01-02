@@ -216,7 +216,7 @@ class CfgSkeletons
 	class Car; // External class reference
 	class pickupBones : Car
 	{
-		// skeletonInherit="";
+		skeletonInherit="";
 		isDiscrete = 1;
 		skeletonBones[]=
 		{

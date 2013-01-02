@@ -799,7 +799,7 @@ class CfgWeapons {
 	class Makarov: FakeWeapon {};
 	class MakarovSD: FakeWeapon {};
 	class GrenadeLauncher: FakeWeapon {};
-	class Rifle: FakeWeapon {};
+	//class Rifle: FakeWeapon {};
 	class M16_base: FakeWeapon {};
 	//class M16A2: FakeWeapon {};
 	//class M16A2GL: FakeWeapon {};
@@ -1258,10 +1258,10 @@ class CfgVehicles {
 	class MVD_Soldier_MG: Banned {};
 	class MVD_Soldier_Marksman: Banned {};
 	class MVD_Soldier_Sniper: Banned {};
-	class GUE_Soldier_Base: Banned {};
+	// class GUE_Soldier_Base: Banned {};
 	class GUE_Soldier_1: Banned {};
 	class GUE_Soldier_2: Banned {};
-	class GUE_Soldier_3: Banned {};
+	//class GUE_Soldier_3: Banned {};
 	class GUE_Soldier_GL: Banned {};
 	class GUE_Worker2: Banned {};
 	class GUE_Woodlander1: Banned {};
@@ -1281,11 +1281,11 @@ class CfgVehicles {
 	class GUE_Soldier_Medic: Banned {};
 	class GUE_Soldier_Pilot: Banned {};
 	class GUE_Soldier_Crew: Banned {};
-	class Ins_Soldier_Base: Banned {};
+	//class Ins_Soldier_Base: Banned {};
 	//class Ins_Soldier_1: Banned {};
 	class Ins_Soldier_2: Banned {};
-	class Ins_Soldier_GL: Banned {};
-	class Ins_Soldier_CO: Banned {};
+	//class Ins_Soldier_GL: Banned {};
+	//class Ins_Soldier_CO: Banned {};
 	class Ins_Commander: Banned {};
 	class Ins_Soldier_Medic: Banned {};
 	class Ins_Soldier_AR: Banned {};

@@ -1,6 +1,6 @@
 private["_qty","_item","_meat"];
 _item = _this select 0;
-_qty = _this select 1;
+_qty = 4;
 _meat = 0;
 _loop = true;
 if (local _item) then {

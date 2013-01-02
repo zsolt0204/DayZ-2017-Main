@@ -27,7 +27,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"CAWeapons", "dayz_equip", "ice_apo_resistance_patch"};
+		requiredAddons[] = {"CAWeapons", "dayz_equip", "ice_apo_resistance_patch","SG_IRA"};
 	};
 };
 
@@ -1314,9 +1314,10 @@ class CfgVehicles {
 	class alexej; // External class reference
 	class Stained_Stanislav; // External class reference
 	class Scabby_Silvestr; // External class reference
-	class Moldy_Marek; // External class reference
-	// class Czech_Norris; // External class reference
+	class Czech_Norris; // External class reference
 	class TanyaBO; // External class reference
+	class GUE_Soldier_3;
+	class SG_IRA_Soldier_GL;
 	
 	class Survivor1_DZ : Soldier_Crew_PMC {
 		displayName = $STR_CHAR_1;
@@ -1369,7 +1370,6 @@ class CfgVehicles {
 		displayName = "Dimitry";
 		side = TWest;
 		weapons[] = {"Throw", "Put"};
-
 		magazines[] = {};
 		respawnWeapons[] = {"Throw", "Put"};
 		respawnMagazines[] = {};
@@ -1409,9 +1409,22 @@ class CfgVehicles {
 		weaponSlots = 1	 + 	4	 + 12*		256	 + 2*	4096	 + 	2	 + 8*	16  + 12*131072;
 		canHideBodies = true;
 	};
+	  
+	class SG_IRA_Soldier_CO_DZ : SG_IRA_Soldier_GL {
+		displayName = "Bandit";
+		side = TWest;
+		weapons[] = {"Throw", "Put"};
+		magazines[] = {};
+		respawnWeapons[] = {"Throw", "Put"};
+		respawnMagazines[] = {};
+		weaponSlots = 1	 + 	4	 + 12*		256	 + 2*	4096	 + 	2	 + 8*	16  + 12*131072;
+		canCarryBackPack = 1;  
+		canHideBodies = true;
+		faceType = "HeadMask1Black"; // This gives the model a black balaclava
+	};
 	
-	class Marek_DZ : Moldy_Marek {
-		displayName = "Marek";
+	class Survivor3_DZ : Czech_Norris {
+		displayName = "Czech Norris";
 		side = TWest;
 		weapons[] = {"Throw", "Put"};
 		magazines[] = {};
@@ -1420,17 +1433,6 @@ class CfgVehicles {
 		weaponSlots = 1	 + 	4	 + 12*		256	 + 2*	4096	 + 	2	 + 8*	16  + 12*131072;
 		canHideBodies = true;
 	};
-	
-	//class Survivor3_DZ : Czech_Norris {
-		//displayName = "Czech Norris";
-		//side = TWest;
-		//weapons[] = {"Throw", "Put"};
-		//magazines[] = {};
-		//respawnWeapons[] = {"Throw", "Put"};
-		//respawnMagazines[] = {};
-		//weaponSlots = 1	 + 	4	 + 12*		256	 + 2*	4096	 + 	2	 + 8*	16  + 12*131072;
-		//canHideBodies = true;
-	//};
 	
 	class SurvivorW2_DZ : TanyaBO {
 		displayName = "Tanya";
