@@ -62,7 +62,6 @@ Warning: Unsupported UVSet 2
 Warning: special LOD contains 2nd UV set.
 Warning: Unsupported UVSet 2
 Warnings in e:\projects\dayz-2017-main\ice_apo_resistance\backpack1.p3d:geometryView
-Warnings in e:\projects\dayz-2017-main\ice_apo_resistance\backpack1.p3d:11000
 Warning: 'e:\projects\dayz-2017-main\ice_apo_resistance\backpack1.p3d': LODs not ordered by face count 0 (0): 298 faces < 1 (1) 298 faces
 Warning: 'e:\projects\dayz-2017-main\ice_apo_resistance\backpack1.p3d': LODs not ordered by face count 1 (1): 298 faces < 2 (2) 298 faces
 Warning: 'e:\projects\dayz-2017-main\ice_apo_resistance\backpack1.p3d': LODs not ordered by face count 0 (0): 298 faces < 2 (2) 298 faces
@@ -73,6 +72,82 @@ Warning: 'e:\projects\dayz-2017-main\ice_apo_resistance\backpack1.p3d': LODs not
 </model>
 <model = "e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d">
 Warning: Unsupported UVSet 2
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2197, 2189, 2213
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2197, 2213, 2205
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2194, 2186, 2210
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2194, 2210, 2202
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2229, 2221, 2245
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2229, 2245, 2237
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2226, 2218, 2242
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2226, 2242, 2234
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1019, 1011, 1035
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1019, 1035, 1027
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1016, 1008, 1032
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1016, 1032, 1024
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1051, 1043, 1067
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1051, 1067, 1059
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1048, 1040, 1064
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1048, 1064, 1056
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1083, 1075, 1099
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1083, 1099, 1091
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1080, 1072, 1096
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1080, 1096, 1088
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1206, 1198, 1222
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1206, 1222, 1214
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1203, 1195, 1219
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1203, 1219, 1211
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1238, 1230, 1254
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1238, 1254, 1246
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1235, 1227, 1251
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1235, 1251, 1243
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1361, 1353, 1377
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1361, 1377, 1369
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1358, 1350, 1374
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1358, 1374, 1366
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1393, 1385, 1409
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1393, 1409, 1401
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1390, 1382, 1406
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1390, 1406, 1398
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1425, 1417, 1441
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1425, 1441, 1433
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1422, 1414, 1438
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1422, 1438, 1430
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1457, 1449, 1473
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1457, 1473, 1465
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1454, 1446, 1470
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1454, 1470, 1462
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1580, 1572, 1596
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1580, 1596, 1588
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1577, 1569, 1593
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1577, 1593, 1585
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1612, 1604, 1628
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1612, 1628, 1620
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1609, 1601, 1625
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1609, 1625, 1617
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1735, 1727, 1751
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1735, 1751, 1743
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1732, 1724, 1748
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1732, 1748, 1740
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1767, 1759, 1783
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1767, 1783, 1775
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1764, 1756, 1780
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1764, 1780, 1772
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1889, 1881, 1905
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1889, 1905, 1897
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1886, 1878, 1902
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1886, 1902, 1894
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1921, 1913, 1937
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1921, 1937, 1929
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1918, 1910, 1934
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1918, 1934, 1926
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2043, 2035, 2059
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2043, 2059, 2051
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2040, 2032, 2056
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2040, 2056, 2048
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2075, 2067, 2091
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2075, 2091, 2083
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2072, 2064, 2088
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2072, 2088, 2080
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 346, 355, 354
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 346, 354, 347
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 347, 354, 353
@@ -249,83 +324,83 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error whi
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 959, 963, 958
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 960, 961, 962
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 960, 962, 959
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1735, 1727, 1751
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1735, 1751, 1743
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1732, 1724, 1748
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1732, 1748, 1740
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1767, 1759, 1783
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1767, 1783, 1775
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1764, 1756, 1780
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1764, 1780, 1772
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2043, 2035, 2059
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2043, 2059, 2051
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2040, 2032, 2056
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2040, 2056, 2048
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2075, 2067, 2091
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2075, 2091, 2083
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2072, 2064, 2088
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2072, 2088, 2080
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1889, 1881, 1905
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1889, 1905, 1897
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1886, 1878, 1902
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1886, 1902, 1894
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1921, 1913, 1937
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1921, 1937, 1929
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1918, 1910, 1934
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1918, 1934, 1926
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2197, 2189, 2213
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2197, 2213, 2205
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2194, 2186, 2210
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2194, 2210, 2202
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2229, 2221, 2245
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2229, 2245, 2237
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2226, 2218, 2242
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 2226, 2242, 2234
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1580, 1572, 1596
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1580, 1596, 1588
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1577, 1569, 1593
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1577, 1593, 1585
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1612, 1604, 1628
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1612, 1628, 1620
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1609, 1601, 1625
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1609, 1625, 1617
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1361, 1353, 1377
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1361, 1377, 1369
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1358, 1350, 1374
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1358, 1374, 1366
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1393, 1385, 1409
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1393, 1409, 1401
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1390, 1382, 1406
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1390, 1406, 1398
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1425, 1417, 1441
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1425, 1441, 1433
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1422, 1414, 1438
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1422, 1438, 1430
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1457, 1449, 1473
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1457, 1473, 1465
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1454, 1446, 1470
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1454, 1470, 1462
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1206, 1198, 1222
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1206, 1222, 1214
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1203, 1195, 1219
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1203, 1219, 1211
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1238, 1230, 1254
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1238, 1254, 1246
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1235, 1227, 1251
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1235, 1251, 1243
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1019, 1011, 1035
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1019, 1035, 1027
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1016, 1008, 1032
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1016, 1032, 1024
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1051, 1043, 1067
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1051, 1067, 1059
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1048, 1040, 1064
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1048, 1064, 1056
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1083, 1075, 1099
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1083, 1099, 1091
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1080, 1072, 1096
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:0 Error while trying to generate ST for points: 1080, 1096, 1088
 Warning: Unsupported UVSet 2
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2197, 2189, 2213
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2197, 2213, 2205
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2194, 2186, 2210
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2194, 2210, 2202
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2229, 2221, 2245
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2229, 2245, 2237
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2226, 2218, 2242
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2226, 2242, 2234
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1019, 1011, 1035
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1019, 1035, 1027
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1016, 1008, 1032
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1016, 1032, 1024
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1051, 1043, 1067
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1051, 1067, 1059
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1048, 1040, 1064
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1048, 1064, 1056
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1083, 1075, 1099
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1083, 1099, 1091
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1080, 1072, 1096
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1080, 1096, 1088
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1206, 1198, 1222
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1206, 1222, 1214
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1203, 1195, 1219
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1203, 1219, 1211
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1238, 1230, 1254
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1238, 1254, 1246
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1235, 1227, 1251
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1235, 1251, 1243
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1361, 1353, 1377
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1361, 1377, 1369
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1358, 1350, 1374
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1358, 1374, 1366
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1393, 1385, 1409
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1393, 1409, 1401
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1390, 1382, 1406
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1390, 1406, 1398
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1425, 1417, 1441
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1425, 1441, 1433
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1422, 1414, 1438
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1422, 1438, 1430
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1457, 1449, 1473
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1457, 1473, 1465
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1454, 1446, 1470
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1454, 1470, 1462
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1580, 1572, 1596
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1580, 1596, 1588
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1577, 1569, 1593
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1577, 1593, 1585
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1612, 1604, 1628
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1612, 1628, 1620
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1609, 1601, 1625
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1609, 1625, 1617
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1735, 1727, 1751
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1735, 1751, 1743
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1732, 1724, 1748
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1732, 1748, 1740
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1767, 1759, 1783
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1767, 1783, 1775
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1764, 1756, 1780
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1764, 1780, 1772
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1889, 1881, 1905
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1889, 1905, 1897
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1886, 1878, 1902
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1886, 1902, 1894
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1921, 1913, 1937
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1921, 1937, 1929
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1918, 1910, 1934
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1918, 1934, 1926
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2043, 2035, 2059
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2043, 2059, 2051
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2040, 2032, 2056
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2040, 2056, 2048
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2075, 2067, 2091
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2075, 2091, 2083
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2072, 2064, 2088
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2072, 2088, 2080
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 346, 355, 354
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 346, 354, 347
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 347, 354, 353
@@ -502,83 +577,83 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error whi
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 959, 963, 958
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 960, 961, 962
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 960, 962, 959
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1735, 1727, 1751
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1735, 1751, 1743
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1732, 1724, 1748
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1732, 1748, 1740
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1767, 1759, 1783
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1767, 1783, 1775
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1764, 1756, 1780
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1764, 1780, 1772
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2043, 2035, 2059
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2043, 2059, 2051
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2040, 2032, 2056
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2040, 2056, 2048
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2075, 2067, 2091
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2075, 2091, 2083
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2072, 2064, 2088
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2072, 2088, 2080
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1889, 1881, 1905
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1889, 1905, 1897
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1886, 1878, 1902
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1886, 1902, 1894
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1921, 1913, 1937
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1921, 1937, 1929
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1918, 1910, 1934
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1918, 1934, 1926
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2197, 2189, 2213
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2197, 2213, 2205
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2194, 2186, 2210
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2194, 2210, 2202
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2229, 2221, 2245
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2229, 2245, 2237
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2226, 2218, 2242
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 2226, 2242, 2234
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1580, 1572, 1596
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1580, 1596, 1588
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1577, 1569, 1593
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1577, 1593, 1585
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1612, 1604, 1628
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1612, 1628, 1620
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1609, 1601, 1625
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1609, 1625, 1617
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1361, 1353, 1377
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1361, 1377, 1369
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1358, 1350, 1374
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1358, 1374, 1366
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1393, 1385, 1409
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1393, 1409, 1401
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1390, 1382, 1406
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1390, 1406, 1398
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1425, 1417, 1441
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1425, 1441, 1433
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1422, 1414, 1438
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1422, 1438, 1430
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1457, 1449, 1473
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1457, 1473, 1465
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1454, 1446, 1470
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1454, 1470, 1462
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1206, 1198, 1222
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1206, 1222, 1214
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1203, 1195, 1219
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1203, 1219, 1211
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1238, 1230, 1254
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1238, 1254, 1246
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1235, 1227, 1251
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1235, 1251, 1243
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1019, 1011, 1035
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1019, 1035, 1027
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1016, 1008, 1032
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1016, 1032, 1024
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1051, 1043, 1067
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1051, 1067, 1059
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1048, 1040, 1064
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1048, 1064, 1056
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1083, 1075, 1099
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1083, 1099, 1091
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1080, 1072, 1096
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:1 Error while trying to generate ST for points: 1080, 1096, 1088
 Warning: Unsupported UVSet 2
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2197, 2189, 2213
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2197, 2213, 2205
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2194, 2186, 2210
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2194, 2210, 2202
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2229, 2221, 2245
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2229, 2245, 2237
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2226, 2218, 2242
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2226, 2242, 2234
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1019, 1011, 1035
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1019, 1035, 1027
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1016, 1008, 1032
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1016, 1032, 1024
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1051, 1043, 1067
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1051, 1067, 1059
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1048, 1040, 1064
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1048, 1064, 1056
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1083, 1075, 1099
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1083, 1099, 1091
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1080, 1072, 1096
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1080, 1096, 1088
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1206, 1198, 1222
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1206, 1222, 1214
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1203, 1195, 1219
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1203, 1219, 1211
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1238, 1230, 1254
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1238, 1254, 1246
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1235, 1227, 1251
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1235, 1251, 1243
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1361, 1353, 1377
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1361, 1377, 1369
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1358, 1350, 1374
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1358, 1374, 1366
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1393, 1385, 1409
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1393, 1409, 1401
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1390, 1382, 1406
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1390, 1406, 1398
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1425, 1417, 1441
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1425, 1441, 1433
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1422, 1414, 1438
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1422, 1438, 1430
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1457, 1449, 1473
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1457, 1473, 1465
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1454, 1446, 1470
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1454, 1470, 1462
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1580, 1572, 1596
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1580, 1596, 1588
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1577, 1569, 1593
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1577, 1593, 1585
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1612, 1604, 1628
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1612, 1628, 1620
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1609, 1601, 1625
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1609, 1625, 1617
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1735, 1727, 1751
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1735, 1751, 1743
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1732, 1724, 1748
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1732, 1748, 1740
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1767, 1759, 1783
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1767, 1783, 1775
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1764, 1756, 1780
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1764, 1780, 1772
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1889, 1881, 1905
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1889, 1905, 1897
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1886, 1878, 1902
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1886, 1902, 1894
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1921, 1913, 1937
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1921, 1937, 1929
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1918, 1910, 1934
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1918, 1934, 1926
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2043, 2035, 2059
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2043, 2059, 2051
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2040, 2032, 2056
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2040, 2056, 2048
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2075, 2067, 2091
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2075, 2091, 2083
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2072, 2064, 2088
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2072, 2088, 2080
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 346, 355, 354
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 346, 354, 347
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 347, 354, 353
@@ -755,82 +830,6 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error whi
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 959, 963, 958
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 960, 961, 962
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 960, 962, 959
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1735, 1727, 1751
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1735, 1751, 1743
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1732, 1724, 1748
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1732, 1748, 1740
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1767, 1759, 1783
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1767, 1783, 1775
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1764, 1756, 1780
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1764, 1780, 1772
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2043, 2035, 2059
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2043, 2059, 2051
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2040, 2032, 2056
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2040, 2056, 2048
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2075, 2067, 2091
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2075, 2091, 2083
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2072, 2064, 2088
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2072, 2088, 2080
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1889, 1881, 1905
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1889, 1905, 1897
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1886, 1878, 1902
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1886, 1902, 1894
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1921, 1913, 1937
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1921, 1937, 1929
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1918, 1910, 1934
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1918, 1934, 1926
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2197, 2189, 2213
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2197, 2213, 2205
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2194, 2186, 2210
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2194, 2210, 2202
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2229, 2221, 2245
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2229, 2245, 2237
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2226, 2218, 2242
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 2226, 2242, 2234
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1580, 1572, 1596
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1580, 1596, 1588
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1577, 1569, 1593
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1577, 1593, 1585
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1612, 1604, 1628
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1612, 1628, 1620
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1609, 1601, 1625
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1609, 1625, 1617
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1361, 1353, 1377
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1361, 1377, 1369
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1358, 1350, 1374
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1358, 1374, 1366
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1393, 1385, 1409
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1393, 1409, 1401
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1390, 1382, 1406
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1390, 1406, 1398
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1425, 1417, 1441
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1425, 1441, 1433
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1422, 1414, 1438
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1422, 1438, 1430
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1457, 1449, 1473
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1457, 1473, 1465
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1454, 1446, 1470
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1454, 1470, 1462
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1206, 1198, 1222
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1206, 1222, 1214
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1203, 1195, 1219
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1203, 1219, 1211
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1238, 1230, 1254
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1238, 1254, 1246
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1235, 1227, 1251
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1235, 1251, 1243
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1019, 1011, 1035
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1019, 1035, 1027
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1016, 1008, 1032
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1016, 1032, 1024
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1051, 1043, 1067
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1051, 1067, 1059
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1048, 1040, 1064
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1048, 1064, 1056
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1083, 1075, 1099
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1083, 1099, 1091
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1080, 1072, 1096
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:2 Error while trying to generate ST for points: 1080, 1096, 1088
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
@@ -846,7 +845,6 @@ Warning: Unsupported UVSet 2
 Warning: special LOD contains 2nd UV set.
 Warning: Unsupported UVSet 2
 Warnings in e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:geometryView
-Warnings in e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d:11000
 Warning: 'e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d': LODs not ordered by face count 0 (0): 2285 faces < 1 (1) 2285 faces
 Warning: 'e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d': LODs not ordered by face count 1 (1): 2285 faces < 2 (2) 2285 faces
 Warning: 'e:\projects\dayz-2017-main\ice_apo_resistance\backpack2.p3d': LODs not ordered by face count 0 (0): 2285 faces < 2 (2) 2285 faces
@@ -926,32 +924,6 @@ Warning: 'e:\projects\dayz-2017-main\ice_apo_resistance\backpack3.p3d': LODs not
 </model>
 <model = "e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d">
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 416, 415, 419
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 421, 419, 415
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1021, 1013, 1037
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1021, 1037, 1029
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1018, 1010, 1034
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1018, 1034, 1026
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1053, 1045, 1069
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1053, 1069, 1061
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1050, 1042, 1066
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1050, 1066, 1058
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 867, 859, 883
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 867, 883, 875
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 864, 856, 880
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 864, 880, 872
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 899, 891, 915
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 899, 915, 907
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 896, 888, 912
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 896, 912, 904
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 713, 705, 729
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 713, 729, 721
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 710, 702, 726
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 710, 726, 718
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 745, 737, 761
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 745, 761, 753
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 742, 734, 758
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 742, 758, 750
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 505, 497, 521
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 505, 521, 513
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 502, 494, 518
@@ -972,33 +944,33 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error whi
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 633, 649, 641
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 630, 622, 646
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 630, 646, 638
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 713, 705, 729
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 713, 729, 721
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 710, 702, 726
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 710, 726, 718
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 745, 737, 761
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 745, 761, 753
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 742, 734, 758
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 742, 758, 750
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 867, 859, 883
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 867, 883, 875
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 864, 856, 880
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 864, 880, 872
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 899, 891, 915
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 899, 915, 907
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 896, 888, 912
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 896, 912, 904
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1021, 1013, 1037
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1021, 1037, 1029
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1018, 1010, 1034
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1018, 1034, 1026
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1053, 1045, 1069
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1053, 1069, 1061
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1050, 1042, 1066
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 1050, 1066, 1058
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 416, 415, 419
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:0 Error while trying to generate ST for points: 421, 419, 415
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 416, 415, 419
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 421, 419, 415
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1021, 1013, 1037
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1021, 1037, 1029
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1018, 1010, 1034
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1018, 1034, 1026
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1053, 1045, 1069
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1053, 1069, 1061
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1050, 1042, 1066
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1050, 1066, 1058
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 867, 859, 883
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 867, 883, 875
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 864, 856, 880
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 864, 880, 872
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 899, 891, 915
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 899, 915, 907
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 896, 888, 912
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 896, 912, 904
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 713, 705, 729
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 713, 729, 721
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 710, 702, 726
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 710, 726, 718
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 745, 737, 761
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 745, 761, 753
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 742, 734, 758
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 742, 758, 750
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 505, 497, 521
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 505, 521, 513
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 502, 494, 518
@@ -1019,33 +991,33 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error whi
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 633, 649, 641
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 630, 622, 646
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 630, 646, 638
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 713, 705, 729
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 713, 729, 721
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 710, 702, 726
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 710, 726, 718
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 745, 737, 761
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 745, 761, 753
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 742, 734, 758
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 742, 758, 750
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 867, 859, 883
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 867, 883, 875
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 864, 856, 880
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 864, 880, 872
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 899, 891, 915
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 899, 915, 907
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 896, 888, 912
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 896, 912, 904
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1021, 1013, 1037
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1021, 1037, 1029
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1018, 1010, 1034
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1018, 1034, 1026
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1053, 1045, 1069
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1053, 1069, 1061
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1050, 1042, 1066
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 1050, 1066, 1058
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 416, 415, 419
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:1 Error while trying to generate ST for points: 421, 419, 415
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 416, 415, 419
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 421, 419, 415
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1021, 1013, 1037
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1021, 1037, 1029
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1018, 1010, 1034
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1018, 1034, 1026
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1053, 1045, 1069
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1053, 1069, 1061
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1050, 1042, 1066
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1050, 1066, 1058
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 867, 859, 883
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 867, 883, 875
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 864, 856, 880
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 864, 880, 872
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 899, 891, 915
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 899, 915, 907
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 896, 888, 912
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 896, 912, 904
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 713, 705, 729
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 713, 729, 721
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 710, 702, 726
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 710, 726, 718
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 745, 737, 761
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 745, 761, 753
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 742, 734, 758
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 742, 758, 750
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 505, 497, 521
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 505, 521, 513
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 502, 494, 518
@@ -1066,33 +1038,33 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error whi
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 633, 649, 641
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 630, 622, 646
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 630, 646, 638
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 713, 705, 729
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 713, 729, 721
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 710, 702, 726
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 710, 726, 718
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 745, 737, 761
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 745, 761, 753
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 742, 734, 758
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 742, 758, 750
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 867, 859, 883
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 867, 883, 875
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 864, 856, 880
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 864, 880, 872
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 899, 891, 915
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 899, 915, 907
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 896, 888, 912
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 896, 912, 904
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1021, 1013, 1037
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1021, 1037, 1029
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1018, 1010, 1034
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1018, 1034, 1026
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1053, 1045, 1069
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1053, 1069, 1061
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1050, 1042, 1066
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 1050, 1066, 1058
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 416, 415, 419
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:2 Error while trying to generate ST for points: 421, 419, 415
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 416, 415, 419
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 421, 419, 415
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1021, 1013, 1037
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1021, 1037, 1029
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1018, 1010, 1034
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1018, 1034, 1026
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1053, 1045, 1069
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1053, 1069, 1061
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1050, 1042, 1066
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1050, 1066, 1058
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 867, 859, 883
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 867, 883, 875
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 864, 856, 880
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 864, 880, 872
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 899, 891, 915
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 899, 915, 907
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 896, 888, 912
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 896, 912, 904
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 713, 705, 729
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 713, 729, 721
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 710, 702, 726
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 710, 726, 718
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 745, 737, 761
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 745, 761, 753
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 742, 734, 758
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 742, 758, 750
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 505, 497, 521
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 505, 521, 513
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 502, 494, 518
@@ -1113,6 +1085,32 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error whi
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 633, 649, 641
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 630, 622, 646
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 630, 646, 638
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 713, 705, 729
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 713, 729, 721
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 710, 702, 726
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 710, 726, 718
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 745, 737, 761
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 745, 761, 753
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 742, 734, 758
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 742, 758, 750
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 867, 859, 883
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 867, 883, 875
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 864, 856, 880
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 864, 880, 872
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 899, 891, 915
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 899, 915, 907
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 896, 888, 912
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 896, 912, 904
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1021, 1013, 1037
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1021, 1037, 1029
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1018, 1010, 1034
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1018, 1034, 1026
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1053, 1045, 1069
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1053, 1069, 1061
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1050, 1042, 1066
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 1050, 1066, 1058
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 416, 415, 419
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\backpack4.p3d:3 Error while trying to generate ST for points: 421, 419, 415
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
@@ -1139,9 +1137,9 @@ Cannot load material file ca\characters\heads\male\defaulthead\data\hhl_white.rv
 Cannot load material file ca\characters\heads\male\defaulthead\data\hhl_white.rvmat
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hat_medium_clean.p3d:2 Error while trying to generate ST for points: 2110, 2114, 2111
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hat_medium_clean.p3d:2 Error while trying to generate ST for points: 1969, 1973, 1970
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hat_medium_clean.p3d:3 Error while trying to generate ST for points: 2119, 2123, 2120
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hat_medium_clean.p3d:3 Error while trying to generate ST for points: 2015, 2019, 2016
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
@@ -1161,53 +1159,53 @@ Warnings in e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hat_medium_cle
 </model>
 <model = "e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d">
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2109, 2112, 2113
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2104, 2105, 2112
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2180, 2181, 2188
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2185, 2188, 2189
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2672, 2818, 2847
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2672, 2668, 2818
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 1989, 1992, 1993
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 1984, 1985, 1992
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2049, 2052, 2053
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2044, 2045, 2052
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2672, 2818, 2847
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2672, 2668, 2818
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2109, 2112, 2113
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2104, 2105, 2112
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2180, 2181, 2188
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:1 Error while trying to generate ST for points: 2185, 2188, 2189
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2269, 2272, 2273
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2264, 2265, 2272
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2340, 2341, 2348
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2345, 2348, 2349
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2149, 2152, 2153
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2144, 2145, 2152
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2209, 2212, 2213
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2204, 2205, 2212
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 3088, 3234, 3263
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 3088, 3084, 3234
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 1740, 1728, 1845
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 1740, 1845, 1729
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 1617, 1605, 1722
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 1617, 1722, 1606
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2965, 3111, 3140
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2965, 2961, 3111
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2146, 2149, 2150
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2141, 2142, 2149
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2217, 2218, 2225
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2222, 2225, 2226
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2026, 2029, 2030
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2021, 2022, 2029
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2086, 2089, 2090
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:2 Error while trying to generate ST for points: 2081, 2082, 2089
 Cannot load material file ca\characters\heads\male\defaulthead\data\hhl_white.rvmat.
 Cannot load material file ca\characters\heads\male\defaulthead\data\hhl_white.rvmat
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:3 Error while trying to generate ST for points: 2276, 2279, 2277
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:3 Error while trying to generate ST for points: 1334, 1322, 1439
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:3 Error while trying to generate ST for points: 1334, 1439, 1323
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:3 Error while trying to generate ST for points: 798, 801, 799
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:3 Error while trying to generate ST for points: 2329, 2475, 2504
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:3 Error while trying to generate ST for points: 2329, 2325, 2475
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:3 Error while trying to generate ST for points: 1371, 1359, 1476
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:3 Error while trying to generate ST for points: 1371, 1476, 1360
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:3 Error while trying to generate ST for points: 2239, 2242, 2240
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:3 Error while trying to generate ST for points: 2292, 2438, 2467
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:3 Error while trying to generate ST for points: 2292, 2288, 2438
 Warning: Unsupported UVSet 2
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:4 Error while trying to generate ST for points: 259, 263, 260
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1946, 1949, 1950
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1941, 1942, 1949
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 2017, 2018, 2025
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 2022, 2025, 2026
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1826, 1829, 1830
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1821, 1822, 1829
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1886, 1889, 1890
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1881, 1882, 1889
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 2339, 2343, 2340
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 2427, 2573, 2602
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 2427, 2423, 2573
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 2205, 2209, 2206
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 2293, 2439, 2468
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 2293, 2289, 2439
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1692, 1695, 1696
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1687, 1688, 1695
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1752, 1755, 1756
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1747, 1748, 1755
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1812, 1815, 1816
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1807, 1808, 1815
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1883, 1884, 1891
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1888, 1891, 1892
 Warning: Unsupported UVSet 2
 Warning: special LOD contains 2nd UV set.
 Warning: Unsupported UVSet 2
@@ -1228,6 +1226,12 @@ Cannot load material file ca\characters\heads\male\defaulthead\data\hhl_white.rv
 Warning: Unsupported UVSet 2
 e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1: Bad proxy object definition proxy:\ca\weapons\m9_beretta.001
 e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1: Bad proxy object definition proxy:\ca\weapons\nvg_proxy.001
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 756, 763, 755
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 680, 687, 679
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 684, 687, 688
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 760, 763, 764
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 1729, 1727, 1722
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 2950, 2866, 2872
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 3366, 3358, 3382
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 3366, 3382, 3374
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 3363, 3355, 3379
@@ -1236,19 +1240,14 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 3398, 3414, 3406
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 3395, 3387, 3411
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 3395, 3411, 3403
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 756, 763, 755
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 680, 687, 679
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 684, 687, 688
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 760, 763, 764
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 1729, 1727, 1722
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1 Error while trying to generate ST for points: 2950, 2866, 2872
 e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1: Bad proxy object definition proxy:\ca\weapons\m9_beretta.001
 e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:1: Bad proxy object definition proxy:\ca\weapons\nvg_proxy.001
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Face 4604, point 2863, face points 2863,2730,2683 - very small normal 0,0,0
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Face 4887, point 2564, face points 2564,2863,2683 - very small normal 0,0,0
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:-1.37755e-040 Face 4604, point 2863, face points 2863,2730,2683 - very small normal 0,0,0
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:-1.37755e-040 Face 4887, point 2564, face points 2564,2863,2683 - very small normal 0,0,0
 Cannot load material file ca\data\sklo-pass2.rvmat.
 Cannot load material file ca\data\sklo-pass2.rvmat
 Warning: Unsupported UVSet 2
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Error while trying to generate ST for points: 1301, 1300, 1291
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Error while trying to generate ST for points: 1386, 1393, 1385
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Error while trying to generate ST for points: 1390, 1393, 1394
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Error while trying to generate ST for points: 1441, 1448, 1440
@@ -1263,7 +1262,6 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Error while trying to generate ST for points: 1623, 1626, 1627
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Error while trying to generate ST for points: 1832, 1809, 1811
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Error while trying to generate ST for points: 1824, 1822, 1825
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Error while trying to generate ST for points: 1301, 1300, 1291
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Error while trying to generate ST for points: 2556, 2561, 2862
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Error while trying to generate ST for points: 2561, 2571, 2862
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:2 Error while trying to generate ST for points: 2730, 2863, 2683
@@ -1282,6 +1280,10 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:3 Error while trying to generate ST for points: 32, 49, 41
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 1379, 1386, 1378
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 1303, 1310, 1302
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 1307, 1310, 1311
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 1383, 1386, 1387
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 89, 96, 88
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 93, 96, 97
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 245, 248, 249
@@ -1290,10 +1292,6 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 393, 400, 392
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 549, 552, 553
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 545, 552, 544
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 1379, 1386, 1378
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 1303, 1310, 1302
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 1307, 1310, 1311
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 1383, 1386, 1387
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 2340, 2338, 2333
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_officer.p3d:VIEW_PILOT Error while trying to generate ST for points: 3557, 3473, 3479
 w:\C_branch\Poseidon\Arrowhead\lib\Shape\Shape.cpp(7407) : Assertion failed 'wg.Size()==1'
@@ -1329,13 +1327,13 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard
 ReportStack: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d
 Warning: Suspicious values in the UV set 1 (minU=0.000000, minV=-176.712997, maxU=165.007004, maxV=0.999999). The UV set may appear broken because of the compression.
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 1805, 1757, 1793
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 1803, 1768, 1790
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 2827, 2829, 2828
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 3866, 3865, 4136
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 4135, 4123, 4163
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 3865, 4151, 4136
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 4124, 4163, 4123
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 1669, 1621, 1657
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 1667, 1632, 1654
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 2691, 2693, 2692
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 3730, 3729, 4000
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 3999, 3987, 4027
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 3729, 4015, 4000
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d:2 Error while trying to generate ST for points: 3988, 4027, 3987
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
@@ -1365,14 +1363,6 @@ Warning: Unsupported UVSet 2
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 2785, 2744, 2789
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 2793, 2782, 2765
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 2797, 2749, 2785
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1831, 1823, 1847
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1831, 1847, 1839
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1828, 1820, 1844
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1828, 1844, 1836
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1863, 1855, 1879
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1863, 1879, 1871
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1860, 1852, 1876
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1860, 1876, 1868
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1986, 1978, 2002
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1986, 2002, 1994
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1983, 1975, 1999
@@ -1381,6 +1371,14 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 2018, 2034, 2026
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 2015, 2007, 2031
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 2015, 2031, 2023
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1831, 1823, 1847
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1831, 1847, 1839
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1828, 1820, 1844
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1828, 1844, 1836
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1863, 1855, 1879
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1863, 1879, 1871
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1860, 1852, 1876
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 1860, 1876, 1868
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 2098, 2090, 2114
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 2098, 2114, 2106
 Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1 Error while trying to generate ST for points: 2095, 2087, 2111
@@ -1398,92 +1396,92 @@ Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:1
 ReportStack: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d
 Warning: Suspicious values in the UV set 1 (minU=0.000000, minV=-176.712997, maxU=165.007004, maxV=0.988313). The UV set may appear broken because of the compression.
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 2182, 2141, 2186
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 2190, 2179, 2162
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 2194, 2146, 2182
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 978, 982, 979
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1498, 1490, 1514
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1498, 1514, 1506
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1495, 1487, 1511
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1495, 1511, 1503
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1530, 1522, 1546
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1530, 1546, 1538
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1527, 1519, 1543
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1527, 1543, 1535
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1231, 1223, 1247
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1231, 1247, 1239
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1228, 1220, 1244
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1228, 1244, 1236
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1263, 1255, 1279
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1263, 1279, 1271
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1260, 1252, 1276
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1260, 1276, 1268
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1386, 1378, 1402
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1386, 1402, 1394
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1383, 1375, 1399
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1383, 1399, 1391
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1418, 1410, 1434
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1418, 1434, 1426
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1415, 1407, 1431
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1415, 1431, 1423
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 3094, 3096, 3095
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 4133, 4132, 4403
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 4402, 4390, 4430
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 4423, 4413, 4422
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 4132, 4418, 4403
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 4391, 4430, 4390
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 2077, 2036, 2081
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 2085, 2074, 2057
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 2089, 2041, 2077
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 873, 877, 874
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1126, 1118, 1142
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1126, 1142, 1134
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1123, 1115, 1139
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1123, 1139, 1131
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1158, 1150, 1174
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1158, 1174, 1166
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1155, 1147, 1171
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1155, 1171, 1163
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1281, 1273, 1297
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1281, 1297, 1289
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1278, 1270, 1294
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1278, 1294, 1286
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1313, 1305, 1329
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1313, 1329, 1321
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1310, 1302, 1326
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1310, 1326, 1318
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1393, 1385, 1409
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1393, 1409, 1401
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1390, 1382, 1406
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1390, 1406, 1398
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1425, 1417, 1441
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1425, 1441, 1433
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1422, 1414, 1438
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 1422, 1438, 1430
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 2989, 2991, 2990
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 4028, 4027, 4298
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 4297, 4285, 4325
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 4318, 4308, 4317
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 4027, 4313, 4298
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:2 Error while trying to generate ST for points: 4286, 4325, 4285
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2151, 2143, 2167
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2151, 2167, 2159
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2148, 2140, 2164
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2148, 2164, 2156
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2183, 2175, 2199
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2183, 2199, 2191
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2180, 2172, 2196
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2180, 2196, 2188
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2039, 2031, 2055
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2039, 2055, 2047
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2036, 2028, 2052
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2036, 2052, 2044
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2071, 2063, 2087
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2071, 2087, 2079
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2068, 2060, 2084
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2068, 2084, 2076
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1884, 1876, 1900
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1884, 1900, 1892
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1881, 1873, 1897
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1881, 1897, 1889
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1916, 1908, 1932
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1916, 1932, 1924
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1913, 1905, 1929
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1913, 1929, 1921
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1779, 1771, 1795
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1779, 1795, 1787
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1776, 1768, 1792
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1776, 1792, 1784
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1811, 1803, 1827
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1811, 1827, 1819
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1808, 1800, 1824
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1808, 1824, 1816
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1934, 1926, 1950
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1934, 1950, 1942
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1931, 1923, 1947
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1931, 1947, 1939
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1966, 1958, 1982
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1966, 1982, 1974
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1963, 1955, 1979
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 1963, 1979, 1971
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2046, 2038, 2062
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2046, 2062, 2054
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2043, 2035, 2059
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2043, 2059, 2051
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2078, 2070, 2094
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2078, 2094, 2086
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2075, 2067, 2091
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:3 Error while trying to generate ST for points: 2075, 2091, 2083
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
 Warning: Unsupported UVSet 2
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1371, 1363, 1387
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1371, 1387, 1379
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1368, 1360, 1384
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1368, 1384, 1376
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1403, 1395, 1419
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1403, 1419, 1411
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1400, 1392, 1416
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1400, 1416, 1408
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1483, 1475, 1499
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1483, 1499, 1491
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1480, 1472, 1496
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1480, 1496, 1488
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1515, 1507, 1531
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1515, 1531, 1523
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1512, 1504, 1528
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1512, 1528, 1520
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1216, 1208, 1232
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1216, 1232, 1224
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1213, 1205, 1229
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1213, 1229, 1221
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1248, 1240, 1264
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1248, 1264, 1256
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1245, 1237, 1261
-Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1245, 1261, 1253
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1111, 1103, 1127
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1111, 1127, 1119
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1108, 1100, 1124
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1108, 1124, 1116
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1143, 1135, 1159
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1143, 1159, 1151
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1140, 1132, 1156
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1140, 1156, 1148
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1266, 1258, 1282
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1266, 1282, 1274
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1263, 1255, 1279
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1263, 1279, 1271
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1298, 1290, 1314
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1298, 1314, 1306
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1295, 1287, 1311
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1295, 1311, 1303
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1378, 1370, 1394
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1378, 1394, 1386
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1375, 1367, 1391
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1375, 1391, 1383
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1410, 1402, 1426
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1410, 1426, 1418
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1407, 1399, 1423
+Warning: e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d:VIEW_PILOT Error while trying to generate ST for points: 1407, 1423, 1415
 Warning: Unsupported UVSet 2
 Warning: special LOD contains 2nd UV set.
 Warning: Unsupported UVSet 2
@@ -1537,7 +1535,8 @@ Warning: special LOD contains 2nd UV set.
 Warning: Unsupported UVSet 2
 Warnings in e:\projects\dayz-2017-main\ice_apo_resistance\soldier_tank_light_clean.p3d:memory
 Warnings in e:\projects\dayz-2017-main\ice_apo_resistance\soldier_tank_light_clean.p3d:11000
-Warning: 'e:\projects\dayz-2017-main\ice_apo_resistance\soldier_tank_light_clean.p3d': LODs not ordered by fice_apo_resistance\data\rucksack.rvmat->C:\Users\luke\AppData\Local\Temp\ARMAaddons\ice_apo_resistance\data\rucksack.rvmat
+Warning: 'e:\projects\dayz-2017-main\ice_apo_resistance\soldier_tank_light_clean.p3d': LODs not ordered by face count 0 (1): 5197 faces < 1 (2) 5358 faces
+Warning: 'e:\projects\dayz-2017-main\ice_apo_resistance\soldier_tank_light_clean.p3d'ice_apo_resistance\data\rucksack.rvmat->C:\Users\luke\AppData\Local\Temp\ARMAaddons\ice_apo_resistance\data\rucksack.rvmat
 ice_apo_resistance\data\civil_tshirt_body.rvmat->C:\Users\luke\AppData\Local\Temp\ARMAaddons\ice_apo_resistance\data\civil_tshirt_body.rvmat
 ice_apo_resistance\data\wood.rvmat->C:\Users\luke\AppData\Local\Temp\ARMAaddons\ice_apo_resistance\data\wood.rvmat
 ice_apo_resistance\data\resistance_equip.rvmat->C:\Users\luke\AppData\Local\Temp\ARMAaddons\ice_apo_resistance\data\resistance_equip.rvmat
@@ -1560,8 +1559,7 @@ Convert model e:\projects\dayz-2017-main\ice_apo_resistance\soldier_helmet_offic
 Convert model e:\projects\dayz-2017-main\ice_apo_resistance\soldier_hood_medium_beard.p3d -> C:\Users\luke\AppData\Local\Temp\ARMAaddons\ice_apo_resistance\soldier_hood_medium_beard.p3d
 Convert model e:\projects\dayz-2017-main\ice_apo_resistance\soldier_mask_medium.p3d -> C:\Users\luke\AppData\Local\Temp\ARMAaddons\ice_apo_resistance\soldier_mask_medium.p3d
 Convert model e:\projects\dayz-2017-main\ice_apo_resistance\soldier_tank_light_clean.p3d -> C:\Users\luke\AppData\Local\Temp\ARMAaddons\ice_apo_resistance\soldier_tank_light_clean.p3d
-ace count 0 (1): 5197 faces < 1 (2) 5398 faces
-Warning: 'e:\projects\dayz-2017-main\ice_apo_resistance\soldier_tank_light_clean.p3d': LODs not ordered by face count 2 (3): 2647 faces < 3 (4) 2647 faces
+: LODs not ordered by face count 2 (3): 2647 faces < 3 (4) 2647 faces
 </model>
 Creating texture headers file...
 79 texture headers saved to file "C:\Users\luke\AppData\Local\Temp\ARMAaddons\ice_apo_resistance\texHeaders.bin"

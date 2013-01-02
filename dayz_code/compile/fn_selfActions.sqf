@@ -102,7 +102,7 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 	};
 	
 	//skin player
-	if (!alive cursorTarget and _isMan and _hasKnife and !_isHarvested and _canDo) then {
+	if (!alive cursorTarget and _isMan and _hasKnife and !_isHarvested and !_isZombie and _canDo) then {
 		if (s_player_butcher < 0) then {
 			s_player_butcher = player addAction [localize "str_actions_self_11", "\z\addons\dayz_code\actions\gather_human_meat.sqf",cursorTarget, 3, true, true, "", ""];
 			dayzHumanity = [player,-250];
