@@ -79,7 +79,7 @@ class CfgVehicles {
 		fsmFormation = "";
 	};
 
-	class Soldier_Crew_PMC;
+	/* class Soldier_Crew_PMC;
 	class Bandit1_DZ : Soldier_Crew_PMC {
 		displayName = "$STR_CHAR_2";
 		side = 1;
@@ -92,6 +92,20 @@ class CfgVehicles {
 		respawnMagazines[] = {};
 		weaponSlots = "1	 + 	4	 + 12*		256	 + 2*	4096	 + 	2	 + 8*	16  + 12*131072";
 		canHideBodies = 1;
+	};
+	*/
+	class SG_IRA_Soldier_GL;
+	class Bandit1_DZ : SG_IRA_Soldier_GL {
+		displayName = "Bandit";
+		side = TWest;
+		weapons[] = {"Throw", "Put"};
+		magazines[] = {};
+		respawnWeapons[] = {"Throw", "Put"};
+		respawnMagazines[] = {};
+		weaponSlots = 1	 + 	4	 + 12*		256	 + 2*	4096	 + 	2	 + 8*	16  + 12*131072;
+		canCarryBackPack = 1;  
+		canHideBodies = true;
+		faceType = "HeadMask1Black"; // This gives the model a black balaclava
 	};
 
 	class BAF_Soldier_Officer_W;

@@ -1317,7 +1317,7 @@ class CfgVehicles {
 	class Czech_Norris; // External class reference
 	class TanyaBO; // External class reference
 	class GUE_Soldier_3;
-	class SG_IRA_Soldier_GL;
+	
 	
 	class Survivor1_DZ : Soldier_Crew_PMC {
 		displayName = $STR_CHAR_1;
@@ -1408,20 +1408,7 @@ class CfgVehicles {
 		respawnMagazines[] = {};
 		weaponSlots = 1	 + 	4	 + 12*		256	 + 2*	4096	 + 	2	 + 8*	16  + 12*131072;
 		canHideBodies = true;
-	};
-	  
-	class SG_IRA_Soldier_CO_DZ : SG_IRA_Soldier_GL {
-		displayName = "Bandit";
-		side = TWest;
-		weapons[] = {"Throw", "Put"};
-		magazines[] = {};
-		respawnWeapons[] = {"Throw", "Put"};
-		respawnMagazines[] = {};
-		weaponSlots = 1	 + 	4	 + 12*		256	 + 2*	4096	 + 	2	 + 8*	16  + 12*131072;
-		canCarryBackPack = 1;  
-		canHideBodies = true;
-		faceType = "HeadMask1Black"; // This gives the model a black balaclava
-	};
+	};  
 	
 	class Survivor3_DZ : Czech_Norris {
 		displayName = "Czech Norris";
