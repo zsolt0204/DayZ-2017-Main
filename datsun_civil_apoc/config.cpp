@@ -186,13 +186,13 @@ class CfgVehicles
 		class Library {libTextDesc = $STR_LIB_ADD_DATSUN;};
 		dammageHalf[] =
 		{
-			\ca\wheeled\data\datsun_skla_ca.paa,\ca\wheeled\data\datsun_sklabr1_ca.paa,
-			\ca\wheeled\data\datsun_skla_ca.paa,\ca\wheeled\data\datsun_sklabr1_ca.paa
+			\ca\wheeled\data\datsun_skla_ca.paa,\ca\wheeled\data\datsun_skla_ca.paa,
+			\ca\wheeled\data\datsun_skla_ca.paa,\ca\wheeled\data\datsun_skla_ca.paa
 		};
 		dammageFull[] =
 		{
-			\ca\wheeled\data\datsun_skla_ca.paa,\ca\wheeled\data\datsun_sklabr2_ca.paa,
-			\ca\wheeled\data\datsun_skla_ca.paa,\ca\wheeled\data\datsun_sklabr2_ca.paa
+			\ca\wheeled\data\datsun_skla_ca.paa,\ca\wheeled\data\datsun_skla_ca.paa,
+			\ca\wheeled\data\datsun_skla_ca.paa,\ca\wheeled\data\datsun_skla_ca.paa
 		};
 		class Damage
 		{
