@@ -47,7 +47,7 @@ if (!_isOk) then {
 	
 	sleep 5;
 	//place tent (local)
-	_tent = createVehicle ["TentStorage", _location, [], 0, "CAN_COLLIDE"];
+	_tent = createVehicle ["tent2017", _location, [], 0, "CAN_COLLIDE"];
 	_tent setdir _dir;
 	_tent setpos _location;
 	player reveal _tent;
@@ -57,7 +57,7 @@ if (!_isOk) then {
 
 	//player setVariable ["tentUpdate",["Land_A_tent",_dir,_location,[dayz_tentWeapons,dayz_tentMagazines,dayz_tentBackpacks]],true];
 
-	dayzPublishObj = [dayz_characterID,_tent,[_dir,_location],"TentStorage"];
+	dayzPublishObj = [dayz_characterID,_tent,[_dir,_location],"tent2017"];
 	publicVariable "dayzPublishObj";
 	if (isServer) then {
 		dayzPublishObj call server_publishObj;

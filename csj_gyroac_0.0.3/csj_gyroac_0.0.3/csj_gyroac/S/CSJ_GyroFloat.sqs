@@ -1,0 +1,52 @@
+; Based on Trenchfeet's float script 
+;Altered by CSJ (added a correct damage section and backwash/water spray)
+_Veh = _this select 0
+_Veh setobjecttexture[2,""]
+#checkPos
+_OverWater = surfaceIsWater (getpos _Veh)
+?!(alive _Veh) : EXIT
+?_OverWater = true : goto "Float"
+~.5
+goto "checkPos"
+
+#Float
+? (getpos _Veh select 2) > 5: goto "checkPos"
+_Veh setobjecttexture[2,"\CSJ_GyroAC\T\gyro1.pac"]
+
+_float = "CSJ_GyroFloat" createVehicle [0,0,0]
+_float2 = "CSJ_GyroFloat2" createVehicle [0,0,0]
+_wash = "CSJ_FloatWash" createVehicle [0,0,0]
+_VehStatus = getDammage _Veh
+_VehDriverStatus = getDammage (driver _Veh)
+
+#loopFloat
+_VehDir = getdir _Veh
+_float setDir _VehDir
+_VehSpd = velocity _Veh
+
+? (speed _Veh) >= 5 : _float2 setpos [getpos _Veh select 0, getpos _Veh select 1, 0], _float2 setDir _VehDir, (driver _Veh) setDamage _VehDriverStatus, _float setpos [0,0,0]
+? (speed _Veh) < 5 : _float setpos [getpos _Veh select 0, getpos _Veh select 1, -.05], _float setDir _VehDir, (driver _Veh) setDamage _VehDriverStatus,_float2 setpos [0,0,0]
+? (speed _Veh) < 1 : _float setpos [getpos _Veh select 0, getpos _Veh select 1, -.1], _float setDir _VehDir
+
+? ((getpos _Veh select 2) <.2) && (isEngineOn _Veh) :_wash setpos [getpos _Veh select 0, getpos _Veh select 1, -.7],_wash setDir _VehDir, _wash setvelocity _VehSpd
+? (getpos _Veh select 2) >.2:_wash setpos [0,0,0],_wash setDir _VehDir, _wash setvelocity [0,0,0]
+? (speed _Veh) < 1:_wash setpos [0,0,0],_wash setDir _VehDir, _wash setvelocity [0,0,0]
+
+_Veh setDammage _VehStatus
+	;?!surfaceIsWater (getpos _Veh)=true : goto "endFloat"
+?!(alive _Veh) : goto "endFloat"
+?!(alive (driver _Veh)) : _Veh engineOn false
+?(getpos _Veh select 2) > 5: goto "endFloat"
+
+? surfaceIsWater (getpos _Veh)=true : goto "loopFloat"
+
+#endFloat
+_Veh setobjecttexture[2,""]
+deleteVehicle _float
+deleteVehicle _float2
+deleteVehicle _wash
+?!(alive _Veh) : EXIT
+goto "checkPos"
+
+
+;player globalchat format["%1", _OverWater]

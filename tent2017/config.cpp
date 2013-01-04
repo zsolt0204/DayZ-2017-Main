@@ -60,5 +60,8 @@ class CfgAddons
 		  displayName = "2017 Tent";
 		  icon = "\Ca\misc3\data\Icons\icon_Atent_ca.paa";
 		  mapSize = 3;
+		  transportMaxMagazines = 25;
+		  transportMaxWeapons = 5;
+		  transportMaxBackpacks = 3;
 		 };
 };

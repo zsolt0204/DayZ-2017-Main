@@ -1,5 +1,5 @@
 private["_type","_location","_dir","_character","_tent","_class","_id"];
-//[dayz_characterID,_tent,[_dir,_location],"TentStorage"]
+//[dayz_characterID,_tent,[_dir,_location],"tent2017"]
 _class = 		_this select 3;
 _location =		getPosATL player;
 _dir =			getDir player;

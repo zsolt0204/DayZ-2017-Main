@@ -1,0 +1,17 @@
+;script by CSJ
+_Veh = _this
+_VehVel = velocity _Veh
+_VehDir = direction _Veh
+_speed = 1.5
+_VehStart = getpos _Veh
+#loop
+_Veh setVelocity [(_VehVel select 0)+(sin _VehDir*_speed),(_VehVel select 1)+(cos _VehDir*_speed),(_VehVel select 2)];
+_VehX = getpos _Veh select 0
+_VehY = getpos _Veh select 1
+_VehZ = getpos _Veh select 2
+_Veh setpos [_VehX,_VehY,_VehZ]
+_VehEnd = getpos _Veh
+?_VehEnd distance _VehStart > 1: goto "endLoop"
+goto "loop"
+#endLoop
+Exit

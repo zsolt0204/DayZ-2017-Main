@@ -32,7 +32,7 @@ dayz_disco = dayz_disco - [_playerID];
 if (!isNull _object) then {
 //Update Vehicle
 	{ [_x,"gear"] call server_updateObject } foreach 
-		(nearestObjects [getPosATL _object, ["Car", "Helicopter", "Motorcycle", "Ship", "TentStorage"], 10]);
+		(nearestObjects [getPosATL _object, ["Car", "Helicopter", "Motorcycle", "Ship", "tent2017"], 10]);
 	if (alive _object) then {
 		[_object,[],true] call server_playerSync;
 		_id = [_playerID,_characterID,2] spawn dayz_recordLogin;

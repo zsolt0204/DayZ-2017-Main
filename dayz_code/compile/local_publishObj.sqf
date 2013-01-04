@@ -1,5 +1,5 @@
 private["_type","_location","_dir","_character","_tent","_class","_id"];
-//[dayz_characterID,_tent,[_dir,_location],"TentStorage"]
+//[dayz_characterID,_tent,[_dir,_location],"tent2017"]
 _charID =		_this select 0;
 _object = 		_this select 1;
 _worldspace = 	_this select 2;

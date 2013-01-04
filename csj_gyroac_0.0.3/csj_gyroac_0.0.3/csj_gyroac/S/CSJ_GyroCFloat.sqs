@@ -1,0 +1,36 @@
+; Based on Trenchfeet's float script 
+;Altered by CSJ (added a correct damage section and backwash/water spray)
+_Veh = _this select 0
+
+#checkPos
+_OverWater = surfaceIsWater (getpos _Veh)
+?!(alive _Veh) : EXIT
+?_OverWater = true : goto "Float"
+~ .5
+goto "checkPos"
+
+#Float
+? (getpos _Veh select 2) > 3: goto "checkPos"
+_float = "CSJ_CFloat" createVehicle [0,0,0]
+_VehStatus = getDammage _Veh
+
+#loopFloat
+_VehDir = getdir _Veh
+_float setDir _VehDir
+_VehSpd = velocity _Veh
+
+_float setpos [getpos _Veh select 0, getpos _Veh select 1, .08]
+_float setDir _VehDir
+
+_Veh setDammage _VehStatus
+?!(alive _Veh) : goto "endFloat"
+?!(alive (driver _Veh)) : _Veh engineOn false
+?(getpos _Veh select 2) > 3: goto "endFloat"
+? surfaceIsWater (getpos _Veh)=true : goto "loopFloat"
+
+#endFloat
+deleteVehicle _float
+?!(alive _Veh) : EXIT
+goto "checkPos"
+
+;player globalchat format["%1", _OverWater]
