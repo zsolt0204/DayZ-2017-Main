@@ -78904,15 +78904,15 @@ class CfgVehicles {
 			tex[] = {};
 			mat[] = {"Ca\characters_E\Overall\Data\Overall.rvmat", "Ca\characters_E\Overall\Data\W1_Overall.rvmat", "Ca\characters_E\Overall\Data\W2_Overall.rvmat"};
 		};
-		hiddenSelectionsTextures[] = {"\Ca\characters_E\Overall\Data\Overall_4_co.paa"};
+		hiddenSelectionsTextures[] = {"\dayz\textures\2017zeds\overall1.paa"};
 	};
 	
 	class z_worker2 : z_worker1 {
-		hiddenSelectionsTextures[] = {"\Ca\characters_E\Overall\Data\Overall_3_co.paa"};
+		hiddenSelectionsTextures[] = {"\dayz\textures\2017zeds\overall1.paa"};
 	};
 	
 	class z_worker3 : z_worker1 {
-		hiddenSelectionsTextures[] = {"\Ca\characters_E\Overall\Data\Overall_2_co.paa"};
+		hiddenSelectionsTextures[] = {"\dayz\textures\2017zeds\overall1.paa"};
 	};
 	
 	class z_doctor : zZombie_Base {

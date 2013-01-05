@@ -476,6 +476,63 @@ class CfgVehicles {
 		
 		class AnimationSources : AnimationSources {};
 		
+		class HitPoints 
+		{
+				class HitHull // Usual values set
+                {
+                  armor = 1.7;
+                  material = 55; // User value in model needs to be set to same
+                  name = "hull";
+                  visual = "";
+                  passThrough = 1; // Destroying this Hit area will destroy the object
+                };
+
+                class HitEngine // Usual values set
+                {
+                  armor = 1.2;
+                  material = 60; // User value in model needs to be set to same
+                  name = "engine";
+                  visual = "";
+                  passThrough = 1; // Destroying this Hit area will destroy the object
+                };
+                
+                class HitHRotor // Usual values set
+                {
+                  armor = 0.7;
+                  material = 51; // User value in model needs to be set to same
+                  name = "mainRotor";
+                  visual = "";
+                  passThrough = 1; // Destroying this Hit area will destroy the object
+                };
+                
+                class HitFuel // Usual values set
+                {
+                  armor = 0.3;
+                  material = 51; // User value in model needs to be set to same
+                  name = "fuel";
+                  visual = "fuel";
+                  passThrough = 1; // Destroying this Hit area will destroy the object
+                };
+                
+                class HitLFWheel // Usual values set
+                {
+                  armor = 0.15;
+                  material = -1; // No selection darkening is used
+                  name = "wheel_1_1_damper";
+                  visual = "wheel_1_1";
+                  passThrough = 1; // Destroying this Hit area will destroy the object
+                };
+                
+                class HitRFWheel // Usual values set
+                {
+                  armor = 0.15;
+                  material = -1; // No selection darkening is used
+                  name = "wheel_1_2_damper";
+                  visual = "wheel_1_2";
+                  passThrough = 1; // Destroying this Hit area will destroy the object
+                };
+		};
+		
 		class Reflectors {};
 		weapons[] = {};
 		magazines[] = {};

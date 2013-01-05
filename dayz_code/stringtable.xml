@@ -192,10 +192,10 @@
 			<Russian>Вы разделали: %1. Доступно кусков мяса: %2</Russian>
 		</Key>
 		<Key ID="str_success_gutted_human">
-			<Original>You gutted human has sick f**k, %2 meat steaks now on the carcass</Original>
-			<English>%1 has been gutted, %2 meat steaks now on the carcass</English>
-			<German>Du hast %1 ausgenommen, %2 Stücke Fleisch sind im Kadaver</German>
-			<Russian>Вы разделали: %1. Доступно кусков мяса: %2</Russian>
+			<Original>A dead survivor has been gutted, four meat parts now on the carcass</Original>
+			<English>A dead survivor has been gutted, four meat parts now on the carcass</English>
+			<German>A dead survivor has been gutted, four meat parts now on the carcass</German>
+			<Russian>A dead survivor has been gutted, four meat parts now on the carcass</Russian>
 		</Key>
 		<Key ID="str_medical_healing">
 			<Original>You are being healed</Original>

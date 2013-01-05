@@ -16,14 +16,7 @@ class CfgLoot {
 			"TrashTinCan",
 			"TrashJackDaniels",
 			"ItemSodaEmpty",
-
-
-
-
-
-
 			"8Rnd_9x18_Makarov",
-
 			"2Rnd_shotgun_74Slug",
 			"2Rnd_shotgun_74Pellets",
 			"ItemBandage",
@@ -31,15 +24,8 @@ class CfgLoot {
 		},
 		{
 			0.09,	//	"TrashTinCan",
-
 			0.09,	//	"TrashJackDaniels",
-
 			0.09,	//	"ItemSodaEmpty",
-
-
-
-
-
 			0.04,	//	"8Rnd_9x18_Makarov",
 			0.03,	//	"2Rnd_shotgun_74Slug",
 			0.03,	//	"2Rnd_shotgun_74Pellets",
@@ -52,25 +38,20 @@ class CfgLoot {
 			"TrashTinCan",
 			"TrashJackDaniels",
 			"ItemSodaEmpty",
-
-
 			"FoodCanBakedBeans",
 			"FoodCanSardines",
 			"FoodCanFrankBeans",
-
 			"FoodCanDogFood",
 			"ItemBandage"
 		},
 		{
-			0.13,	//	"TrashTinCan",
-
-			0.13,	//	"TrashJackDaniels",
-
+			0.14,	//	"TrashTinCan",
+			0.12,	//	"TrashJackDaniels",
 			0.13,	//	"ItemSodaEmpty",
 			0.03,	//	"FoodCanBakedBeans",
 			0.03,	//	"FoodCanSardines",
 			0.03,	//	"FoodCanFrankBeans",
-			0.06,	//	"FoodCanDogFood",
+			0.07,	//	"FoodCanDogFood",
 			0.04	//	"ItemBandage"
 		}
 	};
@@ -88,17 +69,10 @@ class CfgLoot {
 		{
 			"TrashTinCan",
 			"ItemSodaEmpty",
-
-
 			"TrashJackDaniels",
-
-
-
-
 			"ItemWaterbottleUnfilled",
 			// "ItemWaterbottle",
 			"ItemBandage",
-
 			"5x_22_LR_17_HMR",
 			"10x_303",
 			"6Rnd_45ACP",
@@ -115,20 +89,12 @@ class CfgLoot {
 			"ItemHeatPack"
 		},
 		{
-
-
-
-
-
-
-
 			0.08,	//	"TrashTinCan",
 			0.08,	//	"ItemSodaEmpty",
 			0.08,	//	"TrashJackDaniels",
 			0.02,	//	"ItemWaterbottleUnfilled",
 			// 0.01,	//	"ItemWaterbottle",
-
-			0.05,	//	"ItemBandage",
+			0.04,	//	"ItemBandage",
 			0.01,	//	"5x_22_LR_17_HMR",
 			0.04,	//	"10x_303",
 			0.02,	//	"6Rnd_45ACP",
@@ -171,12 +137,11 @@ class CfgLoot {
 			"ItemAntibiotic"
 		},
 		{
-			0.43,	//	"ItemBandage",
+			0.19,	//	"ItemBandage",
 			0.17,	//	"ItemPainkiller",
 			0.13,	//	"ItemMorphine",
 			0.09,	//	"ItemEpinephrine",
 			0.10,	//	"ItemBloodbag",
-
 			0.05	//	"ItemAntibiotic"
 		}
 	};
@@ -184,35 +149,14 @@ class CfgLoot {
 		{
 			"TrashTinCan",
 			"ItemSodaEmpty",
-
-
 			"ItemBandage",
 			"ItemPainkiller",
 			"ItemMorphine",
-
-
-
-
-
-
-
-
-
 			"8Rnd_B_Beneli_74Slug",
-
-
-
-
-
-
 			"SmokeShell",
 			"SmokeShellRed",
 			"SmokeShellGreen",
 			"8Rnd_B_Beneli_Pellets",
-
-
-
-
 			"HandChemGreen",
 			"HandChemBlue",
 			"HandChemRed",
@@ -225,34 +169,17 @@ class CfgLoot {
 		{
 			0.18,	//	"TrashTinCan",
 			0.09,	//	"ItemSodaEmpty",
-
-
 			0.04,	//	"ItemBandage",
 			0.04,	//	"ItemPainkiller",
 			0.01,	//	"ItemMorphine",
-
-
-
 			0.03,	//	"8Rnd_B_Beneli_74Slug",
 			0.02,	//	"SmokeShell",
-
-
-
-
-
-
-
-
-
 			0.01,	//	"SmokeShellRed",
 			0.01,	//	"SmokeShellGreen",
 			0.04,	//	"8Rnd_B_Beneli_Pellets",
 			0.02,	//	"HandChemGreen",
 			0.02,	//	"HandChemBlue",
-
-
 			0.02,	//	"HandChemRed",
-
 			0.04,	//	"ItemHeatPack"
 			0.05,	//	"8Rnd_9x18_Makarov",
 			0.02,	//	"15Rnd_W1866_Slug",
@@ -272,19 +199,15 @@ class CfgLoot {
 		},
 		{
 			1,		//	"ItemBandage",
-
 			0.3,	//	"6Rnd_45ACP",
 			0.3,	//	"15Rnd_W1866_Slug",
 			0.4,	//	"8Rnd_B_Beneli_74Slug",
-
 			0.5		//	"HandRoadFlare"
 		}
 	};
 	hunter[] = {
 		{
 			"ItemBandage",
-
-
 			"10x_303",
 			"ItemWaterbottleUnfilled",
 			"BoltSteel",
@@ -292,8 +215,6 @@ class CfgLoot {
 		},
 		{
 			1,		//	"ItemBandage",
-
-
 			0.5,	//	"10x_303",
 			0.2,	//	"ItemWaterbottleUnfilled",
 			1,		//	"BoltSteel",
