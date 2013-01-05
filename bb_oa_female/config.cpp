@@ -605,8 +605,6 @@ class CfgVehicles {
 		TextPlural = "$STR_DN_pilots";
 		TextSingular = "$STR_DN_pilot";
 		nameSound = "veh_pilot";
-		// identityTypes[] = {"Language_W_EN_EP1", "Woman", "USMC_Glasses", "Head_BB_Fem_helmet"}; was this
-		identityTypes[] = {"Language_W_EN_EP1", "Woman", "USMC_Glasses", "Head_BB_Fem"}; // now this
 		displayName = "Female Pilot (light)";
 		faceType = "bb_female";
 		cost = 20000;

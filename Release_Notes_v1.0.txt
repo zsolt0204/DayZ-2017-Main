@@ -1,0 +1,45 @@
+Release Notes for DayZ2017 V1.1 (Alpha)
+
+To install this mod, please unzip the archive into your Arma 2 OA folder. 
+
+Then you have two options:
+
+a) Run game and under Expansions menu enable folder @DayZ2017, click OK and restart game.
+b) or just run game with -mod=@DayZ2017 parameter. 
+c) Use a game launcher such as dayzcommander.com or play.withsix.com
+
+Release Log
+
+Thanks and Credits:
+
+Rocket and Matt & Co for starting it all. 
+
+R4Z0R49 and all the community guys.
+
+Icewindo, BIS, Johannes (ArmA1 SF mlod parts used), GSC Gameworld - Hoods, for the original units.
+
+Colonel Stagler - for allowing us to modify and use his IRA units.
+
+SchnapsdroSel - for the base female model used for the female survivor. 
+
+Josh and Sickboy for getting the mod out there.
+
+Mamu1234 for helping with the forest spawns.
+
+Everyone on opendayz.net including Pwnoz0r, Stapo, Alby, JoSchapp, f0rt, Simon and the mydayz.de guys, Ayan, VR-Shiva, Damo, Dimedius and loads more.
+
+Everyone on /r/dayz (even the haters).
+
+And of course 'The Team' and contributers.
+
+Project Lead - Luke Hinds (shinkicker) 
+Testing and Loot Balancing - Erich Geiger (BeowolfSchaefer) 
+Art Lead - Mark Wojcik (nnuu)
+Deniz Zoeteman - Bliss maintainer
+Lional Stapleton (Stapo) [2017 Lite Server Pack]
+Art & Modeling - Luke Howitt 
+Media and Video - Karwin Leutscher
+Art & Modeling - stevoktm
+
+Everyone who tested, suggested and helped push it along! big thanks!
+ 
