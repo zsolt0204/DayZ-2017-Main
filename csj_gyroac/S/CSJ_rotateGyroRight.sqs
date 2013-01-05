@@ -1,0 +1,13 @@
+;script by CSJ
+_Veh = _this
+_posVeh = getPos _Veh
+_i=0
+#loopTurn
+_VehDir = getdir _Veh
+_NewDir = _VehDir + 5
+_Veh setDir _NewDir
+_Veh setPos _posVeh
+~.05
+_i=_i+1
+?_i<10: goto "loopTurn"
+EXIT
