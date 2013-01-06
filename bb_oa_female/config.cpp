@@ -513,10 +513,10 @@ class CfgVehicles {
 		};
 		canCarryBackPack = 1;
 		model = "\bb_oa_female\female_soldier_oa.p3d";
-		weapons[] = {"SCAR_H_STD_EGLM_Spect", "NVGoggles", "Binocular_Vector", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "itemGPS", M9SD};
-		magazines[] = {"20rnd_762x51_B_SCAR", "20rnd_762x51_B_SCAR", "20rnd_762x51_B_SCAR", "20rnd_762x51_B_SCAR", "20rnd_762x51_B_SCAR", "20rnd_762x51_B_SCAR", "20rnd_762x51_B_SCAR", "20rnd_762x51_B_SCAR", "1Rnd_HE_M203", "1Rnd_HE_M203", "1Rnd_SmokeGreen_M203", "1Rnd_SmokeYellow_M203", "15Rnd_9x19_M9SD", "15Rnd_9x19_M9SD", "15Rnd_9x19_M9SD", "15Rnd_9x19_M9SD", "HandGrenade_West", "HandGrenade_West", "SmokeShellPurple", "SmokeShellYellow"};
-		respawnWeapons[] = {"SCAR_H_STD_EGLM_Spect", "Binocular_Vector", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "itemGPS", M9SD};
-		respawnMagazines[] = {"20rnd_762x51_B_SCAR", "20rnd_762x51_B_SCAR", "20rnd_762x51_B_SCAR", "20rnd_762x51_B_SCAR", "1Rnd_HE_M203", "1Rnd_HE_M203", "1Rnd_SmokeGreen_M203", "1Rnd_SmokeYellow_M203", "15Rnd_9x19_M9SD", "15Rnd_9x19_M9SD", "15Rnd_9x19_M9SD", "HandGrenade_West", "SmokeShellPurple"};
+		weapons[] = {"Throw", "Put"};
+		magazines[] = {};
+		respawnWeapons[] = {"Throw", "Put"};
+		respawnMagazines[] = {};
 		
 		class Wounds {
 			tex[] = {};
@@ -528,10 +528,10 @@ class CfgVehicles {
 		displayName = "Female Soldier (light)";
 		faceType = "bb_female";
 		weaponSlots = 1	 + 	4	 + 6 * 		256	 + 2 * 	4096	 + 	2	 + 4*	16  + 12*131072;
-		weapons[] = {SCAR_L_STD_HOLO, "NVGoggles", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
-		respawnWeapons[] = {SCAR_L_STD_HOLO, "NVGoggles", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnMagazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
+		weapons[] = {"Throw", "Put"};
+		magazines[] = {};
+		respawnWeapons[] = {"Throw", "Put"};
+		respawnMagazines[] = {};
 		model = "\bb_oa_female\female_soldier_oa_light.p3d";
 	};
 	
@@ -540,10 +540,10 @@ class CfgVehicles {
 		identityTypes[] = {"Language_W_EN_EP1", "Woman", "USMC_Glasses", "Head_BB_Fem_helmet"};
 		faceType = "bb_female_helmet";
 		model = "\bb_oa_female\female_soldier_oa_gl.p3d";
-		weapons[] = {"SCAR_L_CQC_EGLM_Holo", "NVGoggles", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "HandGrenade_West", "HandGrenade_West", "SmokeShell", "SmokeShell", "1Rnd_HE_M203", "1Rnd_HE_M203", "1Rnd_HE_M203", "1Rnd_HE_M203", "1Rnd_HE_M203", "1Rnd_HE_M203", "1Rnd_HE_M203", "1Rnd_HE_M203"};
-		respawnWeapons[] = {"SCAR_L_CQC_EGLM_Holo", "NVGoggles", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnMagazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "HandGrenade_West", "SmokeShell", "1Rnd_HE_M203", "1Rnd_HE_M203", "1Rnd_HE_M203", "1Rnd_HE_M203"};
+		weapons[] = {"Throw", "Put"};
+		magazines[] = {};
+		respawnWeapons[] = {"Throw", "Put"};
+		respawnMagazines[] = {};
 	};
 	
 	class BB_Merc_OA_Female_medic : BB_Merc_OA_Female {
@@ -557,10 +557,10 @@ class CfgVehicles {
 		backpack = "USBasicBag";
 		model = "\bb_oa_female\female_soldier_oa_medic.p3d";
 		nameSound = "veh_Medic";
-		weapons[] = {SCAR_L_STD_HOLO, "NVGoggles", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "SmokeShell", "SmokeShell"};
-		respawnWeapons[] = {SCAR_L_STD_HOLO, "NVGoggles", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnMagazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "SmokeShell"};
+		weapons[] = {"Throw", "Put"};
+		magazines[] = {};
+		respawnWeapons[] = {"Throw", "Put"};
+		respawnMagazines[] = {};
 	};
 	
 	class BB_Merc_OA_Female_helmet : BB_Merc_OA_Female {
@@ -568,10 +568,10 @@ class CfgVehicles {
 		faceType = "bb_female_helmet";
 		identityTypes[] = {"Language_W_EN_EP1", "Woman", "USMC_Glasses", "Head_BB_Fem_helmet"};
 		model = "\bb_oa_female\female_soldier_oa_helmet.p3d";
-		weapons[] = {SCAR_L_STD_HOLO, "NVGoggles", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "HandGrenade_West", "HandGrenade_West", "HandGrenade_West", "HandGrenade_West"};
-		respawnWeapons[] = {SCAR_L_STD_HOLO, "NVGoggles", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnMagazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "HandGrenade_West", "HandGrenade_West"};
+		weapons[] = {"Throw", "Put"};
+		magazines[] = {};
+		respawnWeapons[] = {"Throw", "Put"};
+		respawnMagazines[] = {};
 	};
 	
 	class BB_Merc_OA_Female_pilot : BB_Merc_OA_Female {
@@ -588,10 +588,10 @@ class CfgVehicles {
 		sensitivity = 2.6;	// sensor sensitivity
 		cost = 20000;
 		enableGPS = 1;
-		weapons[] = {SCAR_L_CQC, "NVGoggles", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "itemGPS"};
-		magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "HandGrenade_West", "HandGrenade_West", "SmokeShell", "SmokeShellRed"};
-		respawnWeapons[] = {SCAR_L_CQC, "NVGoggles", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "itemGPS"};
-		respawnMagazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "HandGrenade_West", "SmokeShellRed"};
+		weapons[] = {"Throw", "Put"};
+		magazines[] = {};
+		respawnWeapons[] = {"Throw", "Put"};
+		respawnMagazines[] = {};
 		
 		class Wounds {
 			tex[] = {};
@@ -656,10 +656,10 @@ class CfgVehicles {
 		sensitivity = 2.6;	// sensor sensitivity
 		cost = 20000;
 		enableGPS = 1;
-		weapons[] = {SCAR_L_CQC, "NVGoggles", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "itemGPS"};
-		magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "HandGrenade_West", "HandGrenade_West", "SmokeShell", "SmokeShellRed"};
-		respawnWeapons[] = {SCAR_L_CQC, "NVGoggles", "Throw", "Put", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "itemGPS"};
-		respawnMagazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "HandGrenade_West", "SmokeShellRed"};
+		weapons[] = {"Throw", "Put"};
+		magazines[] = {};
+		respawnWeapons[] = {"Throw", "Put"};
+		respawnMagazines[] = {};
 		
 		class Wounds {
 			tex[] = {};

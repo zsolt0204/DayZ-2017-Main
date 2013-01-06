@@ -5,7 +5,7 @@ class ice_apo_vehicles_patch
 units[] = {};
 weapons[] = {};
 requiredVersion = 1.0;
-requiredAddons[] = {};
+requiredAddons[] = {"CAWheeled"};
 };
 }; 
 
@@ -16,9 +16,6 @@ class CfgVehicleClasses
 	{
 		displayName = "APC Cars";
 	};
-	
-	
-
 };
 
 
@@ -30,21 +27,18 @@ class CfgFactionClasses
 		priority = 40;
 		side = 2;
 	};
-	
-	
-	
-
 };
-
-
-
 
 class CfgVehicles
 {
 class Land;	// External class reference
-class SkodaBase;
 class CarWreck;
-
+class Car;
+	
+	class SkodaBase : Car {
+		//model = "\ice_apo_vehicles\wheeled\skodovka";
+	};
+	
 class ice_apo_car_skoda : SkodaBase
 {
 	scope = 2;

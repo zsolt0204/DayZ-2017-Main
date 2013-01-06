@@ -49167,7 +49167,7 @@ class CfgTownGenerator {
 		};
 		
 		class Object33 {
-			type = "Mass_grave";
+			type = "Rubbish3";
 			position[] = {4800.99, 10284.6, 0};
 			direction = 343;
 			onFire = 0;
@@ -49865,7 +49865,7 @@ class CfgTownGenerator {
 		};
 		
 		class Object31 {
-			type = "Mass_grave";
+			type = "Rubbish3";
 			position[] = {3694.77, 5961.83, 0};
 			direction = 343;
 			onFire = 0;
@@ -54282,28 +54282,28 @@ class CfgTownGenerator {
 		};
 		
 		class Object619 {
-			type = "Mass_grave";
+			type = "Rubbish3";
 			position[] = {7203.35, 3025.2, 0};
 			direction = 335;
 			onFire = 0;
 		};
 		
 		class Object620 {
-			type = "Mass_grave";
+			type = "Rubbish3";
 			position[] = {7203.15, 3026.74, 0};
 			direction = 335;
 			onFire = 0;
 		};
 		
 		class Object621 {
-			type = "Mass_grave";
+			type = "Rubbish3";
 			position[] = {7205.81, 3025.02, 0};
 			direction = 335;
 			onFire = 0;
 		};
 		
 		class Object622 {
-			type = "Mass_grave";
+			type = "Rubbish3";
 			position[] = {7205.67, 3026.72, 0};
 			direction = 335;
 			onFire = 0;
@@ -79084,7 +79084,7 @@ class CfgVehicles {
 			};
 		};
 	};
-	class Wreck_Base;	// External class reference
+	/*class Wreck_Base;	// External class reference
 	
 	class Body1 : Wreck_Base {
 		scope = public;
@@ -79098,7 +79098,7 @@ class CfgVehicles {
 		mapSize = 2;
 		displayName = "Dead Body 2";
 		model = "\dayz\objects\dead_soldier_1";
-	};
+	}; */
 	class Strategic;	// External class reference
 	
 	class Rubbish1 : Strategic {
