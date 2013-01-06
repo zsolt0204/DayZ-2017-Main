@@ -78904,22 +78904,22 @@ class CfgVehicles {
 			tex[] = {};
 			mat[] = {"Ca\characters_E\Overall\Data\Overall.rvmat", "Ca\characters_E\Overall\Data\W1_Overall.rvmat", "Ca\characters_E\Overall\Data\W2_Overall.rvmat"};
 		};
-		hiddenSelectionsTextures[] = {"\dayz\textures\2017zeds\overall1.paa"};
+		hiddenSelectionsTextures[] = {"\dayz\textures\2017zeds\Worker\overall\Data\overall1.paa"};
 	};
 	
 	class z_worker2 : z_worker1 {
-		hiddenSelectionsTextures[] = {"\dayz\textures\2017zeds\overall1.paa"};
+		hiddenSelectionsTextures[] = {"\dayz\textures\2017zeds\Worker\overall\Data\ZWorker01_Karwin_co.paa"};
 	};
 	
 	class z_worker3 : z_worker1 {
-		hiddenSelectionsTextures[] = {"\dayz\textures\2017zeds\overall1.paa"};
+		hiddenSelectionsTextures[] = {"\Ca\characters_E\Overall\Data\Overall_3_co.paa"};
 	};
 	
 	class z_doctor : zZombie_Base {
 		model = "\ca\characters2\civil\Doctor\Doctor";
 		zombieLoot = "medical";
 		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\dayz\textures\clothes\doctor_co.paa"};
+		hiddenSelectionsTextures[] = {"\dayz\textures\2017zeds\Doctor\civilian\Zombie\Data\ZDoctorzz01_co.paa"};
 		
 		class Wounds {
 			tex[] = {};

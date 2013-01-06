@@ -1331,7 +1331,7 @@ class CfgVehicles {
 		canHideBodies = true;
 	};
 	
-	class Survivor2_DZ : dimitry {
+	class Survivor2_DZ : epic_beard_man {
 		displayName = $STR_CHAR_1;
 		side = TWest;
 		weapons[] = {"Throw", "Put"};
