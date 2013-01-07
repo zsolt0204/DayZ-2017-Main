@@ -33,13 +33,12 @@ Everyone on /r/dayz (even the haters).
 And of course 'The Team' and contributers.
 
 Project Lead - Luke Hinds (shinkicker) 
-Testing and Loot Balancing - Erich Geiger (BeowolfSchaefer) 
-Art Lead - Mark Wojcik (nnuu)
 Deniz Zoeteman - Bliss maintainer
 Lional Stapleton (Stapo) [2017 Lite Server Pack]
+Art - Mark Wojcik (nnuu)
 Art & Modeling - Luke Howitt 
-Media and Video - Karwin Leutscher
 Art & Modeling - stevoktm
+Media and Video - Karwin Leutscher
 
 Everyone who tested, suggested and helped push it along! big thanks!
  
