@@ -14,6 +14,7 @@
 "dayzHideBody"		addPublicVariableEventHandler {hideBody (_this select 1)};
 "dayzGutBody"		addPublicVariableEventHandler {(_this select 1) spawn local_gutObject};
 "dayzGutHuman"		addPublicVariableEventHandler {(_this select 1) spawn local_gutHuman};
+"dayzGutZed"		addPublicVariableEventHandler {(_this select 1) spawn local_gutZed};
 "dayzSetFuel"		addPublicVariableEventHandler {(_this select 1) spawn local_sefFuel};
 "dayzSetFix"		addPublicVariableEventHandler {(_this select 1) call object_setFixServer};
 "dayzDelLocal"		addPublicVariableEventHandler {(_this select 1) call object_delLocal};

@@ -30,26 +30,41 @@ if ( !(isClass(_config >> _itemNew)) ) then {
 	_itemNew = if (!_isFemale) then {"Skin_Survivor2_DZ"} else {"Skin_SurvivorW2_DZ"}; 
 };
 
-///switch (_item) do {
-	//case "Skin_Sniper1_DZ": {
-		//_model = "Sniper1_DZ";
-	//};
-	//case "Skin_Camo1_DZ": {
-		//_model = "Camo1_DZ";
-	//};
-	//case "Skin_Soldier1_DZ": {
-		//_model = "Soldier1_DZ";
-	//};
-	//case "Skin_Survivor2_DZ": {
-	//	_model = "Survivor2_DZ";
-	//	if (_isBandit) then {
-	//		_model = "Bandit1_DZ";
-	//	};
-	//	if (_isHero) then {
-	//		_model = "Survivor3_DZ";
-	//	};
-	//};
-//};
+switch (_item) do {
+	case "Beard_DZ": {
+		_model = "Beard_DZ";
+		if (_isBandit) then {
+			_model = "Bandit1_DZ";
+		};
+		if (_isHero) then {
+			_model = "Survivor3_DZ";
+		};
+	case "Dimitry_DZ": {
+		_model = "Dimitry_DZ";
+		if (_isBandit) then {
+			_model = "Bandit1_DZ";
+		};
+		if (_isHero) then {
+			_model = "Survivor3_DZ";
+		};
+	case "Alexej_DZ": {
+		_model = "Alexej_DZ";
+		if (_isBandit) then {
+			_model = "Bandit1_DZ";
+		};
+		if (_isHero) then {
+			_model = "Survivor3_DZ";
+		};
+	case "Stanislav_DZ": {
+		_model = "Stanislav_DZ";
+		if (_isBandit) then {
+			_model = "Bandit1_DZ";
+		};
+		if (_isHero) then {
+			_model = "Survivor3_DZ";
+		};
+	};
+};
 
 if (_model != _myModel) then {
 	player removeMagazine _item;

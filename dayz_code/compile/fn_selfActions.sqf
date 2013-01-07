@@ -15,6 +15,7 @@ _hasAntiB = 	"ItemAntibiotic" in magazines player;
 _hasFuelE = 	"ItemJerrycanEmpty" in magazines player;
 _hasRawMeat =	"FoodSteakRaw" in magazines player;
 _hasRawFlesh = 	"RawHumanFlesh" in magazines player;
+_hasRawZedFlesh = 	"RawInfectedFlesh" in magazines player;
 _hasKnife = 	"ItemKnife" in items player;
 _hasToolbox = 	"ItemToolbox" in items player;
 //_hasTent = 		"ItemTent" in items player;
@@ -113,6 +114,18 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 		s_player_butcher = -1;
 	};
 	
+	//skin zombie
+	if (!alive cursorTarget and _hasKnife and !_isHarvested and _isZombie and _canDo) then {
+		if (s_player_butcher < 0) then {
+			s_player_butcher = player addAction [localize "str_actions_self_14", "\z\addons\dayz_code\actions\gather_zed_meat.sqf",cursorTarget, 3, true, true, "", ""];
+			dayzHumanity = [player,-100];
+			_id = dayzHumanity spawn player_humanityChange;
+		};
+	} else {
+		player removeAction s_player_butcher;
+		s_player_butcher = -1;
+	};
+	
 	//Fireplace Actions check
 	if(inflamed cursorTarget and _hasRawMeat and _canDo) then {
 		if (s_player_cook < 0) then {
@@ -130,6 +143,16 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 	} else {
 		player removeAction s_player_humancook;
 		s_player_humancook = -1;
+	};
+	
+	//zombie
+	if(inflamed cursorTarget and _hasRawZedFlesh and _canDo) then {
+		if (s_player_zedcook < 0) then {
+			s_player_zedcook = player addAction [localize "str_actions_self_12", "\z\addons\dayz_code\actions\cookzed.sqf",cursorTarget, 3, true, true, "", ""];
+		};
+	} else {
+		player removeAction s_player_zedcook;
+		s_player_zedcook = -1;
 	};
 	
 	if(cursorTarget == dayz_hasFire and _canDo) then {
@@ -243,6 +266,8 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 	s_player_cook = -1;
 	player removeAction s_player_humancook;
 	s_player_humancook = -1;
+	player removeAction s_player_zedcook;
+	s_player_zedcook = -1;
 	player removeAction s_player_fireout;
 	s_player_fireout = -1;
 	player removeAction s_player_packtent;

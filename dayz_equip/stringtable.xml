@@ -578,10 +578,34 @@
 		<Russian>Cooked Human Meat</Russian>
 	</Key>
 	<Key ID="STR_EQUIP_DESC_48">
-      <Original>Cooked Human Meat. Provides sustenance, but comes with a high risk of infection and other complications.</Original>
-      <English>Cooked Human Meat. Provides sustenance, but comes with a high risk of infection and other complications.</English>
-      <German>Cooked Human Meat. Provides sustenance, but comes with a high risk of infection and other complications.</German>
-      <Russian>Cooked Human Meat. Provides sustenance, but comes with a high risk of infection and other complications.</Russian>
+      <Original>Cooked Human Meat. Provides sustenance, but comes with a minor risk of infection and other complications.</Original>
+      <English>Cooked Human Meat. Provides sustenance, but comes with a minor risk of infection and other complications.</English>
+      <German>Cooked Human Meat. Provides sustenance, but comes with a minor risk of infection and other complications.</German>
+      <Russian>Cooked Human Meat. Provides sustenance, but comes with a minor risk of infection and other complications.</Russian>
+    </Key>
+	<Key ID="STR_EQUIP_NAME_49">
+      <Original>Infected Flesh</Original>
+      <English>Infected Flesh</English>
+      <German>Infected Flesh</German>
+      <Russian>Infected Flesh</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_49">
+      <Original>A chunk of Infected Flesh. Contagious, putrid and vile. Edible if cooked.</Original>
+      <English>A chunk of Infected Flesh. Contagious, putrid and vile. Edible if cooked.</English>
+      <German>A chunk of Infected Flesh. Contagious, putrid and vile. Edible if cooked.</German>
+      <Russian>A chunk of Infected Flesh. Contagious, putrid and vile. Edible if cooked.</Russian>
+    </Key>
+	<Key ID="STR_EQUIP_NAME_50">
+      <Original>Cooked Infected Meat</Original>
+      <English>Cooked Infected Meat</English>
+      <German>Cooked Infected Meat</German>
+      <Russian>Cooked Infected Meat</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_50">
+      <Original>Cooked Infected Meat. Provides sustenance, but comes with a high risk of infection and is just about as low as you can get.</Original>
+      <English>Cooked Infected Meat. Provides sustenance, but comes with a high risk of infection and is just about as low as you can get.</English>
+      <German>Cooked Infected Meat. Provides sustenance, but comes with a high risk of infection and is just about as low as you can get.</German>
+      <Russian>Cooked Infected Meat. Provides sustenance, but comes with a high risk of infection and is just about as low as you can get.</Russian>
     </Key>
 	</Package>
 	<Package name="weaponHolders">

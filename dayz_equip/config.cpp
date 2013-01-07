@@ -1428,7 +1428,7 @@ class CfgMagazines {
 		isFood = 1;
 		count = 1;
 		type = 256;
-		bloodRegen = 200;
+		bloodRegen = 800;
 		
 		class ItemActions {
 			class Eat {
@@ -1445,6 +1445,42 @@ class CfgMagazines {
 		picture = "\dayz_equip\textures\i_heartcooked_ca.paa";
 		descriptionShort = $STR_EQUIP_DESC_48;
 		bloodRegen = 800;
+	};
+	
+	
+	//zombie
+	
+	class RawInfectedFlesh : CA_Magazine {
+		scope = public;
+		count = 1;
+		type = 256;
+		displayName = $STR_EQUIP_NAME_49;
+		model = "\dayz_equip\models\food_steak_gear.p3d";
+		picture = "\dayz_equip\textures\i_heartzed_ca.paa";
+		descriptionShort = $STR_EQUIP_DESC_49;
+	};
+	
+	class RiskZedFood : CA_Magazine {
+		isFood = 1;
+		count = 1;
+		type = 256;
+		bloodRegen = 400;
+		
+		class ItemActions {
+			class Eat {
+				text = $STR_EAT_FOOD;
+				script = "spawn player_eat;";
+			};
+		};
+	};
+	
+	class InfectedFleshCooked : RiskZedFood {
+		scope = public;
+		displayName = $STR_EQUIP_NAME_50;
+		model = "\dayz_equip\models\food_steak_cooked_gear.p3d";
+		picture = "\dayz_equip\textures\i_heartcooked_ca.paa";
+		descriptionShort = $STR_EQUIP_DESC_50;
+		bloodRegen = 400;
 	};
 	
 	class FoodEdible : CA_Magazine {

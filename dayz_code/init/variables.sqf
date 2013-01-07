@@ -58,6 +58,7 @@ dayz_resetSelfActions = {
 	s_player_fire =			-1;
 	s_player_cook =			-1;
 	s_player_humancook =	-1;
+	s_player_zedcook =	-1;
 	s_player_fireout =		-1;
 	s_player_butcher =		-1;
 	s_player_packtent = 	-1;

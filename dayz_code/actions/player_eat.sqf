@@ -8,8 +8,11 @@ if (vehicle player != player) exitWith {cutText ["You may not eat while in a veh
 
 _item = _this;
 _hasfoodmag = _this in magazines player;
-_rndInfection = (random 10);
+_rndInfection = (random 15);
 _EatInfection = (_rndInfection < 1);
+
+_rndZedInfection = (random 3);
+_EatZedInfection = (_rndZedInfection < 1);
 
 _config =	configFile >> "CfgMagazines" >> _item;
 _text = 	getText (_config >> "displayName");
@@ -21,6 +24,14 @@ if (!_hasfoodmag) exitWith {cutText [format[(localize "str_player_31"),_text,"co
 if (_EatInfection) then {
    //Set Infection if not already
    if (_item == "HumanFleshCooked" ) then {
+    r_player_infected = true;
+    player setVariable["USEC_infected",true,true];
+	};
+};
+
+if (_EatZedInfection) then {
+   //Set Infection if not already
+   if (_item == "InfectedFleshCooked" ) then {
     r_player_infected = true;
     player setVariable["USEC_infected",true,true];
 	};

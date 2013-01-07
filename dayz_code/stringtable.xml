@@ -192,10 +192,16 @@
 			<Russian>Вы разделали: %1. Доступно кусков мяса: %2</Russian>
 		</Key>
 		<Key ID="str_success_gutted_human">
-			<Original>A dead survivor has been gutted, four meat parts now on the carcass</Original>
-			<English>A dead survivor has been gutted, four meat parts now on the carcass</English>
-			<German>A dead survivor has been gutted, four meat parts now on the carcass</German>
-			<Russian>A dead survivor has been gutted, four meat parts now on the carcass</Russian>
+			<Original>A dead survivor has been gutted, four meat chunks now on the carcass</Original>
+			<English>A dead survivor has been gutted, four meat chunks now on the carcass</English>
+			<German>A dead survivor has been gutted, four meat chunks now on the carcass</German>
+			<Russian>A dead survivor has been gutted, four meat chunks now on the carcass</Russian>
+		</Key>
+		<Key ID="str_success_gutted_zombie">
+			<Original>An infected human has been gutted, four meat chunks now on the carcass</Original>
+			<English>An infected human has been gutted, four meat chunks now on the carcass</English>
+			<German>An infected human has been gutted, four meat chunks now on the carcass</German>
+			<Russian>An infected human has been gutted, four meat chunks now on the carcasss</Russian>
 		</Key>
 		<Key ID="str_medical_healing">
 			<Original>You are being healed</Original>
@@ -530,6 +536,18 @@
 			<English>Cook Human Flesh</English>
 			<German>Cook Human Flesh</German>
 			<Russian>Cook Human Flesh</Russian>
+		</Key>
+		<Key ID="str_actions_self_14">
+			<Original>Gut Infected</Original>
+			<English>Gut Infected</English>
+			<German>Gut Infected</German>
+			<Russian>Gut Infected</Russian>
+		</Key>
+		<Key ID="str_actions_self_15">
+			<Original>Cook Infected Flesh</Original>
+			<English>Cook Infected Flesh</English>
+			<German>Cook Infected Flesh</German>
+			<Russian>Cook Infected Flesh</Russian>
 		</Key>
 		<Key ID="str_actions_medical_01">
 			<Original>Drag Body</Original>

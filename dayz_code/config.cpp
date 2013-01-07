@@ -182,7 +182,7 @@ class CfgBuildingLoot {
 			0.03,	// {"ItemFlashlight","generic"},
 			0.08,	// {"ItemKnife","generic"},
 			0.06,	// {"ItemMatchbox","generic"},
-			0.44	// {"","generic"},
+			0.44,	// {"","generic"},
 			0.05,	// {"LeeEnfield","weapon"},
 			0.04,	// {"revolver_EP1","weapon"},
 			0.02,	// {"Winchester1866","weapon"},
@@ -389,7 +389,7 @@ class CfgBuildingLoot {
 			0.05,	//	{"ItemMap","military"},
 			0.10,	//	{"","medical"},
 			1.00,	//	{"","generic"},
-			1.00/	{"","military"},
+			1.00,	//	{"","military"},
 			1.00,	//  {"","trash"},
 			0.05,	//	{"ItemEtool","weapon"},
 			0.02,	//	{"ItemSandbag","magazine"}
