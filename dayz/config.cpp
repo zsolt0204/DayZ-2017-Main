@@ -78658,14 +78658,14 @@ class CfgFaces {
 		
 		class Zombie1 : Default {
 			name = "Zombie 1";
-			texture = "\dayz\textures\faces\zombie_03_co.paa";
+			texture = "\dayz\textures\faces\zombie_01_co.paa";
 			identityTypes[] = {"Zombie1"};
 			disabled = 0;
 		};
 		
 		class Zombie2 : Default {
 			name = "Zombie 2";
-			texture = "\dayz\textures\faces\zombie_03_co.paa";
+			texture = "\dayz\textures\faces\zombie_02_co.paa";
 			identityTypes[] = {"Zombie2"};
 			disabled = 0;
 		};
@@ -78919,7 +78919,7 @@ class CfgVehicles {
 		model = "\ca\characters2\civil\Doctor\Doctor";
 		zombieLoot = "medical";
 		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\dayz\textures\2017zeds\Doctor\civilian\Zombie\Data\ZDoctorzz01_co.paa"};
+		hiddenSelectionsTextures[] = {"\dayz\textures\clothes\doctor_co.paa"};
 		
 		class Wounds {
 			tex[] = {};

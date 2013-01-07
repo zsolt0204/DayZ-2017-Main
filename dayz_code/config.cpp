@@ -146,7 +146,7 @@ class CfgBuildingLoot {
 	};
 	class Residential: Default {
 		zombieChance = 0.3;
-		maxRoaming = 4;
+		maxRoaming = 6;
 		zombieClass[] = {"zZombie_Base","z_hunter","z_teacher","z_villager1","z_villager2","z_villager3"};
 		lootChance = 0.3;
 		lootPos[] = {};
@@ -198,13 +198,13 @@ class CfgBuildingLoot {
 		};		
 	};
 	class Office: Residential {
-		maxRoaming = 3;
+		maxRoaming = 6;
 		zombieClass[] = {"z_suit1","z_suit2"};
 	};
 	class Industrial: Default {
 		zombieChance = 0.4;
 		zombieClass[] = {"z_worker1","z_worker2","z_worker3"};
-		maxRoaming = 2;
+		maxRoaming = 4;
 		lootChance = 0.3;
 		lootPos[] = {};
 		itemType[] =	{
@@ -240,7 +240,7 @@ class CfgBuildingLoot {
 	};
 	class Farm: Default {
 		zombieChance = 0.3;
-		maxRoaming = 3;
+		maxRoaming = 6;
 		zombieClass[] = {"zZombie_Base","z_hunter","z_hunter","z_hunter","z_villager1","z_villager2","z_villager3"};
 		lootChance = 0.3;
 		lootPos[] = {};
@@ -272,7 +272,7 @@ class CfgBuildingLoot {
 		};
 	};
 	class Supermarket: Default {
-		lootChance = 0.3;
+		lootChance = 0.4;
 		minRoaming = 2;
 		maxRoaming = 6;
 		zombieChance = 0.3;
@@ -356,15 +356,15 @@ class CfgBuildingLoot {
 			{"MedBox0","object"}
 		};
 		itemChance[] =	{
-			0.5,	//	{"","trash"},
-			0.2,	//	{"","hospital"},
+			0.05,	//	{"","trash"},
+			0.02,	//	{"","hospital"},
 			0.05,	//	{"MedBox0","object"}
 		};
 	};
 	class Military: Default {
 		zombieChance = 0.3;
 		maxRoaming = 6;
-		zombieClass[] = {"z_soldier","z_soldier_heavy","z_policeman"};
+		zombieClass[] = {"z_worker1","z_worker2","z_worker3"};
 		lootChance = 0.2;
 		lootPos[] = {};
 		itemType[] =	{
@@ -402,7 +402,7 @@ class CfgBuildingLoot {
 		zombieChance = 0.4;
 		minRoaming = 2;
 		maxRoaming = 6;
-		zombieClass[] = {"z_soldier_heavy"};
+		zombieClass[] = {"z_worker1"};
 		lootChance = 0.3;
 		lootPos[] = {};
 		itemType[] =	{
@@ -445,7 +445,7 @@ class CfgBuildingLoot {
 		zombieChance = 0.45;
 		minRoaming = 15;
 		maxRoaming = 20;
-		zombieClass[] = {"zZombie_Base","z_hunter","z_villager1"};
+		zombieClass[] = {"zZombie_Base","z_hunter","z_worker1"};
 	};
 	
 	class HeliHEmpty: Woodspawn {}; 

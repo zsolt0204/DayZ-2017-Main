@@ -1515,10 +1515,10 @@ class CfgVehicles
 		nameSound="Abrams";
 		accuracy=0.70;
 
-		armor=900;
+		armor=100;
 		damageResistance = 0.00516;
 		cost=4000000;
-
+		audible = 5;
 		class HitHull {armor=0.85;material=55;name="telo";visual="telo";passThrough=1;};
 
 		maxSpeed=45
