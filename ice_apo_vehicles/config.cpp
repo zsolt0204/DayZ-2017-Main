@@ -29,17 +29,12 @@ class CfgFactionClasses
 	};
 };
 
-class CfgVehicles
-{
-class Land;	// External class reference
-class CarWreck;
-class Car;
+class CfgVehicles {
+	class Land;	// External class reference
+	class Skodabase;	// External class reference
+	class CarWreck;	// External class reference
 	
-	class SkodaBase : Car {
-		//model = "\ice_apo_vehicles\wheeled\skodovka";
-	};
-	
-class ice_apo_car_skoda : SkodaBase
+class ice_apo_car_skoda : Skodabase
 {
 	scope = 2;
 	faction = "ice_apo_vehicles_fa";
