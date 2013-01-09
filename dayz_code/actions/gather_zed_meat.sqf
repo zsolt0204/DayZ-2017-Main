@@ -26,7 +26,6 @@ if (_hasKnife and !_hasHarvested) then {
 	_id = [player,50,true,(getPosATL player)] spawn player_alertZombies;
 
 	_array = [_item,_qty];
-	
 	if (local _item) then {
 		_array spawn local_gutZed;
 	} else {

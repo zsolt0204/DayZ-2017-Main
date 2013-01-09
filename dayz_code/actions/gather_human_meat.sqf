@@ -26,7 +26,8 @@ if (_hasKnife and !_hasHarvested) then {
 	_id = [player,50,true,(getPosATL player)] spawn player_alertZombies;
 	
 	_array = [_item,_qty];
-	
+	dayzHumanity = [player,-1000];
+	_id = dayzHumanity spawn player_humanityChange;
 	if (local _item) then {
 		_array spawn local_gutHuman;
 	} else {

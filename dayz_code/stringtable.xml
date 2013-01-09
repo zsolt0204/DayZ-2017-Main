@@ -537,6 +537,12 @@
 			<German>Cook Human Flesh</German>
 			<Russian>Cook Human Flesh</Russian>
 		</Key>
+		<Key ID="str_actions_self_13">
+			<Original>Cook Infected Flesh</Original>
+			<English>Cook Infected Flesh</English>
+			<German>Cook Infected Flesh</German>
+			<Russian>Cook Infected Flesh</Russian>
+		</Key>
 		<Key ID="str_actions_self_14">
 			<Original>Gut Infected</Original>
 			<English>Gut Infected</English>
