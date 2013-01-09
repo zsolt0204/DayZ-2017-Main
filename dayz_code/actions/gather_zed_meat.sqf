@@ -17,14 +17,14 @@ if (_hasKnife and !_hasHarvested) then {
 	player playActionNow "Medic";
 	[player,"gut",0,false] call dayz_zombieSpeak;
 	_item setVariable["meatHarvested",true,true];
-	
 	_qty = 1;	
+	
 	if (_isListed) then {
 		_qty =	getNumber (_config >> "yield");
 	};
 	
 	_id = [player,50,true,(getPosATL player)] spawn player_alertZombies;
-	
+
 	_array = [_item,_qty];
 	
 	if (local _item) then {

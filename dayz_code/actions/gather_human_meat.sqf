@@ -17,8 +17,8 @@ if (_hasKnife and !_hasHarvested) then {
 	player playActionNow "Medic";
 	[player,"gut",0,false] call dayz_zombieSpeak;
 	_item setVariable["meatHarvested",true,true];
-	
 	_qty = 1;	
+	
 	if (_isListed) then {
 		_qty =	getNumber (_config >> "yield");
 	};
@@ -35,6 +35,6 @@ if (_hasKnife and !_hasHarvested) then {
 	};
 	
 	sleep 6;
-	_string = format[localize "str_success_gutted_animal",_text,_qty];
+	_string = format[localize "str_success_gutted_human",_text,_qty];
 	cutText [_string, "PLAIN DOWN"];
 };

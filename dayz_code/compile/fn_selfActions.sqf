@@ -48,6 +48,7 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 	_isHarvested = cursorTarget getVariable["meatHarvested",false];
 	_isVehicle = cursorTarget isKindOf "AllVehicles";
 	_isMan = cursorTarget isKindOf "Man";
+	_isRealMan = cursorTarget isKindOf "CAManBase";
 	_ownerID = cursorTarget getVariable ["characterID","0"];
 	_isAnimal = cursorTarget isKindOf "Animal";
 	_isZombie = cursorTarget isKindOf "zZombie_base";
@@ -103,23 +104,20 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 	};
 	
 	//skin player
-	if (!alive cursorTarget and _isMan and _hasKnife and !_isHarvested and !_isZombie and _canDo) then {
-		if (s_player_butcher < 0) then {
-			s_player_butcher = player addAction [localize "str_actions_self_11", "\z\addons\dayz_code\actions\gather_human_meat.sqf",cursorTarget, 3, true, true, "", ""];
-			dayzHumanity = [player,-100];
-			_id = dayzHumanity spawn player_humanityChange;
+	if (_isMan and !_isAlive and !_isZombie and _hasKnife and !_isHarvested and _canDo) then {
+		if (s_player_gather_human_butcher < 0) then {
+			s_player_gather_human_butcher = player addAction [localize "str_actions_self_11", "\z\addons\dayz_code\actions\gather_human_meat.sqf",cursorTarget, 3, true, true, "", ""];
 		};
 	} else {
-		player removeAction s_player_butcher;
-		s_player_butcher = -1;
+		player removeAction s_player_gather_human_butcher;
+		s_player_gather_human_butcher = -1;
 	};
+
 	
 	//skin zombie
-	if (!alive cursorTarget and _hasKnife and !_isHarvested and _isZombie and _canDo) then {
+	if (!_isAlive and _hasKnife and !_isHarvested and _isZombie and _canDo) then {
 		if (s_player_butcher < 0) then {
 			s_player_butcher = player addAction [localize "str_actions_self_14", "\z\addons\dayz_code\actions\gather_zed_meat.sqf",cursorTarget, 3, true, true, "", ""];
-			dayzHumanity = [player,-100];
-			_id = dayzHumanity spawn player_humanityChange;
 		};
 	} else {
 		player removeAction s_player_butcher;
@@ -276,4 +274,6 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 	s_player_fillfuel = -1;
 	player removeAction s_player_studybody;
 	s_player_studybody = -1;
+	player removeAction s_player_gather_human_butcher;
+	s_player_gather_human_butcher = -1;
 };

@@ -128,7 +128,7 @@ class CfgBuildingLoot {
 		zombieChance = 0;
 		minRoaming = 0;
 		maxRoaming = 4;
-		zombieClass[] = {"zZombie_Base","z_hunter","z_teacher","z_suit1","z_suit2","z_worker1","z_worker2","z_worker3","z_villager1","z_villager2","z_villager3"};
+		zombieClass[] = {"zZombie_Base","z_hunter","z_teacher","z_worker1","z_worker2","z_worker3","z_villager1","z_villager2","z_villager3"};
 		lootChance = 0;
 		lootPos[] = {};
 		itemType[] = {};
@@ -199,7 +199,7 @@ class CfgBuildingLoot {
 	};
 	class Office: Residential {
 		maxRoaming = 6;
-		zombieClass[] = {"z_suit1","z_suit2"};
+		zombieClass[] = {"z_worker1","z_worker2"};
 	};
 	class Industrial: Default {
 		zombieChance = 0.4;
@@ -276,7 +276,7 @@ class CfgBuildingLoot {
 		minRoaming = 2;
 		maxRoaming = 6;
 		zombieChance = 0.3;
-		zombieClass[] = {"zZombie_Base","zZombie_Base","z_teacher","z_suit1","z_suit2"};
+		zombieClass[] = {"zZombie_Base","zZombie_Base","z_teacher","z_worker1","z_worker2"};
 		itemType[] = {
 			{"ItemWatch","generic"},
 			{"ItemCompass","generic"},
@@ -443,8 +443,8 @@ class CfgBuildingLoot {
 
 	class Woodspawn { // Woodpawn-Test
 		zombieChance = 0.45;
-		minRoaming = 15;
-		maxRoaming = 20;
+		minRoaming = 4;
+		maxRoaming = 8;
 		zombieClass[] = {"zZombie_Base","z_hunter","z_worker1"};
 	};
 	
@@ -484,7 +484,7 @@ class CfgBuildingLoot {
 	};
 	class Land_A_FuelStation_Build: Industrial {
 		lootChance = 0.5;
-		zombieClass[] = {"zZombie_Base","zZombie_Base","z_teacher","z_suit1","z_suit2"};
+		zombieClass[] = {"zZombie_Base","zZombie_Base","z_teacher","z_worker1","z_worker2"};
 		lootPos[] = {{-1.31958,-0.655151,-1.57448},{1.82349,0.769653,-1.57458},{1.67871,-0.918701,-1.57458},{-1.23242,1.26794,-1.57458}};
 	};
 	class Land_A_GeneralStore_01a: Supermarket {
@@ -785,7 +785,7 @@ class CfgBuildingLoot {
 	class Land_HouseV2_03: HouseRoaming {}; // Qty: 8
 	class Land_Ind_Shed_01_end: HouseRoaming {}; // Qty: 266
 	class Land_A_statue01: HouseRoaming {
-		zombieClass[] = {"zZombie_Base","zZombie_Base","z_teacher","z_suit1","z_suit2","z_soldier","z_soldier_heavy","z_policeman"};
+		zombieClass[] = {"zZombie_Base","zZombie_Base","z_teacher","z_worker1","z_worker3","z_soldier","z_soldier_heavy","z_policeman"};
 		minRoaming = 2;
 		maxRoaming = 8;
 	}; // Qty: 3
