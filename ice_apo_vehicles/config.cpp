@@ -31,10 +31,15 @@ class CfgFactionClasses
 
 class CfgVehicles {
 	class Land;	// External class reference
-	class Skodabase;	// External class reference
+	class Car;	// External class reference
 	class CarWreck;	// External class reference
+	class SkodaBase : Car {};
 	
-class ice_apo_car_skoda : Skodabase
+	class Skoda : SkodaBase {
+		model = "\ice_apo_vehicles\skodovka";
+	};
+	
+class ice_apo_car_skoda : Skoda
 {
 	scope = 2;
 	faction = "ice_apo_vehicles_fa";

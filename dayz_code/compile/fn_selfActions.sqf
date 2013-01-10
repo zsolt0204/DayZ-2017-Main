@@ -116,12 +116,12 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 	
 	//skin zombie
 	if (!_isAlive and _hasKnife and !_isHarvested and _isZombie and _canDo) then {
-		if (s_player_butcher < 0) then {
-			s_player_butcher = player addAction [localize "str_actions_self_14", "\z\addons\dayz_code\actions\gather_zed_meat.sqf",cursorTarget, 3, true, true, "", ""];
+		if (s_player_gather_zed_butcher < 0) then {
+			s_player_gather_zed_butcher = player addAction [localize "str_actions_self_14", "\z\addons\dayz_code\actions\gather_zed_meat.sqf",cursorTarget, 3, true, true, "", ""];
 		};
 	} else {
-		player removeAction s_player_butcher;
-		s_player_butcher = -1;
+		player removeAction s_player_gather_zed_butcher;
+		s_player_gather_zed_butcher = -1;
 	};
 	
 	//Fireplace Actions check
@@ -276,4 +276,6 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 	s_player_studybody = -1;
 	player removeAction s_player_gather_human_butcher;
 	s_player_gather_human_butcher = -1;
+	player removeAction s_player_gather_zed_butcher;
+	s_player_gather_zed_butcher = -1;
 };
