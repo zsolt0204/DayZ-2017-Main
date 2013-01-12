@@ -957,22 +957,20 @@ class CfgWeapons {
 	class CDF_dogtags: FakeWeapon {};
 	class Moscow_Bombing_File: FakeWeapon {};
 	class Cobalt_File: FakeWeapon {};
-	/*
-	class ItemWatch: FakeWeapon {};
-	class ItemCompass: FakeWeapon {};
+	//class ItemWatch: FakeWeapon {};
+	//class ItemCompass: FakeWeapon {};
 	class ItemGPS: FakeWeapon {};
 	class ItemRadio: FakeWeapon {};
-	class ItemMap: FakeWeapon {};
+	//class ItemMap: FakeWeapon {};
 	class EvPhoto: FakeWeapon {};
 	class EvMap: FakeWeapon {};
 	class EvMoscow: FakeWeapon {};
 	class EvKobalt: FakeWeapon {};
 	class EvMoney: FakeWeapon {};
 	class EvDogTags: FakeWeapon {};
-	//class AK_BASE: FakeWeapon {};
-	//class AKS_BASE: FakeWeapon {};
-	//class AK_107_BASE: FakeWeapon {};
-	*/
+	class AK_BASE: FakeWeapon {};
+	class AKS_BASE: FakeWeapon {};
+	class AK_107_BASE: FakeWeapon {};
 	class AK_47_M: FakeWeapon {};
 	class AK_47_S: FakeWeapon {};
 	class AKS_GOLD: FakeWeapon {};

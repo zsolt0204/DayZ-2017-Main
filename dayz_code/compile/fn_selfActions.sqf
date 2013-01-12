@@ -94,7 +94,9 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 		s_player_fillfuel = -1;
 	};
 	
-	if (!alive cursorTarget and _isAnimal and _hasKnife and !_isHarvested and _canDo) then {
+	//skin animal
+  //if (!alive cursorTarget and _isAnimal and _hasKnife and !_isHarvested and _canDo) then {	
+	if (!_isAlive and _isAnimal and _hasKnife and !_isHarvested and _canDo) then {
 		if (s_player_butcher < 0) then {
 			s_player_butcher = player addAction [localize "str_actions_self_04", "\z\addons\dayz_code\actions\gather_meat.sqf",cursorTarget, 3, true, true, "", ""];
 		};
@@ -104,7 +106,7 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 	};
 	
 	//skin player
-	if (_isMan and !_isAlive and !_isZombie and _hasKnife and !_isHarvested and _canDo) then {
+	if (_isMan and !_isAlive and !_isZombie and !_isAnimal and _hasKnife and !_isHarvested and _canDo) then {
 		if (s_player_gather_human_butcher < 0) then {
 			s_player_gather_human_butcher = player addAction [localize "str_actions_self_11", "\z\addons\dayz_code\actions\gather_human_meat.sqf",cursorTarget, 3, true, true, "", ""];
 		};
@@ -113,7 +115,6 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 		s_player_gather_human_butcher = -1;
 	};
 
-	
 	//skin zombie
 	if (!_isAlive and _hasKnife and !_isHarvested and _isZombie and _canDo) then {
 		if (s_player_gather_zed_butcher < 0) then {
@@ -122,7 +123,7 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 	} else {
 		player removeAction s_player_gather_zed_butcher;
 		s_player_gather_zed_butcher = -1;
-	};
+	}; 
 	
 	//Fireplace Actions check
 	if(inflamed cursorTarget and _hasRawMeat and _canDo) then {
