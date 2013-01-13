@@ -247,7 +247,7 @@ class CfgBuildingLoot {
 		itemType[] =	{
 			{"WeaponHolder_ItemJerrycan","object"},
 			{"","generic"},
-			{"huntingrifle","weapon"},
+			//{"huntingrifle","weapon"},
 			{"LeeEnfield","weapon"},
 			{"Winchester1866","weapon"},
 			{"","trash"},
@@ -260,7 +260,7 @@ class CfgBuildingLoot {
 		itemChance[] =	{
 			0.06,	//	{"WeaponHolder_ItemJerrycan","object"},
 			0.28,	//	{"","generic"},
-			0.01,	//	{"huntingrifle","weapon"},
+			//0.01,	//	{"huntingrifle","weapon"},
 			0.03,	//	{"LeeEnfield","weapon"},
 			0.03,	//	{"Winchester1866","weapon"},
 			0.40,	//	{"","trash"},
