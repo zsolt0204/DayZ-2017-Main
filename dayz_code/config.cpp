@@ -20,7 +20,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"dayz_equip","dayz_weapons","CAMisc3","CABuildingParts","CABuildingParts_Signs","CAStructuresHouse","CAStructuresLand_Ind_Stack_Big","CAStructures_Misc_Powerlines","CAStructures","CABuildings","CABuildings2","Ind_MalyKomin","CAStructures_A_CraneCon","CAStructures_Mil","CAStructures_Nav","CAStructures_Rail","A_Crane_02","A_TVTower","CAStructures_Railway","CAStructuresHouse","CAStructuresHouse_HouseBT"};
+		requiredAddons[] = {"dayz_equip","dayz_weapons","CAMisc3","CABuildingParts","CABuildingParts_Signs","CAStructuresHouse","CAStructuresLand_Ind_Stack_Big","CAStructures_Misc_Powerlines","CAStructures","CABuildings","CABuildings2","Ind_MalyKomin","CAStructures_A_CraneCon","CAStructures_Mil","CAStructures_Nav","CAStructures_Rail","A_Crane_02","A_TVTower","CAStructures_Railway","CAStructuresHouse","CAStructuresHouse_HouseBT","aks74u_retext","ice_apo_weapons"};
 	};
 };
 
@@ -288,7 +288,7 @@ class CfgBuildingLoot {
 			{"","generic"},
 			{"LeeEnfield","weapon"},
 			{"revolver_EP1","weapon"},
-			{"Winchester1866","weapon"},
+			{"ice_apo_weapons_M16","weapon"},
 			{"WeaponHolder_ItemTent","object"},
 			{"","food"},
 			{"","trash"},
@@ -312,7 +312,7 @@ class CfgBuildingLoot {
 			0.05,	//	{"","generic"},
 			0.01,	//	{"LeeEnfield","weapon"},
 			0.01,	//	{"revolver_EP1","weapon"},
-			0.01,	//	{"Winchester1866","weapon"},
+			1,	//	{"aks74u_retext","weapon"},
 			0.04,	//	{"WeaponHolder_ItemTent","object"},
 			0.05,	//	{"","food"},
 			0.60,	//	{"","trash"},

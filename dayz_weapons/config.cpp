@@ -299,7 +299,8 @@ class cfgWeapons {
 		model = "\dayz_weapons\models\Winchester1866";
 		picture = "\dayz_weapons\textures\equip_winchester1866_CA.paa";
 		UiPicture = "\CA\weapons\data\Ico\i_regular_CA.paa";
-		magazines[] = {"15Rnd_W1866_Slug", "15Rnd_W1866_Pellet"};
+		// magazines[] = {"15Rnd_W1866_Slug", "15Rnd_W1866_Pellet"};
+		magazines[] = {"Single_W1866_Slug"};
 		optics = true;
 		modelOptics = "-";
 		displayname = $STR_WPN_NAME_1;
@@ -558,6 +559,20 @@ class cfgMagazines {
 		descriptionShort = $STR_MAG_DESC_2;
 		displayNameShort = "Slug";
 	};
+	
+	class Single_W1866_Slug : CA_Magazine {
+		scope = public;
+		displayName = "Single_W1866_Slug";
+		ammo = "B_1866_Slug";
+		model = "\dayz_weapons\models\Single_Slug.p3d";
+		picture = "\dayz_weapons\textures\equip_shells_ca.paa";
+		count = 1;
+		initSpeed = 396;
+		descriptionShort = "Single_W1866_Slug";
+		displayNameShort = "Slug";
+	};
+	
+	
 	
 	class 15Rnd_W1866_Pellet : 15Rnd_W1866_Slug {};
 	
