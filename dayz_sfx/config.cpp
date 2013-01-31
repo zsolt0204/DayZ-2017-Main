@@ -940,4 +940,10 @@ class CfgMusic {
 		sound[] = {"\dayz_sfx\samples\suspense_35.ogg", db0, 1.0};
 		duration = 20;
 	};
+	//2017
+	class breath {
+		name = "";
+		sound[] = {"\dayz_sfx\samples\breath.ogg", db0, 1.0};
+		duration = 20;
+	};
 };

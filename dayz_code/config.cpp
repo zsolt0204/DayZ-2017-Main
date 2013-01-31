@@ -14,6 +14,7 @@
 #define EAST 0 // (Russian)
 
 #include "basicdefines.hpp"
+#include "R3F_CfgWeight.h"
 
 class CfgPatches {
 	class dayz_code {
