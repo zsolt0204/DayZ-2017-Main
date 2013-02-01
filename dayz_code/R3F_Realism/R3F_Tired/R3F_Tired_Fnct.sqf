@@ -48,6 +48,7 @@ R3F_TIRED_FNCT_Voile_Noir = {
 	_handle = _this select 0;
 	_level = _this select 1;
 	playSound "breath_1";
+	playSound "heartbeat_1";
 	//_handle ppEffectAdjust [
 		//_level,
 		//_level,
@@ -68,13 +69,14 @@ R3F_TIRED_FNCT_Voile_Noir = {
 
 R3F_TIRED_FNCT_DoBlackVanish = {
 	titleText ["You're carrying to much and pushing yourself to hard. Either drop some gear, or rest up!", "BLACK OUT",4]; // after the fade, black screen count for 4
-	player playMoveNow "AinjPpneMstpSnonWrflDnon_rolltoback";
+	player playMoveNow "AidlPpneMstpSnonWnonDnon_SleepB_standUp";
 	//0 fadeSound 0;
+	playSound "heartbeat_1";
 	[R3F_TIRED_UNCONSCIOUSNESS_DURATION] call R3F_TIRED_FNCT_Wait4Effect;
 	if (alive player) then {
 		titleText ["", "BLACK IN",4];
 		//0 fadeSound 1;
-		player playMoveNow "AidlPpneMstpSnonWnonDnon_SleepB_standUp";
+		//player playMoveNow "aidlpercmstpsnonwnondnon_player_idlesteady02";
 	};
 };
 
