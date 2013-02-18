@@ -637,8 +637,8 @@ class cfgWeapons {
 	class ItemMatchbox : ItemCore {
 		scope = public;
 		displayName = $STR_EQUIP_NAME_3;
-		model = "\dayz_equip\models\matchbox_gear.p3d";
-		picture = "\dayz_equip\textures\equip_matchbox_ca.paa";
+		model = "\dayz_equip\models\fireflint.p3d";
+		picture = "\dayz_equip\textures\steel-flint-firestarter";
 		descriptionShort = $STR_EQUIP_DESC_3;
 		
 		class ItemActions {
