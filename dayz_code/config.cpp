@@ -95,7 +95,7 @@ class CfgSurvival {
 	class Inventory {
 		class Default {
 						magazines[] = {"HandChemGreen","ItemWaterbottle"};
-						weapons[] = {};
+						weapons[] = {"ItemFlint"};
 			backpackWeapon = "";
 			backpack = "ice_apo_pack3";
 		};

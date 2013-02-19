@@ -634,7 +634,7 @@ class cfgWeapons {
 		descriptionShort = $STR_EQUIP_DESC_1;
 	};
 	
-	class ItemMatchbox : ItemCore {
+	class ItemFlint : ItemCore {
 		scope = public;
 		displayName = $STR_EQUIP_NAME_3;
 		model = "\dayz_equip\models\fireflint.p3d";
@@ -1865,8 +1865,8 @@ class CfgVehicles {
 		model = "\dayz_equip\models\cardboard_box.p3d";
 		
 		class TransportWeapons {
-			class _xx_ItemMatchbox {
-				weapon = "ItemMatchbox";
+			class _xx_ItemFlint {
+				weapon = "ItemFlint";
 				count = 3;
 			};
 			

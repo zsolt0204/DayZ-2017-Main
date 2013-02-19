@@ -26,16 +26,16 @@
 				<Russian>Набор инструментов используется для ремонта поврежденной техники и снаряжения а так же установки укреплений.</Russian>
 			</Key>						
 			<Key ID="STR_EQUIP_NAME_3">						
-				<Original>Box of Matches</Original>						
-				<English>Box of Matches</English>						
-				<German>Schachtel Streichhölzer</German>
-				<Russian>Коробок спичек</Russian>
+				<Original>Flint Fire Starters</Original>						
+				<English>Flint Fire Starters</English>						
+				<German>Flint Fire Starters</German>
+				<Russian>Flint Fire Starters</Russian>
 			</Key>						
 			<Key ID="STR_EQUIP_DESC_3">						
-				<Original>Box of safety matches for starting a fire under controlled conditions.</Original>						
-				<English>Box of safety matches for starting a fire under controlled conditions.</English>						
-				<German>Eine Schachtel Sicherheitsstreichhölzer, mit dem ein kontrolliertes Feuer gemacht werden kann</German>
-				<Russian>Коробок спичек используется для разведения костра.</Russian>
+				<Original>Flint Fire Starters for starting a fire under controlled conditions.</Original>						
+				<English>Flint Fire Starters for starting a fire under controlled conditions.</English>						
+				<German>Flint Fire Starters for starting a fire under controlled conditions.</German>
+				<Russian>Flint Fire Starters for starting a fire under controlled conditions.</Russian>
 			</Key>						
 			<Key ID="STR_EQUIP_NAME_4">						
 				<Original>Hunting Knife</Original>						
