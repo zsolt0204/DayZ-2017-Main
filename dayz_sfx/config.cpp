@@ -41,6 +41,12 @@ class CfgSounds {
 		titles[] = {};
 	};
 	
+	class weight_1 {
+		name = "";
+		sound[] = {"\dayz_sfx\effects\deep_breathing", 0.1, 1, 30};
+		titles[] = {};
+	};
+	
 	class heartbeat_1 {
 		name = "";
 		sound[] = {"\dayz_sfx\effects\heartbeat_1", 0.8, 1, 30};

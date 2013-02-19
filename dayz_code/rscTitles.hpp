@@ -1080,7 +1080,7 @@ class RscTitles
 				idc = 1203;
 				text = "\z\addons\dayz_code\gui\status_fracture_ca.paa";
 				x = 0.955313 * safezoneW + safezoneX;
-				y = 0.58 * safezoneH + safezoneY;
+				y = 0.51 * safezoneH + safezoneY;
 				w = 0.06;
 				h = 0.08;
 				colorText[] = {1,1,1,1};
@@ -1090,7 +1090,7 @@ class RscTitles
 				idc = 1204;
 				text = "\z\addons\dayz_code\gui\status_connection_ca.paa";
 				x = 0.955313 * safezoneW + safezoneX;
-				y = 0.51 * safezoneH + safezoneY;
+				y = 0.44 * safezoneH + safezoneY;
 				w = 0.06;
 				h = 0.08;
 				colorText[] = {1,1,1,1};
@@ -1130,6 +1130,14 @@ class RscTitles
 				y = 0.816666 * safezoneH + safezoneY; //3
 				w = 0.04;
 				h = 0.053333;
+			};
+			class RscPicture_1309 : RscPictureGUI {
+				idc = 1309;
+				text = "\z\addons\dayz_code\gui\status_weight_border_ca.paa";
+				x = "0.955313 * safezoneW + safezoneX";
+				y = "0.58 * safezoneH + safezoneY";
+				w = 0.06;
+				h = 0.08;
 			};
 		};
 		class Controls{
@@ -1223,6 +1231,14 @@ class RscTitles
 				y = 0.816666 * safezoneH + safezoneY;
 				w = 0.04;
 				h = 0.053333;
+			};
+			class RscPicture_1209 : RscPictureGUI {
+				idc = 1209;
+				text = "\z\addons\dayz_code\gui\status_weight_inside_ca.paa";
+				x = "0.955313 * safezoneW + safezoneX";
+				y = "0.58 * safezoneH + safezoneY";
+				w = 0.06;
+				h = 0.08;
 			};
 		};
 	};
