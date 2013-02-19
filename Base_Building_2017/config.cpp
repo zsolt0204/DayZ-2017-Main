@@ -104,6 +104,7 @@ class CfgVehicles
 	 
 	class vehicleShelter_us_DZ: vehicleShelter_us
 	 {
+	  scope = 2;
 	  vehicleClass = "Base_Building_2017";
 	  displayName = "vehicle Shelter (2017)";
 	 };
