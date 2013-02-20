@@ -68,13 +68,12 @@ R3F_TIRED_FNCT_Voile_Noir = {
 };
 
 R3F_TIRED_FNCT_DoBlackVanish = {
-	titleText ["You're carrying to much and pushing yourself to hard. Either drop some gear, or rest up!", "BLACK OUT",6]; 
-	titleText ["", "BLACK IN",4];
+	titleText ["You're carrying to much and pushing yourself to hard. Either drop some gear, or rest up!", "PLAIN DOWN",2]; 
 	player setVariable["startcombattimer", 1, true];
 	player playMoveNow "AidlPpneMstpSnonWnonDnon_SleepB_standUp";
 	[R3F_TIRED_UNCONSCIOUSNESS_DURATION] call R3F_TIRED_FNCT_Wait4Effect;
 	if (alive player && R3F_TIRED_Accumulator > R3F_TIRED_BLACKOUT_LEVEL) then {
-		//titleText ["", "BLACK IN",4];
+		titleText ["ok!", "PLAIN DOWN",2]; 
 		player playMoveNow "aidlpercmstpsnonwnondnon_player_idlesteady02";
 	};
 };
