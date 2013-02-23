@@ -72,7 +72,7 @@ class CfgMagazines {
 		picture = "\Ca\weapons\Data\Equip\m_makarov_CA.paa";				
 		};
 		
-	class 30Rnd_556x45_Stanag_tapedmags: CA_Magazine {
+	class 15Rnd_556x45_Stanag_tapedmags: CA_Magazine {
 			scope = 2;
 			displayName = "STANAG (60)";
 			ammo = "B_556x45_Ball";
@@ -175,7 +175,7 @@ class cfgWeapons {
 		model = "\2017Weapons\M16_proxy";
 		selectionFireAnim = "zasleh";
 		displayName = "Rusty M16A2";
-	magazines[] = {"30Rnd_556x45_Stanag_tapedmags"};
+	magazines[] = {"15Rnd_556x45_Stanag_tapedmags"};
 	class Library
 		{
 			libTextDesc = "M16 Rifle with makeshift FlashLight mount.";
@@ -188,7 +188,7 @@ class cfgWeapons {
 		scope = 2;
 		model = "\2017Weapons\M4_ironsight";
 		selectionFireAnim = "zasleh";
-		magazines[] = {"30Rnd_556x45_Stanag_tapedmags"};
+		magazines[] = {"15Rnd_556x45_Stanag_tapedmags"};
 		picture = "\2017Weapons\Data\m4a1_ca.paa";
 		displayName = "Rusty M4A1";
 		class FlashLight
