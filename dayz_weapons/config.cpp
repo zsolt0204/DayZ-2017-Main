@@ -299,7 +299,7 @@ class cfgWeapons {
 		model = "\dayz_weapons\models\Winchester1866";
 		picture = "\dayz_weapons\textures\equip_winchester1866_CA.paa";
 		UiPicture = "\CA\weapons\data\Ico\i_regular_CA.paa";
-		magazines[] = {"Single_W1866_Slug", "Single_W1866_Pellet"};
+		magazines[] = {"Single_W1866_Slug"};
 		optics = true;
 		modelOptics = "-";
 		displayname = $STR_WPN_NAME_1;
@@ -339,7 +339,7 @@ class cfgWeapons {
 		picture = "\dayz_weapons\textures\equip_mr43_CA.paa";
 		displayname = $STR_WPN_NAME_5;
 		descriptionShort = $STR_WPN_DESC_5;
-		magazines[] = {"Single_W1866_Slug"};
+		magazines[] = {"Single_W1866_Slug", "Single_W1866_Pellet"};
 		
 		class Single : Mode_SemiAuto {
 			dispersion = 0.003;
