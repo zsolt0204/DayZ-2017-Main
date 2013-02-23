@@ -339,7 +339,7 @@ class cfgWeapons {
 		picture = "\dayz_weapons\textures\equip_mr43_CA.paa";
 		displayname = $STR_WPN_NAME_5;
 		descriptionShort = $STR_WPN_DESC_5;
-		magazines[] = {"Single_W1866_Slug", "Single_W1866_Pellet"};
+		magazines[] = {"Single_W1866_Slug", "Single_Rnd_Pellet"};
 		
 		class Single : Mode_SemiAuto {
 			dispersion = 0.003;
@@ -573,7 +573,7 @@ class cfgMagazines {
 	
 	
 	
-	class Single_W1866_Pellet : Single_W1866_Slug {};
+	class Single_Rnd_Pellet : Single_W1866_Slug {};
 	
 	/* class Single_B_Beneli_74Slug : CA_Magazine {
 		scope = public;
