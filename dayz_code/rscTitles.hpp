@@ -1226,4 +1226,128 @@ class RscTitles
 			};
 		};
 	};
+	
+// Blood starts here	
+	
+//===================================
+//============ Screen ===============
+//===================================
+	class screen
+	{ 
+		idd=-1; 
+		movingEnable=1; 
+		duration=10e10; 
+		fadein=0;
+		fadeout=1;
+		name="Screen"; 
+		onload = "uinamespace setvariable ['str_screen',_this select 0];";
+		class controlsbackground
+		{
+			class vignette: RscPicture 
+			{
+				idc = -1;
+				text="ca\missions_ew\img\vignette_ca.paa";
+				x=safezoneX;
+				y=safezoneY;
+				w=safezoneW;
+				h=safezoneH;
+				colortext[] = {1,1,1,0.7};
+			};
+		};
+		class controls
+		{
+			class screen_0: RscPicture 
+			{
+				idc = 1000;
+				text="ca\missions_ew\img\screen_dirt_ca.paa";
+				x=safezoneX;
+				y=safezoneY;
+				w=0;
+				h=0;	  
+			};
+			class screen_1: screen_0	{idc = 1001; text="ca\missions_ew\img\screen_blood_1_ca.paa";};
+			class screen_2: screen_0	{idc = 1002; text="ca\missions_ew\img\screen_blood_2_ca.paa";};
+			class screen_3: screen_0	{idc = 1003; text="ca\missions_ew\img\screen_blood_3_ca.paa";};
+			class screen_4: screen_0	{idc = 1004; text="ca\missions_ew\img\screen_blood_1_ca.paa";};
+			class screen_5: screen_0	{idc = 1005; text="ca\missions_ew\img\screen_blood_2_ca.paa";};
+			class screen_6: screen_0	{idc = 1006; text="ca\missions_ew\img\screen_blood_3_ca.paa";};
+		};
+	};
+	
+	//===============================
+	//==== Camera borders smooth ====
+	//===============================
+	class camerabordersmooth
+	{
+		name = "camera border smooth";
+		duration = 10e10;
+		fadein = 0;
+		idd = -1;
+		movingEnable = false;
+		onload = "uinamespace setvariable ['str_border',_this select 0];";
+		class controls
+		{
+			class Top:RscPicture
+			{
+				idc = 100001;
+				access=3;
+				x = safezoneX;
+				y = safezoneY;
+				w = safezoneW;
+				h = 0.125;
+				text="ca\missions_ew\img\cameraborder_top_ca.paa";
+				colorBackground[]={0,0,0,1};
+			};
+			class Bottom:RscPicture
+			{
+				idc = 100002;
+				access=3;
+				x = safezoneX;
+				y = safezoneY + safezoneH - 0.125;
+				w = safezoneW;
+				h = 0.125;
+				text="ca\missions_ew\img\cameraborder_bottom_ca.paa";
+				colorBackground[]={0,0,0,1};
+			};
+		};
+	};
+	
+	//===============================
+//======= Camera borders ========
+//===============================
+	class cameraborder
+	{
+		name = "camera border";
+		duration = 10e10;
+		fadein = 0;
+		idd = -1;
+		movingEnable = false;
+		onload = "uinamespace setvariable ['str_border',_this select 0];";
+		class controls
+		{
+			class Top:RscText
+			{
+				idc = 100001;
+				access=3;
+				x = safezoneX;
+				y = safezoneY;
+				w = safezoneW;
+				h = 0.125;// - safezoneY;
+				text="";
+				colorBackground[]={0,0,0,1};
+			};
+			class Bottom:RscText
+			{
+				idc = 100002;
+				access=3;
+				x = safezoneX;
+				y = safezoneY + safezoneH - 0.125;
+				w = safezoneW;
+				h = 0.125;// - safezoneY;
+				text="";
+				colorBackground[]={0,0,0,1};
+			};
+		};
+	};
+
 };
