@@ -41,6 +41,12 @@ class CfgSounds {
 		titles[] = {};
 	};
 	
+	class weight_1 {
+		name = "";
+		sound[] = {"\dayz_sfx\effects\deep_breathing", 0.1, 1, 30};
+		titles[] = {};
+	};
+	
 	class heartbeat_1 {
 		name = "";
 		sound[] = {"\dayz_sfx\effects\heartbeat_1", 0.8, 1, 30};
@@ -938,6 +944,12 @@ class CfgMusic {
 	class z_suspense_35 {
 		name = "";
 		sound[] = {"\dayz_sfx\samples\suspense_35.ogg", db0, 1.0};
+		duration = 20;
+	};
+	//2017
+	class breath {
+		name = "";
+		sound[] = {"\dayz_sfx\samples\breath.ogg", db0, 1.0};
 		duration = 20;
 	};
 };

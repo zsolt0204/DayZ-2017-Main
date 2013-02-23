@@ -5,6 +5,8 @@ _foodVal = 		1 - (dayz_hunger / SleepFood);
 _thirstVal = 	1 - (dayz_thirst / SleepWater);
 _tempVal 	= 	(dayz_temperatur / dayz_temperaturnormal);	//TeeChange
 _combatVal =	1 - dayz_combat; // May change later to be a range of red/green to loosely indicate 'time left in combat'
+_weightVal =	1 - dayz_weight;
+_weightWarn = 50000;
 
 if (uiNamespace getVariable ['DZ_displayUI', 0] == 1) exitWith {
 	_array = [_foodVal,_thirstVal];
@@ -24,6 +26,8 @@ _ctrlEye = 		_display displayCtrl 1305;
 _ctrlHumanity = _display displayCtrl 1207;
 _ctrlCombat = _display displayCtrl 1307;
 _ctrlFracture = 	_display displayCtrl 1203;
+_ctrlWeight = 	_display displayCtrl 1209;
+
 
 //Food/Water/Blood
 _ctrlBlood ctrlSetTextColor 	[(Dayz_GUI_R + (0.3 * (1-_bloodVal))),(Dayz_GUI_G * _bloodVal),(Dayz_GUI_B * _bloodVal), 0.5];
@@ -31,6 +35,8 @@ _ctrlFood ctrlSetTextColor 		[(Dayz_GUI_R + (0.3 * (1-_foodVal))),(Dayz_GUI_G * 
 _ctrlThirst ctrlSetTextColor 	[(Dayz_GUI_R + (0.3 * (1-_thirstVal))),(Dayz_GUI_G * _thirstVal),(Dayz_GUI_B * _thirstVal), 0.5];
 _ctrlTemp ctrlSetTextColor 		[(Dayz_GUI_R + (0.3 * _tempVal)),(Dayz_GUI_G * _tempVal),(Dayz_GUI_B + (0.25 * (1/_tempVal))), 0.5];	//TeeChange Coulor should change into red if value is higher as normale temp and into blue if coulor is lower as normal temp
 _ctrlCombat ctrlSetTextColor		[(Dayz_GUI_R + (0.3 * (1-_combatVal))),(Dayz_GUI_G * _combatVal),(Dayz_GUI_B * _combatVal), 0.5];
+_ctrlWeight ctrlSetTextColor		[(Dayz_GUI_R + (0.3 * (1-_weightVal))),(Dayz_GUI_G * _weightVal),(Dayz_GUI_B * _weightVal), 0.5];
+
 
 /*
 _humanity = player getVariable["humanity",0];
@@ -79,6 +85,10 @@ if (_foodVal < 0.2) then {
 
 if (_tempVal < 0.833) then {	//TeeChange
 	_ctrlTemp call player_guiControlFlash;
+};
+
+if (_weightVal == 0) then {	//TeeChange
+	_ctrlWeight call player_guiControlFlash;
 };
 
 if (r_player_injured) then {

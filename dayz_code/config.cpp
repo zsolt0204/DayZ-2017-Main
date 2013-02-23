@@ -14,6 +14,7 @@
 #define EAST 0 // (Russian)
 
 #include "basicdefines.hpp"
+#include "R3F_CfgWeight.h"
 
 class CfgPatches {
 	class dayz_code {
@@ -34,7 +35,7 @@ class CfgMods
 		hidePicture = 0;
 		hideName = 0;
 		action = "http://www.opendayz.net";
-		version = "1.1";
+		version = "2.0";
 		hiveVersion = 0.96; //0.93
 	};
 };
