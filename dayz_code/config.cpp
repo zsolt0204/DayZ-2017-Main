@@ -152,50 +152,38 @@ class CfgBuildingLoot {
 		lootChance = 0.3;
 		lootPos[] = {};
 		itemType[] =	{
-			{"ItemMatchbox","generic"},
 			{"ItemWatch","generic"},
-			{"ItemCompass","generic"},
 			{"ItemMap","weapon"},
-			{"Tokarev","weapon"},
+			{"Makarov","weapon"},
 			{"ItemFlashlight","generic"},
 			{"ItemKnife","generic"},
-			{"ItemMatchbox","generic"},
 			{"","generic"},
-			{"Mosin38","weapon"},
-			{"revolver_EP1","weapon"},
-			{"Winchester1866","weapon"},
+			{"Tokarev","weapon"},
+			{"WeaponHolder_ItemHatchet","object"},
 			{"WeaponHolder_ItemTent","object"},
 			{"","military"},
 			{"","trash"},
-			{"Crossbow","weapon"},
 			{"Binocular","weapon"},
 			{"WeaponHolder_MeleeCrowbar","object"},
 			{"ice_apo_pack1","object"},
-			{"ice_apo_pack4","object"},
 			{"MR43","weapon"}
 		};
 		itemChance[] =	{
-			0.10,	//	{"ItemWatch","generic"},
-			0.09,	// {"ItemWatch","generic"},
-			0.05,	// {"ItemCompass","generic"},
-			0.03,	// {"ItemMap","weapon"},
-			0.06,	// {"Tokarev","weapon"},
-			0.03,	// {"ItemFlashlight","generic"},
-			0.08,	// {"ItemKnife","generic"},
-			0.06,	// {"ItemMatchbox","generic"},
-			0.44,	// {"","generic"},
-			0.05,	// {"Mosin38","weapon"},
-			0.04,	// {"revolver_EP1","weapon"},
-			0.02,	// {"Winchester1866","weapon"},
+			0.01,	// {"ItemWatch","generic"},
+			0.01,	// {"ItemMap","weapon"},
+			0.02,	// {"Makarov","weapon"},
+			0.01,	// {"ItemFlashlight","generic"},
+			0.02,	// {"ItemKnife","generic"},
+			0.10,	// {"","generic"},
+			0.01,	// {"Tokarev","weapon"},
+			0.03,	// {"WeaponHolder_ItemHatchet","object"},
 			0.01,	// {"WeaponHolder_ItemTent","object"},
-			0.03,	// {"","military"},
-			0.22,	// {"","trash"},
-			0.01,	// {"Crossbow","weapon"},
-			0.06,	// {"Binocular","weapon"},
-			0.08,	// {"WeaponHolder_MeleeCrowbar","object"},
+			0.01,	// {"","military"},
+			0.40,	// {"","trash"},
+			0.01,	// {"Binocular","weapon"},
+			0.04,	// {"WeaponHolder_MeleeCrowbar","object"},
 			0.01,	// {"ice_apo_pack1","object"},
-			0.01,	// {"ice_apo_pack4","object"}
-			0.03	// {"MR43","weapon"}
+			0.01	// {"MR43","weapon"}
 		};		
 	};
 	class Office: Residential {
@@ -218,25 +206,25 @@ class CfgBuildingLoot {
 			{"WeaponHolder_PartEngine","object"},
 			{"WeaponHolder_ItemJerrycan","object"},
 			{"WeaponHolder_ItemHatchet","object"},
-			{"ItemKnife","military"},
+			{"WeaponHolder_MeleeCrowbar","object"},
 			{"ItemToolbox","weapon"},
 			{"ItemWire","magazine"},
 			{"ItemTankTrap","magazine"}
 		};
 		itemChance[] =	{
-			0.18,	//	{"","generic"},
-			0.50,	//	{"","trash"},
-			0.04,	//	{"","military"},
-			0.04,	//	{"WeaponHolder_PartGeneric","object"},
-			0.05,	//	{"WeaponHolder_PartWheel","object"},
-			0.02,	//	{"WeaponHolder_PartFueltank","object"},
-			0.03,	//	{"WeaponHolder_PartEngine","object"},
-			0.04,	//	{"WeaponHolder_ItemJerrycan","object"},
-			0.10,	//	{"WeaponHolder_ItemHatchet","object"},
-			0.07,	//	{"ItemKnife","military"},
-			0.06,	//	{"ItemToolbox","weapon"},
-			0.01,	//	{"ItemWire","magazine"},
-			0.04	//	{"ItemTankTrap","magazine"}
+			0.04,	// {"","generic"},
+			0.40,	// {"","trash"},
+			0.00,	// {"","military"},
+			0.01,	// {"WeaponHolder_PartGeneric","object"},
+			0.01,	// {"WeaponHolder_PartWheel","object"},
+			0.01,	// {"WeaponHolder_PartFueltank","object"},
+			0.01,	// {"WeaponHolder_PartEngine","object"},
+			0.01,	// {"WeaponHolder_ItemJerrycan","object"},
+			0.02,	// {"WeaponHolder_ItemHatchet","object"},
+			0.02,	// {"WeaponHolder_MeleeCrowbar","object"},
+			0.01,	// {"ItemToolbox","weapon"},
+			0.01,	// {"ItemWire","magazine"},
+			0.01	// {"ItemTankTrap","magazine"}
 		};
 	};
 	class Farm: Default {
@@ -248,28 +236,28 @@ class CfgBuildingLoot {
 		itemType[] =	{
 			{"WeaponHolder_ItemJerrycan","object"},
 			{"","generic"},
-			//{"huntingrifle","weapon"},
 			{"Mosin38","weapon"},
 			{"Winchester1866","weapon"},
 			{"","trash"},
 			{"Crossbow","weapon"},
 			{"PartWoodPile","magazine"},
 			{"WeaponHolder_ItemHatchet","object"},
+			{"ItemKnife","generic"},
 			{"MR43","weapon"},
 			{"TrapBear","magazine"}
 		};
 		itemChance[] =	{
-			0.06,	//	{"WeaponHolder_ItemJerrycan","object"},
-			0.28,	//	{"","generic"},
-			//0.01,	//	{"huntingrifle","weapon"},
-			0.03,	//	{"Mosin38","weapon"},
-			0.03,	//	{"Winchester1866","weapon"},
-			0.40,	//	{"","trash"},
-			0.03,	//	{"Crossbow","weapon"},
-			0.11,	//	{"PartWoodPile","magazine"},
-			0.10,	//	{"WeaponHolder_ItemHatchet","object"}
-			0.05,	//	{"MR43","weapon"}
-			0.03	//	{"TrapBear","magazine"}
+			0.01,	// {"WeaponHolder_ItemJerrycan","object"},
+			0.10,	// {"","generic"},
+			0.01,	// {"Mosin38","weapon"},
+			0.01,	// {"Winchester1866","weapon"},
+			0.42,	// {"","trash"},
+			0.01,	// {"Crossbow","weapon"},
+			0.01,	// {"PartWoodPile","magazine"},
+			0.02,	// {"WeaponHolder_ItemHatchet","object"},
+			0.01,	// {"ItemKnife","generic"},
+			0.01,	// {"MR43","weapon"},
+			0.01	// {"TrapBear","magazine"}
 		};
 	};
 	class Supermarket: Default {
@@ -279,69 +267,46 @@ class CfgBuildingLoot {
 		zombieChance = 0.3;
 		zombieClass[] = {"zZombie_Base","zZombie_Base","z_teacher","z_worker1","z_worker2"};
 		itemType[] = {
-			{"Single_W1866_Slug","generic"},
+			{"ItemWatch","generic"},
 			{"ItemCompass","generic"},
 			{"ItemMap","weapon"},
-			{"Tokarev","weapon"},
+			{"Makarov","weapon"},
 			{"ItemFlashlight","generic"},
+			{"ItemFlint","generic"},
 			{"ItemKnife","generic"},
-			{"ItemMatchbox","generic"},
 			{"","generic"},
-			{"Mosin38","weapon"},
-			{"revolver_EP1","weapon"},
+			{"Tokarev","weapon"},
 			{"WeaponHolder_ItemTent","object"},
 			{"","food"},
 			{"","trash"},
 			{"Crossbow","weapon"},
 			{"Binocular","weapon"},
-			//{"","drink"},
 			{"ice_apo_pack1","object"},
 			{"ice_apo_pack2","object"},
 			{"ice_apo_pack3","object"},
-			{"ice_apo_pack4","object"},
-			{"MR43","weapon"}
+			{"ice_apo_pack4","object"}
 		};
 		itemChance[] =	{
-			0.04,	//	{"Single_W1866_Slug","generic"},
-			0.01,	//	{"ItemCompass","generic"},
-			0.05,	//	{"ItemMap","weapon"},
-			0.05,	//	{"Tokarev","weapon"},
-			0.01,	//	{"ItemFlashlight","generic"},
-			0.04,	//	{"ItemKnife","generic"},
-			1,	//	{"ItemMatchbox","generic"},
-			0.05,	//	{"","generic"},
-			0.04,	//	{"Mosin38","weapon"},
-			0.01,	//	{"revolver_EP1","weapon"},
-			0.04,	//	{"WeaponHolder_ItemTent","object"},
-			0.05,	//	{"","food"},
-			0.60,	//	{"","trash"},
-			0.01,	//	{"Crossbow","weapon"}
-			0.02,	//	{"Binocular","weapon"},
-			//0.01,	//	{"","drink"},
-			0.02,	//	{"ice_apo_pack1","object"},
-			0.02,	//	{"ice_apo_pack2","object"}
-			0.03,	//	{"ice_apo_pack3","object"},
-			0.02,	//	{"ice_apo_pack4","object"}
-			0.02	//	{"MR43","weapon"}
+			0.01,	// {"ItemWatch","generic"},
+			0.01,	// {"ItemCompass","generic"},
+			0.01,	// {"ItemMap","weapon"},
+			0.01,	// {"Makarov","weapon"},
+			0.01,	// {"ItemFlashlight","generic"},
+			0.01,	// {"ItemFlint","generic"},
+			0.01,	// {"ItemKnife","generic"},
+			0.01,	// {"","generic"},
+			0.01,	// {"Tokarev","weapon"},
+			0.01,	// {"WeaponHolder_ItemTent","object"},
+			0.01,	// {"","food"},
+			0.42,	// {"","trash"},
+			0.01,	// {"Crossbow","weapon"},
+			0.01,	// {"Binocular","weapon"},
+			0.01,	// {"ice_apo_pack1","object"},
+			0.01,	// {"ice_apo_pack2","object"},
+			0.01,	// {"ice_apo_pack3","object"},
+			0.01,	// {"ice_apo_pack4","object"}
 		};
 	};
-//	class HeliCrash: Default {
-//		zombieChance = 0;
-//		maxRoaming = 2;
-//		zombieClass[] = {"z_soldier_pilot"};
-//		lootChance = 0.5;
-//		lootPos[] = {};
-//		itemType[] =	{		
-//			{"","military"},
-//			{"","medical"},
-//			{"","trash"},
-//		};
-//		itemChance[] =	{
-//			1,			//{"","military"},
-//			0.5,		//{"","medical"},
-//			0.75,		// {"","trash"},
-//		};
-//	};
 	class Hospital: Default {
 		zombieChance = 0.4;
 		minRoaming = 2;
@@ -351,13 +316,11 @@ class CfgBuildingLoot {
 		lootPos[] = {};
 		itemType[] =	{
 			{"","trash"},
-			{"","hospital"},
-			{"MedBox0","object"}
+			{"","hospital"}
 		};
 		itemChance[] =	{
-			0.05,	//	{"","trash"},
-			0.02,	//	{"","hospital"},
-			0.05,	//	{"MedBox0","object"}
+			0.04,	// {"","trash"},
+			0.02,	// {"","hospital"}
 		};
 	};
 	class Military: Default {
@@ -367,7 +330,6 @@ class CfgBuildingLoot {
 		lootChance = 0.2;
 		lootPos[] = {};
 		itemType[] =	{
-			{"Remington870_lamp","weapon"},
 			{"Binocular","weapon"},
 			{"ItemKnife","military"},
 			{"ItemMap","military"},
@@ -378,23 +340,22 @@ class CfgBuildingLoot {
 			{"ItemEtool","weapon"},
 			{"ItemSandbag","magazine"},
 			{"Mosin38","weapon"},
-			{"revolver_EP1","weapon"},
+			{"Tokarev","weapon"},
 			{"Winchester1866","weapon"}
 		};
 		itemChance[] =	{
-			0.02,	//	{"Remington870_lamp","weapon"},
-			0.06,	//	{"Binocular","weapon"},
-			0.10,	//	{"ItemKnife","military"},
-			0.05,	//	{"ItemMap","military"},
-			0.10,	//	{"","medical"},
-			1.00,	//	{"","generic"},
-			1.00,	//	{"","military"},
-			1.00,	//  {"","trash"},
-			0.05,	//	{"ItemEtool","weapon"},
-			0.02,	//	{"ItemSandbag","magazine"}
-			0.06,	// {"Mosin38","weapon"},
-			0.04,	// {"revolver_EP1","weapon"},
-			0.03	// {"Winchester1866","weapon"},
+			0.01,	// {"Binocular","weapon"},
+			0.01,	// {"ItemKnife","military"},
+			0.01,	// {"ItemMap","military"},
+			0.01,	// {"","medical"},
+			0.42,	// {"","generic"},
+			0.42,	// {"","military"},
+			0.42,	// {"","trash"},
+			0.01,	// {"ItemEtool","weapon"},
+			0.01,	// {"ItemSandbag","magazine"},
+			0.01,	// {"Mosin38","weapon"},
+			0.02,	// {"Tokarev","weapon"},
+			0.01	// {"Winchester1866","weapon"}
 		};
 	};
 	class MilitarySpecial: Default {
@@ -405,7 +366,6 @@ class CfgBuildingLoot {
 		lootChance = 0.3;
 		lootPos[] = {};
 		itemType[] =	{
-			{"Remington870_lamp","weapon"},
 			{"Binocular","weapon"},
 			{"ItemFlashlightRed","military"},
 			{"ItemKnife","military"},
@@ -415,22 +375,26 @@ class CfgBuildingLoot {
 			{"","military"},
 			{"","trash"},
 			{"Mosin38","weapon"},
-			{"revolver_EP1","weapon"},
+			{"M16_FlashLight","weapon"},
+			{"M4_FlashLight","weapon"},
+			{"Tokarev","weapon"},
 			{"Winchester1866","weapon"}
+			
 		};
 		itemChance[] =	{
-			0.07,	//	{"Remington870_lamp","weapon"},
-			0.10,	//	{"Binocular","weapon"},
-			0.05,	//	{"ItemFlashlightRed","military"},
-			0.15,	//	{"ItemKnife","military"},
-			0.03,	//	{"ItemMap","military"},
-			0.30,	//	{"","medical"},
-			1.00,	//	{"","generic"},
-			1.00,	//	{"","military"},
-			1.00,	// {"","trash"},
-			0.08,	// {"Mosin38","weapon"},
-			0.10,	// {"revolver_EP1","weapon"},
-			0.10	// {"Winchester1866","weapon"},
+			0.01,	// {"Binocular","weapon"},
+			0.01,	// {"ItemFlashlightRed","military"},
+			0.01,	// {"ItemKnife","military"},
+			0.01,	// {"ItemMap","military"},
+			0.10,	// {"","medical"},
+			0.50,	// {"","generic"},
+			0.50,	// {"","military"},
+			0.50,	// {"","trash"},
+			0.01,	// {"Mosin38","weapon"},
+			0.01,	// {"M16_FlashLight","weapon"},
+			0.01,	// {"M4_FlashLight","weapon"},
+			0.02,	// {"Tokarev","weapon"},
+			0.02	// {"Winchester1866","weapon"}
 		};
 	};
 	class Church: Residential {

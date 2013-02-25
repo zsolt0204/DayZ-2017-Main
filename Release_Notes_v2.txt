@@ -22,23 +22,24 @@ Colonel Stagler - for allowing us to modify and use his IRA units.
 
 SchnapsdroSel - for the base female model used for the female survivor. 
 
+Oyman find kind use of his open tractor models.
+
 Josh and Sickboy for getting the mod out there.
 
-Mamu1234 for helping with the forest spawns.
-
 Everyone on opendayz.net including Pwnoz0r, Stapo, Alby, JoSchapp, f0rt, Simon and the mydayz.de guys, Ayan, VR-Shiva, Damo, Dimedius and loads more.
-
-Everyone on /r/dayz (even the haters).
 
 And of course 'The Team' and contributers.
 
 Project Lead - Luke Hinds (shinkicker) 
-Deniz Zoeteman - Bliss maintainer
+Test Lead & Developer - Lee Elsom (Hellborn) 
+Deniz Zoeteman - Reality maintainer & Developer
+Philippe (genkids) - Developer, Loot Balance
+Martin - Developer 
 Lional Stapleton (Stapo) [2017 Lite Server Pack]
+Media and Video - Karwin Leutscher
 Art - Mark Wojcik (nnuu)
 Art & Modeling - Luke Howitt 
 Art & Modeling - stevoktm
-Media and Video - Karwin Leutscher
 
 Everyone who tested, suggested and helped push it along! big thanks!
  
