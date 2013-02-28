@@ -27,22 +27,10 @@ if ( _playerID != _dummy ) then {
 
 //Variables
 _worldspace = 	[];
-
-
 _state = 		[];
 
-//Do Connection Attempt
-_doLoop = 0;
-while {_doLoop < 5} do {
-	_key = format["CHILD:102:%1:",_characterID];
-	_primary = [_key,false,dayZ_hivePipeAuth] call server_hiveReadWrite;
-	if (count _primary > 0) then {
-		if ((_primary select 0) != "ERROR") then {
-			_doLoop = 9;
-		};
-	};
-	_doLoop = _doLoop + 1;
-};
+_key = format["CHILD:102:%1:",_characterID];
+_primary = [_key,false,dayZ_hivePipeAuth] call server_hiveReadWrite;
 
 if (isNull _playerObj or !isPlayer _playerObj) exitWith {
 	diag_log ("SETUP RESULT: Exiting, player object null: " + str(_playerObj));
@@ -63,7 +51,6 @@ _randomSpot = false;
 //diag_log ("WORLDSPACE: " + str(_worldspace));
 
 if (count _worldspace > 0) then {
-
 	_position = 	_worldspace select 1;
 	if (count _position < 3) then {
 		//prevent debug world!
@@ -97,15 +84,8 @@ if (count _medical > 0) then {
 	_playerObj setVariable["USEC_isCardiac",(_medical select 5),true];
 	_playerObj setVariable["USEC_lowBlood",(_medical select 6),true];
 	_playerObj setVariable["USEC_BloodQty",(_medical select 7),true];
-	
+
 	_playerObj setVariable["unconsciousTime",(_medical select 10),true];
-	
-//	if (_playerID in dayz_disco) then {
-//		_playerObj setVariable["NORRN_unconscious",true, true];
-//		_playerObj setVariable["unconsciousTime",300,true];
-//	} else {
-//		_playerObj setVariable["unconsciousTime",(_medical select 10),true];
-//	};
 	
 	//Add Wounds
 	{
@@ -186,7 +166,7 @@ if (_randomSpot) then {
 		_counter = 0;
 		while {_counter < 20 and _findSpot} do {
 			_mkr = "spawn" + str(round(random 4));
-			_position = ([(getMarkerPos _mkr),0,1500,10,0,2000,1] call BIS_fnc_findSafePos);
+			_position = ([(getMarkerPos _mkr),0,1500,10,0,2000,0] call BIS_fnc_findSafePos);
 			_isNear = count (_position nearEntities ["Man",100]) == 0;
 			_isZero = ((_position select 0) == 0) and ((_position select 1) == 0);
 		//Island Check		//TeeChange

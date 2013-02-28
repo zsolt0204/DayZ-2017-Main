@@ -802,11 +802,11 @@ class CfgWeapons {
 	//class Rifle: FakeWeapon {};
 	//class M16_base: FakeWeapon {};
 	//class M16A2: FakeWeapon {};
-	class M16A2GL: FakeWeapon {};
-	class m16a4: FakeWeapon {};
-	class m16a4_acg: FakeWeapon {};
-	class M16A4_GL: FakeWeapon {};
-	class M16A4_ACG_GL: FakeWeapon {};
+	//class M16A2GL: FakeWeapon {};
+	//class m16a4: FakeWeapon {};
+	//class m16a4_acg: FakeWeapon {};
+	//class M16A4_GL: FakeWeapon {};
+	//class M16A4_ACG_GL: FakeWeapon {};
 	class M24: FakeWeapon {};
 	class M40A3: FakeWeapon {};
 	class M240: FakeWeapon {};

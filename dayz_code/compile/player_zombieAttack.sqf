@@ -55,7 +55,7 @@ if (_vehicle != player) then {
 				} else {
 					_wound = DAYZ_woundHit_ok call BIS_fnc_selectRandomWeighted;
 				};
-				_damage = 0.1 + random (1.2);
+				_damage = 0.3 + random (0.8);
 				//diag_log ("START DAM: Player Hit on " + _wound + " for " + str(_damage));
 				[player, _wound, _damage, _unit,"zombie"] call fnc_usec_damageHandler;
 				dayzHit =	[player,_wound, _damage, _unit,"zombie"];

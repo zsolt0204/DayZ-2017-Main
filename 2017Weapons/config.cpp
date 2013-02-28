@@ -54,7 +54,7 @@ class CfgMagazines {
 	
 	class 5Rnd_mosin : CA_Magazine {
 		scope = 2;
-		displayName = Mosin clip;
+		displayName = "Mosin Clip";
 		model = "\2017Weapons\5rnd_clip";
 		ammo = "VIL_FR_Ball";
 		count = 5;
@@ -64,7 +64,7 @@ class CfgMagazines {
 		
 	class 8Rnd_TT : CA_Magazine {
 		scope = 2;
-		displayName = "TT magazine";
+		displayName = "Tokarev magazine";
 		type = 16;
 		ammo = "vil_PARA_Ball";
 		count = 8;
@@ -74,7 +74,7 @@ class CfgMagazines {
 		
 	class 15Rnd_556x45_Stanag_tapedmags: CA_Magazine {
 			scope = 2;
-			displayName = "STANAG (60)";
+			displayName = "15 Rnd Taped Stanag";
 			ammo = "B_556x45_Ball";
 			count = 15;
 			initSpeed = 930;

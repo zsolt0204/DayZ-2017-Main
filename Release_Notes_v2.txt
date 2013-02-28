@@ -24,6 +24,8 @@ SchnapsdroSel - for the base female model used for the female survivor.
 
 Oyman find kind use of his open tractor models.
 
+R3F - Weight mod is based on there realism scripts.
+
 Josh and Sickboy for getting the mod out there.
 
 Everyone on opendayz.net including Pwnoz0r, Stapo, Alby, JoSchapp, f0rt, Simon and the mydayz.de guys, Ayan, VR-Shiva, Damo, Dimedius and loads more.
@@ -33,8 +35,8 @@ And of course 'The Team' and contributers.
 Project Lead - Luke Hinds (shinkicker) 
 Test Lead & Developer - Lee Elsom (Hellborn) 
 Deniz Zoeteman - Reality maintainer & Developer
-Philippe (genkids) - Developer, Loot Balance
-Martin - Developer 
+Developer - Philippe (genkids)
+Developer- Martin Hohenberger 
 Lional Stapleton (Stapo) [2017 Lite Server Pack]
 Media and Video - Karwin Leutscher
 Art - Mark Wojcik (nnuu)

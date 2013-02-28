@@ -29,7 +29,6 @@ class CfgVehicles
  class Land_fort_artillery_nest;
  class Land_HBarrier1;
  class Land_Shed_M03; 
- class vehicleShelter_us;
  class Hhedgehog_concrete;
  class Land_prebehlavka; 
  class Fence_corrugated_plate;
@@ -101,13 +100,6 @@ class CfgVehicles
 	 {
 	 vehicleClass = "Base_Building_2017";
 	  displayName = "Datsun Wreck (2017)";
-	 };
-	 
-	class vehicleShelter_us_DZ: vehicleShelter_us
-	 {
-	  scope = 2;
-	  vehicleClass = "Base_Building_2017";
-	  displayName = "vehicle Shelter (2017)";
 	 };
 	 
 	class Hhedgehog_concrete_DZ: Hhedgehog_concrete

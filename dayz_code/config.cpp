@@ -268,7 +268,7 @@ class CfgBuildingLoot {
 		zombieClass[] = {"zZombie_Base","zZombie_Base","z_teacher","z_worker1","z_worker2"};
 		itemType[] = {
 			{"ItemWatch","generic"},
-			{"ItemCompass","generic"},
+
 			{"ItemMap","weapon"},
 			{"Makarov","weapon"},
 			{"ItemFlashlight","generic"},
@@ -281,6 +281,7 @@ class CfgBuildingLoot {
 			{"","trash"},
 			{"Crossbow","weapon"},
 			{"Binocular","weapon"},
+			{"WeaponHolder_MeleeCrowbar","object"},
 			{"ice_apo_pack1","object"},
 			{"ice_apo_pack2","object"},
 			{"ice_apo_pack3","object"},
@@ -288,7 +289,7 @@ class CfgBuildingLoot {
 		};
 		itemChance[] =	{
 			0.01,	// {"ItemWatch","generic"},
-			0.01,	// {"ItemCompass","generic"},
+
 			0.01,	// {"ItemMap","weapon"},
 			0.01,	// {"Makarov","weapon"},
 			0.01,	// {"ItemFlashlight","generic"},
@@ -301,6 +302,7 @@ class CfgBuildingLoot {
 			0.42,	// {"","trash"},
 			0.01,	// {"Crossbow","weapon"},
 			0.01,	// {"Binocular","weapon"},
+			0.02,	// {"WeaponHolder_MeleeCrowbar","object"},
 			0.01,	// {"ice_apo_pack1","object"},
 			0.01,	// {"ice_apo_pack2","object"},
 			0.01,	// {"ice_apo_pack3","object"},
@@ -319,7 +321,7 @@ class CfgBuildingLoot {
 			{"","hospital"}
 		};
 		itemChance[] =	{
-			0.04,	// {"","trash"},
+			0.08,	// {"","trash"},
 			0.02,	// {"","hospital"}
 		};
 	};
@@ -340,6 +342,7 @@ class CfgBuildingLoot {
 			{"ItemEtool","weapon"},
 			{"ItemSandbag","magazine"},
 			{"Mosin38","weapon"},
+			{"WeaponHolder_MeleeCrowbar","object"},
 			{"Tokarev","weapon"},
 			{"Winchester1866","weapon"}
 		};
@@ -354,6 +357,7 @@ class CfgBuildingLoot {
 			0.01,	// {"ItemEtool","weapon"},
 			0.01,	// {"ItemSandbag","magazine"},
 			0.01,	// {"Mosin38","weapon"},
+			0.02,	// {"WeaponHolder_MeleeCrowbar","object"},
 			0.02,	// {"Tokarev","weapon"},
 			0.01	// {"Winchester1866","weapon"}
 		};
@@ -368,6 +372,7 @@ class CfgBuildingLoot {
 		itemType[] =	{
 			{"Binocular","weapon"},
 			{"ItemFlashlightRed","military"},
+			{"ItemCompass","generic"},
 			{"ItemKnife","military"},
 			{"ItemMap","military"},
 			{"","medical"},
@@ -384,6 +389,7 @@ class CfgBuildingLoot {
 		itemChance[] =	{
 			0.01,	// {"Binocular","weapon"},
 			0.01,	// {"ItemFlashlightRed","military"},
+			0.01,	// {"ItemCompass","generic"},
 			0.01,	// {"ItemKnife","military"},
 			0.01,	// {"ItemMap","military"},
 			0.10,	// {"","medical"},
