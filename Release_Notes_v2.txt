@@ -24,7 +24,9 @@ SchnapsdroSel - for the base female model used for the female survivor.
 
 Oyman find kind use of his open tractor models.
 
-R3F - Weight mod is based on there realism scripts.
+R3F - Weight mod is based on their realism scripts.
+
+Vilas (http://ofp.gamepark.cz/_hosted/vilas/) for the Mosin Nagant and Tokarev pistol 
 
 Josh and Sickboy for getting the mod out there.
 
