@@ -117,24 +117,6 @@
 			<German>Lade Charakterdaten. Bitte warten.</German>
 			<Russian>Загружается персонаж. Пожалуйста, подождите.</Russian>
 		</Key>
-		<Key ID="R3F_VERSION_WEIGHTED">
-			<Original>1.04</Original>
-			<English>1.04</English>
-			<German>1.04</German>
-			<Russian>1.04</Russian>
-		</Key>
-		<Key ID="STR_R3F_WEIGHT_InGearBox">
-			<Original>%1 | Weight carried : %2 lb</Original>
-			<English>%1 | Weight carried : %2 lb</English>
-			<German>%1 | Weight carried : %2 lb</German>
-			<Russian>%1 | Weight carried : %2 lb</Russian>
-		</Key>
-		<Key ID="STR_R3F_WEIGHT_English">
-			<Original>kg</Original>
-			<English>lb</English>
-			<German>kg</German>
-			<Russian>kg</Russian>
-		</Key>
 	</package>
     <Package name="feedback">
 		<Key ID="str_success_cooked">
@@ -572,6 +554,18 @@
 			<English>Cook Infected Flesh</English>
 			<German>Cook Infected Flesh</German>
 			<Russian>Cook Infected Flesh</Russian>
+		</Key>
+		<Key ID="str_actions_self_16">
+		    <Original>Sleep at Tent</Original>
+			<English>Sleep at Tent</English>
+			<German>Schlafen im Zelt</German>
+			<Russian>спать в палатке</Russian>
+		</Key>
+		<Key ID="str_actions_self_17">
+		    <Original>Play Sound</Original>
+			<English>Play Sound</English>
+			<German>Play Sound</German>
+			<Russian>Play Sound</Russian>
 		</Key>
 		<Key ID="str_actions_medical_01">
 			<Original>Drag Body</Original>

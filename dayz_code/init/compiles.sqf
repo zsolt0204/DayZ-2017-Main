@@ -17,6 +17,7 @@ if (!isDedicated) then {
 	fnc_usec_selfActions =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_selfActions.sqf";		//Checks which actions for self
 	fnc_usec_unconscious =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_unconscious.sqf";
 	player_temp_calculation	=	compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_temperatur.sqf";		//Temperatur System	//TeeChange
+	player_sleep_effects =      compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_sleep.sqf";
 	player_weaponFiredNear =	compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_weaponFiredNear.sqf";
 	player_animalCheck =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_animalCheck.sqf";
 	player_spawnCheck =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_spawnCheck.sqf";
@@ -66,6 +67,7 @@ if (!isDedicated) then {
 	player_tentPitch =			compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\tent_pitch.sqf";
 	player_drink =				compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_drink.sqf";
 	player_eat =				compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_eat.sqf";
+	player_sleep =              compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_sleep.sqf";
 	player_useMeds =			compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_useMeds.sqf";
 	player_fillWater = 			compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\water_fill.sqf";
 	player_makeFire =			compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_makefire.sqf";
@@ -118,11 +120,12 @@ if (!isDedicated) then {
 		_myExp
 	};
 	
-	//weight system
+		//weight system
 	if (!isDedicated) then
 		{
 		_void = [] execVM "\z\addons\dayz_code\R3F_Realism\R3F_Realism_Init.sqf";
 		};
+
 	
 	ui_initDisplay = {
 		private["_control","_ctrlBleed","_display","_ctrlFracture","_ctrlDogFood","_ctrlDogWater","_ctrlDogWaterBorder", "_ctrlDogFoodBorder"];
@@ -431,15 +434,9 @@ if (isServer) then {
 			_wounds,
 			[_legs,_arms],
 			_character getVariable["unconsciousTime",0],
-			_character getVariable["messing",[0,0]]
+			_character getVariable["messing",[0,0,0]]
 		];
 		_medical
 	};
 	
 	initialized = true;
-	
-//if (!isDedicated) then
-//{
-//	[] execVM "\z\addons\dayz_code\external\wind.sqf";
-//	[] execVM "\z\addons\dayz_code\external\screen.sqf";
-//};

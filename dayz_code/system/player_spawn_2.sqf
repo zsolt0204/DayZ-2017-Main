@@ -9,6 +9,7 @@ _isBandit = false;
 _isHero = false;
 
 player setVariable ["temperature",dayz_temperatur,true];
+player setVariable ["dayz_sleep",dayz_sleep,true];
 
 dayz_myLoad = (((count dayz_myBackpackMags) * 0.2) + (count dayz_myBackpackWpns)) +  (((count dayz_myMagazines) * 0.1) + (count dayz_myWeapons * 0.5));
 
@@ -134,13 +135,20 @@ while {true} do {
 		_thirst = (_speed + 4) * 3;
 	};
 	dayz_thirst = dayz_thirst + (_thirst / 60) * (dayz_temperatur / dayz_temperaturnormal);	//TeeChange Temperatur effects added Max Effects: -25% and + 16.6% waterloss
-
+	
 	//Temperatur
 	2 call player_temp_calculation; //2 = sleep time of this loop		//TeeChange
 	if ((_lastTemp - dayz_temperatur) > 0.75 or (_lastTemp - dayz_temperatur) < -0.75 ) then {
 		player setVariable ["temperature",dayz_temperatur,true];
 		_lastTemp = dayz_temperatur;
 	};
+	
+	//Sleep
+	if(dayz_sleep < 720) then {
+	dayz_sleep = dayz_sleep + 1;
+	player setVariable ["sleep",dayz_sleep,true];
+	};
+	2 call player_sleep_effects; //Loop for sleep effects
 	
 	//can get nearby infection
 	if (!r_player_infected) then {
