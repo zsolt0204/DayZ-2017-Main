@@ -117,6 +117,24 @@
 			<German>Lade Charakterdaten. Bitte warten.</German>
 			<Russian>Загружается персонаж. Пожалуйста, подождите.</Russian>
 		</Key>
+		<Key ID="R3F_VERSION_WEIGHTED">
+			<Original>1.04</Original>
+			<English>1.04</English>
+			<German>1.04</German>
+			<Russian>1.04</Russian>
+		</Key>
+		<Key ID="STR_R3F_WEIGHT_InGearBox">
+			<Original>%1 | Weight carried : %2 lb</Original>
+			<English>%1 | Weight carried : %2 lb</English>
+			<German>%1 | Weight carried : %2 lb</German>
+			<Russian>%1 | Weight carried : %2 lb</Russian>
+		</Key>
+		<Key ID="STR_R3F_WEIGHT_English">
+			<Original>kg</Original>
+			<English>lb</English>
+			<German>kg</German>
+			<Russian>kg</Russian>
+		</Key>
 	</package>
     <Package name="feedback">
 		<Key ID="str_success_cooked">

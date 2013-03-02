@@ -434,7 +434,7 @@ if (isServer) then {
 			_wounds,
 			[_legs,_arms],
 			_character getVariable["unconsciousTime",0],
-			_character getVariable["messing",[0,0,0]]
+			_character getVariable["messing",[0,0]]
 		];
 		_medical
 	};
