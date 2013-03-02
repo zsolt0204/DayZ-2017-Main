@@ -268,7 +268,6 @@ class CfgBuildingLoot {
 		zombieClass[] = {"zZombie_Base","zZombie_Base","z_teacher","z_worker1","z_worker2"};
 		itemType[] = {
 			{"ItemWatch","generic"},
-
 			{"ItemMap","weapon"},
 			{"Makarov","weapon"},
 			{"ItemFlashlight","generic"},
@@ -289,7 +288,6 @@ class CfgBuildingLoot {
 		};
 		itemChance[] =	{
 			0.01,	// {"ItemWatch","generic"},
-
 			0.01,	// {"ItemMap","weapon"},
 			0.01,	// {"Makarov","weapon"},
 			0.01,	// {"ItemFlashlight","generic"},
@@ -392,7 +390,7 @@ class CfgBuildingLoot {
 			0.01,	// {"ItemCompass","generic"},
 			0.01,	// {"ItemKnife","military"},
 			0.01,	// {"ItemMap","military"},
-			0.10,	// {"","medical"},
+			0.02,	// {"","medical"},
 			0.50,	// {"","generic"},
 			0.50,	// {"","military"},
 			0.50,	// {"","trash"},
