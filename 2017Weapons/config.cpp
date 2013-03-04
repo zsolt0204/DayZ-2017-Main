@@ -52,13 +52,12 @@ class CfgAmmo {
 class CfgMagazines {
 	class Default;	// External class reference
 	class CA_Magazine : Default {};
-	
 	class mosin_bullet : CA_Magazine {
-		scope = 2;
+		scope = public;
 		displayName = "Mosin Bullet";
 		model = "\2017Weapons\bullet";
 		ammo = "VIL_FR_Ball";
-		count = 5;
+		count = 1;
 		initSpeed = 800;
 		picture = "\Ca\weapons\Data\Equip\m_M24_CA.paa";
 		};
@@ -129,7 +128,7 @@ class cfgWeapons {
 		{
 			libTextDesc = "Mosin Nagant";
 		};
-			descriptionShort = "The Mosin–Nagant 1938 is a bolt-action military rifle. This model is the carbine version based on the M1891/30 design that was produced from 1939 to 1945 at the Izhevsk arsenal and in 1940 and 1944 at Tula.";
+			descriptionShort = "The Mosin–Nagant 1938 is a bolt-action military rifle. This is the carbine version based on the M1891/30 design.";
 		};
 
 	class Pistol : PistolCore {};
