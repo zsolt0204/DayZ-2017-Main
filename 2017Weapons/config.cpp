@@ -43,7 +43,8 @@ class CfgAmmo {
 		hit = 11;
 		typicalspeed = 750;
 		airFriction = -0.001050;
-
+		visibleFire = 18;
+		audibleFire = 28;
 	};	
 };
 
@@ -52,10 +53,10 @@ class CfgMagazines {
 	class Default;	// External class reference
 	class CA_Magazine : Default {};
 	
-	class 5Rnd_mosin : CA_Magazine {
+	class mosin_bullet : CA_Magazine {
 		scope = 2;
-		displayName = "Mosin Clip";
-		model = "\2017Weapons\5rnd_clip";
+		displayName = "Mosin Bullet";
+		model = "\2017Weapons\bullet";
 		ammo = "VIL_FR_Ball";
 		count = 5;
 		initSpeed = 800;
@@ -99,15 +100,17 @@ class cfgWeapons {
 	class M16A2;
 	class AK74 : Rifle {};
 	class Mosin38 : AK74 {
+		scope = 2;
 		model = "\2017Weapons\mosin38";
 		picture = "\2017Weapons\text\mosin.paa";
 		UiPicture = "\CA\weapons\data\Ico\i_regular_CA.paa";
+		displayName ="Mosin 1938";
 		value = 1;
 		opticsZoomMin = 0.27;
 		handAnim[] = {"OFP2_ManSkeleton", "\Ca\weapons\data\Anim\M16GL.rtm"};
 		opticsZoomMax = 0.42;
-		modes[] = {"Single", ai_single};
-		magazines[] = {5Rnd_mosin};
+		modes[] = {"Single"};
+		magazines[] = {"mosin_bullet"};
 	class Single : Mode_SemiAuto {
 		sound[] = {"\2017Weapons\mosin.wav", 10.0, 1};
 		recoil = "assaultRifleBase";
@@ -122,26 +125,12 @@ class cfgWeapons {
 		maxRange = 40;
 		maxRangeProbab = 0.04;
 		};		
-	class ai_Single : Mode_SemiAuto {
-		sound[] = {"\2017Weapons\mosin.wav", 10.0, 1};
-		recoil = "assaultRifleBase";
-		recoilProne = "assaultRifleBase";
-		reloadTime = 2;
-		dispersion = 0.003;
-		aiRateOfFire = 10;
-		minRange = 2;
-		minRangeProbab = 0.1;
-		midRange = 100;
-		midRangeProbab = 0.5;
-		maxRange = 400;
-		maxRangeProbab = 0.04;
-		showtoplayer=0;
-		};	
-		displayName ="Mosin 1938";
-		class Library {
-			libTextDesc = "Mosin M1938 standard rfle";
+		class Library
+		{
+			libTextDesc = "Mosin Nagant";
 		};
-	};
+			descriptionShort = "The Mosin–Nagant 1938 is a bolt-action military rifle. This model is the carbine version based on the M1891/30 design that was produced from 1939 to 1945 at the Izhevsk arsenal and in 1940 and 1944 at Tula.";
+		};
 
 	class Pistol : PistolCore {};
 	class HandGunBase : Rifle {};
@@ -153,8 +142,9 @@ class cfgWeapons {
 		dispersion = 0.005;
 		magazines[] = {"8Rnd_TT"};
 		class Library {
-			libTextDesc = "Tokarev 1933 pistol";
-		};		
+			libTextDesc = "TT-30 Tokarev pistol";
+		};	
+			descriptionShort = "The TT-30 Tokarev self-loading pistol is a Russian semi-automatic weapon. It was developed in the early 1930s by Fedor Tokarev as a service pistol for the Soviet military to replace the Nagant M1895 revolver that had been in use since Tsarist times. Able to withstand tremendous abuse, large numbers of the TT-33 were produced during World War II and well into the 1950s.";		
 	};
 	class M16_FlashLight: M16A2
 	{

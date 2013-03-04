@@ -70,7 +70,7 @@ class CfgLoot {
 			"TrashJackDaniels",
 			"ItemWaterbottleUnfilled",
 			"ItemBandage",
-			"5Rnd_mosin",
+			"mosin_bullet",
 			"8Rnd_TT",
 			"Single_W1866_Slug",
 			"Single_Rnd_Pellet",
@@ -90,7 +90,7 @@ class CfgLoot {
 			0.01,	//	"TrashJackDaniels",
 			0.02,	//	"ItemWaterbottleUnfilled",
 			0.01,	//	"ItemBandage",
-			0.01,	//	"5Rnd_mosin",
+			0.01,	//	"mosin_bullet",
 			0.01,	//	"8Rnd_TT",
 			0.01,	//	"Single_W1866_Slug",
 			0.01,	//	"Single_Rnd_Pellet",
@@ -154,7 +154,7 @@ class CfgLoot {
 			"8Rnd_9x18_Makarov",
 			"Single_W1866_Slug",
 			"8Rnd_TT",
-			"5Rnd_mosin",
+			"mosin_bullet",
 			"ice_60Rnd_556x45_Stanag_tape"
 		},
 		{
@@ -173,7 +173,7 @@ class CfgLoot {
 			0.01,	//	"8Rnd_9x18_Makarov",
 			0.01,	//	"Single_W1866_Slug",
 			0.01,	//	"8Rnd_TT",
-			0.01,	//	"5Rnd_mosin",
+			0.01,	//	"mosin_bullet",
 			0.01,	//	"15Rnd_556x45_Stanag_tape"
 
 		};
