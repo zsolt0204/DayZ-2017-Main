@@ -573,6 +573,18 @@
 			<German>Cook Infected Flesh</German>
 			<Russian>Cook Infected Flesh</Russian>
 		</Key>
+		<Key ID="str_actions_self_16">
+		    <Original>Sleep at Tent</Original>
+			<English>Sleep at Tent</English>
+			<German>Schlafen im Zelt</German>
+			<Russian>спать в палатке</Russian>
+		</Key>
+		<Key ID="str_actions_self_17">
+		    <Original>Play Sound</Original>
+			<English>Play Sound</English>
+			<German>Play Sound</German>
+			<Russian>Play Sound</Russian>
+		</Key>
 		<Key ID="str_actions_medical_01">
 			<Original>Drag Body</Original>
 			<English>Drag Body</English>

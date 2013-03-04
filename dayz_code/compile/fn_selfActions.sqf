@@ -181,6 +181,16 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 		s_player_packtent = -1;
 	};
 	
+	//Sleeping in tent
+	if(cursorTarget isKindOf "tent2017" and _canDo) then {
+	   if ((s_player_sleeptent < 0) and (player distance cursorTarget <3)) then {
+	      s_player_sleeptent = player addAction [localize "str_actions_self_16", "\z\addons\dayz_code\actions\player_sleep.sqf",cursorTarget, 0, false, true, "",""];
+	   };
+	}else{
+	  player removeAction s_player_sleeptent;
+	  s_player_sleeptent = -1;
+	};
+	
 	//Repairing Vehicles
 	if ((dayz_myCursorTarget != cursorTarget) and !_isMan and _hasToolbox and (damage cursorTarget < 1)) then {
 		_vehicle = cursorTarget;
@@ -279,4 +289,6 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 	s_player_gather_human_butcher = -1;
 	player removeAction s_player_gather_zed_butcher;
 	s_player_gather_zed_butcher = -1;
+	player removeAction s_player_sleeptent;
+	s_player_sleeptent = -1;
 };

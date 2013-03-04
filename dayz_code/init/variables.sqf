@@ -35,6 +35,7 @@ dayZ_explosiveParts = [
 SleepFood =				2160; //minutes (48 hours)
 SleepWater =			1440; //minutes (24 hours)
 SleepTemperatur	= 		90 / 100;	//Firs Value = Minutes untill Player reaches the coldest Point at night (without other effects! night factor expected to be -1)			//TeeChange
+SleepSleep =            720; //minutes (12 hours)
 
 //Server Variables
 dayZ_hivePipe1 = 		"\\.\pipe\dayz";	//The named pipe
@@ -62,6 +63,7 @@ dayz_resetSelfActions = {
 	s_player_fireout =		-1;
 	s_player_butcher =		-1;
 	s_player_packtent = 	-1;
+	s_player_sleeptent =    -1;
 	s_player_fillwater =	-1;
 	s_player_fillwater2 = 	-1;
 	s_player_fillfuel = 	-1;
@@ -184,6 +186,7 @@ dayz_animalDistance = 800;
 dayz_zSpawnDistance = 1000;
 dayz_maxLocalZombies = 40;
 dayz_spawnPos = getPosATL player;
+dayz_abortSleep = false;
 
 if(isDedicated) then {
 	dayz_disco = [];
@@ -237,6 +240,7 @@ if(!isDedicated) then {
 	dayz_hunger	=			0;
 	dayz_thirst = 			0;
 	dayz_combat =			0;
+	dayz_sleep =            0;
 	dayz_preloadFinished = 	false;
 	dayz_statusArray =		[1,1];
 	dayz_disAudial =		0;

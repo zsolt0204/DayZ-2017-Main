@@ -1069,7 +1069,7 @@ class RscTitles
 			};
 			class RscPicture_1207 : RscPictureGUI {
 				idc = 1207;
-				text = "\z\addons\dayz_code\gui\status_combat_border_ca.paa";
+				text = "\z\addons\dayz_code\gui\status_weight_border_ca.paa";
 				x = "0.955313 * safezoneW + safezoneX";
 				y = "0.65 * safezoneH + safezoneY";
 				w = 0.06;
@@ -1133,7 +1133,7 @@ class RscTitles
 			};
 			class RscPicture_1309 : RscPictureGUI {
 				idc = 1309;
-				text = "\z\addons\dayz_code\gui\status_weight_border_ca.paa";
+				text = "\z\addons\dayz_code\gui\status_sleep_border_ca.paa";
 				x = "0.955313 * safezoneW + safezoneX";
 				y = "0.58 * safezoneH + safezoneY";
 				w = 0.06;
@@ -1207,7 +1207,7 @@ class RscTitles
 			};
 			class RscPicture_1307 : RscPictureGUI {
 				idc = 1307;
-				text = "\z\addons\dayz_code\gui\status_combat_inside_ca.paa";
+				text = "\z\addons\dayz_code\gui\status_weight_inside_ca.paa";
 				x = "0.955313 * safezoneW + safezoneX";
 				y = "0.65 * safezoneH + safezoneY";
 				w = 0.06;
@@ -1234,7 +1234,7 @@ class RscTitles
 			};
 			class RscPicture_1209 : RscPictureGUI {
 				idc = 1209;
-				text = "\z\addons\dayz_code\gui\status_weight_inside_ca.paa";
+				text = "\z\addons\dayz_code\gui\status_sleep_inside_ca.paa";
 				x = "0.955313 * safezoneW + safezoneX";
 				y = "0.58 * safezoneH + safezoneY";
 				w = 0.06;

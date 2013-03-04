@@ -41,12 +41,6 @@ class CfgSounds {
 		titles[] = {};
 	};
 	
-	class weight_1 {
-		name = "";
-		sound[] = {"\dayz_sfx\effects\deep_breathing", 0.1, 1, 30};
-		titles[] = {};
-	};
-	
 	class heartbeat_1 {
 		name = "";
 		sound[] = {"\dayz_sfx\effects\heartbeat_1", 0.8, 1, 30};
@@ -81,78 +75,6 @@ class CfgSounds {
 		name = "";
 		sound[] = {"\dayz_sfx\gore\panic_1.ogg", 0.3, 1, 40};
 		titles[] = {};
-	};
-	
-	class dog_callBack {
-		name = "";
-		sound[] = {"\dayz_sfx\action\dog\dog_callBack", 0.5, 1, 100};
-		titles[] = {};
-	};
-	
-	class dog_slowDown : dog_callBack {
-		sound[] = {"\dayz_sfx\action\dog\dog_slowDown", 0.5, 1, 100};
-	};
-	
-	class dog_waitForMe : dog_callBack {
-		sound[] = {"\dayz_sfx\action\dog\dog_waitForMe", 0.5, 1, 100};
-	};
-	
-	class dog_speedUp : dog_callBack {
-		sound[] = {"\dayz_sfx\action\dog\dog_speedUp", 0.5, 1, 100};
-	};
-	
-	class z_dog_bark_0 {
-		name = "";
-		sound[] = {"\dayz_sfx\action\dog\dog_bark0", 0.5, 1, 100};
-		titles[] = {};
-	};
-	
-	class z_dog_bark_1 : z_dog_bark_0 {
-		sound[] = {"\dayz_sfx\action\dog\dog_bark1", 0.5, 1, 100};
-	};
-	
-	class z_dog_bark_2 : z_dog_bark_0 {
-		sound[] = {"\dayz_sfx\action\dog\dog_bark2", 0.5, 1, 100};
-	};
-	
-	class z_dog_bark_3 : z_dog_bark_0 {
-		sound[] = {"\dayz_sfx\action\dog\dog_bark3", 0.5, 1, 100};
-	};
-	
-	class z_dog_bark_4 : z_dog_bark_0 {
-		sound[] = {"\dayz_sfx\action\dog\dog_bark4", 0.5, 1, 100};
-	};
-	
-	class z_dog_growl_0 {
-		name = "";
-		sound[] = {"\dayz_sfx\action\dog\dog_growl_0", 0.5, 1, 12};
-		titles[] = {};
-	};
-	
-	class z_dog_growl_1 : z_dog_growl_0 {
-		sound[] = {"\dayz_sfx\action\dog\dog_growl_1", 0.5, 1, 12};
-	};
-	
-	class z_dog_growl_2 : z_dog_growl_0 {
-		sound[] = {"\dayz_sfx\action\dog\dog_growl_2", 0.5, 1, 12};
-	};
-	
-	class z_dog_growl_3 : z_dog_growl_0 {
-		sound[] = {"\dayz_sfx\action\dog\dog_growl_3", 0.5, 1, 12};
-	};
-	
-	class z_dog_qq_0 {
-		name = "";
-		sound[] = {"\dayz_sfx\action\dog\dog_qq_0", 0.5, 1, 25};
-		titles[] = {};
-	};
-	
-	class z_dog_qq_1 : z_dog_growl_0 {
-		sound[] = {"\dayz_sfx\action\dog\dog_qq_1", 0.5, 1, 25};
-	};
-	
-	class z_dog_qq_2 : z_dog_growl_0 {
-		sound[] = {"\dayz_sfx\action\dog\dog_qq_2", 0.5, 1, 25};
 	};
 	
 	class z_refuel_0 {
@@ -712,6 +634,31 @@ class CfgSounds {
 	class z_gore_short_loop : gore_1 {
 		sound[] = {"\dayz_sfx\gore\gore_short_loop.ogg", 0.1, 1, 30};
 	};
+	class z_gun_shot_1 {
+	    name = "";
+		sound[] = {"\dayz_sfx\effects\gun_1.ogg", 2.5, 1, 30};
+		titles[] = {};
+	};
+	class z_gun_shot_2 {
+	    name = "";
+		sound[] = {"\dayz_sfx\effects\gun_2.ogg", 2.5, 1, 30};
+		titles[] = {};
+	};
+	class z_gun_shot_3 {
+	    name = "";
+		sound[] = {"\dayz_sfx\effects\gun_3.ogg", 2.5, 1, 30};
+		titles[] = {};
+	};
+	class z_yawn {
+	    name = "";
+		sound[] = {"\dayz_sfx\effects\yawn.ogg", 0.3, 1, 30};
+		titles[] = {};
+	};
+	class z_yawn_fem {
+	    name = "";
+		sound[] = {"\dayz_sfx\effects\yawn_fem.ogg", 0.4, 1, 30};
+		titles[] = {};
+	};
 };
 
 class CfgMusic {
@@ -944,12 +891,6 @@ class CfgMusic {
 	class z_suspense_35 {
 		name = "";
 		sound[] = {"\dayz_sfx\samples\suspense_35.ogg", db0, 1.0};
-		duration = 20;
-	};
-	//2017
-	class breath {
-		name = "";
-		sound[] = {"\dayz_sfx\samples\breath.ogg", db0, 1.0};
 		duration = 20;
 	};
 };
