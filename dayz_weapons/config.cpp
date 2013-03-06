@@ -561,13 +561,13 @@ class cfgMagazines {
 	
 	class Single_W1866_Slug : CA_Magazine {
 		scope = public;
-		displayName = "Single Winchester 1866 Slug";
+		displayName = "Single 12Rnd Slug";
 		ammo = "B_1866_Slug";
 		model = "\dayz_weapons\models\shell.p3d";
 		picture = "\dayz_weapons\textures\equip_shells_ca.paa";
 		count = 1;
 		initSpeed = 396;
-		descriptionShort = "Single Winchester 1866 Slug";
+		descriptionShort = "Single 12Rnd Slug";
 		displayNameShort = "Slug";
 	};
 	
