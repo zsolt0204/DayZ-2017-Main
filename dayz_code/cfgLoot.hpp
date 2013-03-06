@@ -202,7 +202,7 @@ class CfgLoot {
 		},
 		{
 			0.01,	//	"ItemBandage",
-			0.02,	//	"ItemWaterbottleUnfilled",
+			0.01,	//	"ItemWaterbottleUnfilled",
 			0.01,	//	"BoltSteel",
 			0.01	//	"ItemHeatPack"
 		}

@@ -76,9 +76,9 @@ while {true} do {
 		_level = ((R3F_TIRED_Accumulator / R3F_TIRED_BLACKOUT_LEVEL) *  100);
 		_level = 0 max (1 - (_level / 100));
 		
-		#ifdef R3F_TIRED_DEBUG
-			hintsilent format["Fatique : %1/%2", R3F_TIRED_Accumulator, R3F_TIRED_BLACKOUT_LEVEL];
-		#endif
+		//#ifdef R3F_TIRED_DEBUG
+			//#hintsilent format["Fatique : %1/%2", R3F_TIRED_Accumulator, R3F_TIRED_BLACKOUT_LEVEL];
+		//#endif
 		
 		
 		#ifdef DAYZ_WEIGHT

@@ -6,7 +6,7 @@ _thirstVal = 	1 - (dayz_thirst / SleepWater);
 _tempVal 	= 	(dayz_temperatur / dayz_temperaturnormal);	//TeeChange
 _combatVal =	1 - dayz_combat; // May change later to be a range of red/green to loosely indicate 'time left in combat'
 _weightVal =	1 - dayz_weight;
-_weightWarn = 50000;
+//_weightWarn = 50000;
 
 _sleepVal =     1 - (dayz_sleep / SleepSleep);
 
