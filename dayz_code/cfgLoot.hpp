@@ -88,7 +88,7 @@ class CfgLoot {
 			0.16,	//	"TrashTinCan",
 			0.16,	//	"ItemSodaEmpty",
 			0.01,	//	"TrashJackDaniels",
-			0.02,	//	"ItemWaterbottleUnfilled",
+			0.01,	//	"ItemWaterbottleUnfilled",
 			0.01,	//	"ItemBandage",
 			0.01,	//	"mosin_bullet",
 			0.01,	//	"8Rnd_TT",
