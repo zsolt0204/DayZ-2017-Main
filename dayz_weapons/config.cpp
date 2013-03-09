@@ -339,7 +339,7 @@ class cfgWeapons {
 		picture = "\dayz_weapons\textures\equip_mr43_CA.paa";
 		displayname = $STR_WPN_NAME_5;
 		descriptionShort = $STR_WPN_DESC_5;
-		magazines[] = {"Single_W1866_Slug", "Single_Rnd_Pellet"};
+		magazines[] = {"Single_Rnd_Pellet"};
 		
 		class Single : Mode_SemiAuto {
 			dispersion = 0.003;
@@ -561,19 +561,21 @@ class cfgMagazines {
 	
 	class Single_W1866_Slug : CA_Magazine {
 		scope = public;
-		displayName = "Single 12Rnd Slug";
+		displayName = "Single Slug";
 		ammo = "B_1866_Slug";
 		model = "\dayz_weapons\models\shell.p3d";
 		picture = "\dayz_weapons\textures\equip_shells_ca.paa";
 		count = 1;
 		initSpeed = 396;
-		descriptionShort = "Single 12Rnd Slug";
-		displayNameShort = "Slug";
+		descriptionShort = "Single Cartridge (Slugs)";
+		displayNameShort = "Slugs";
 	};
 	
-	
-	
-	class Single_Rnd_Pellet : Single_W1866_Slug {};
+	class Single_Rnd_Pellet : Single_W1866_Slug {
+		displayName = "Single Pellets";
+		descriptionShort = "Single Cartridge (Pellets)";
+		displayNameShort = "Pellets";
+		};
 	
 	/* class Single_B_Beneli_74Slug : CA_Magazine {
 		scope = public;

@@ -29,7 +29,7 @@ class CfgLoot {
 			0.01,	//	"8Rnd_9x18_Makarov",
 			0.01,	//	"Single_W1866_Slug",
 			0.01,	//	"Single_Rnd_Pellet",
-			0.01,	//	"ItemBandage",
+			0.02,	//	"ItemBandage",
 			0.01	//	"ItemPainkiller"
 		}
 	};
@@ -114,7 +114,7 @@ class CfgLoot {
 			"ItemHeatPack"
 		},
 		{
-			0.01,	//	"ItemBandage",
+			0.02,	//	"ItemBandage",
 			0.01,	//	"ItemPainkiller",
 			0.01,	//	"ItemMorphine",
 			0.01,	//	"ItemEpinephrine",
@@ -155,7 +155,7 @@ class CfgLoot {
 			"Single_W1866_Slug",
 			"8Rnd_TT",
 			"mosin_bullet",
-			"ice_60Rnd_556x45_Stanag_tape"
+			"15Rnd_556x45_Stanag_tapedmags"
 		},
 		{
 			0.17,	//	"TrashTinCan",
@@ -174,7 +174,7 @@ class CfgLoot {
 			0.01,	//	"Single_W1866_Slug",
 			0.01,	//	"8Rnd_TT",
 			0.01,	//	"mosin_bullet",
-			0.01,	//	"15Rnd_556x45_Stanag_tape"
+			0.01,	//	"15Rnd_556x45_Stanag_tapedmags"
 
 		};
 	};
@@ -187,7 +187,7 @@ class CfgLoot {
 			"HandRoadFlare"
 		},
 		{
-			0.01,	//	"ItemBandage",
+			0.02,	//	"ItemBandage",
 			0.01,	//	"8Rnd_TT",
 			0.01,	//	"Single_W1866_Slug",
 			0.01	//	"HandRoadFlare"
@@ -201,7 +201,7 @@ class CfgLoot {
 			"ItemHeatPack"
 		},
 		{
-			0.01,	//	"ItemBandage",
+			0.02,	//	"ItemBandage",
 			0.01,	//	"ItemWaterbottleUnfilled",
 			0.01,	//	"BoltSteel",
 			0.01	//	"ItemHeatPack"
