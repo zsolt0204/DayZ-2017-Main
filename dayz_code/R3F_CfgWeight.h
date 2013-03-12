@@ -16,22 +16,6 @@ class CfgWeight
 		{
 			weight = 4.3;
 		};
-		class Mosin38
-		{
-			weight = 3.3;
-		};
-		class Tokarev
-		{
-			weight = 2.9;
-		};
-		class M16_FlashLight
-		{
-			weight = 7.9;
-		};
-		class M4_FlashLight
-		{
-			weight = 7.9;
-		};
 		class Remington870_lamp
 		{
 			weight = 3.6;
@@ -1208,17 +1192,9 @@ class CfgWeight
 		{
 			weight = 0.5;
 		};
-		class Single_W1866_Slug
+		class 15Rnd_W1866_Slug
 		{
 			weight = 0.6;
-		};
-		class Single_Rnd_Pellet
-		{
-			weight = 0.6;
-		};
-		class 15Rnd_556x45_Stanag_tapedmags
-		{
-			weight = 2.6;
 		};
 	};
 };
