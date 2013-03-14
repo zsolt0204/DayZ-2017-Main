@@ -59,6 +59,25 @@ class CfgVehicles {
 		class VariablesScalar {};
 		class VariablesString {};
 	};
+	class DZ_Pastor : Pastor {
+		scope = 2;
+		model = "\ca\animals2\Dogs\Pastor\Pastor";
+		displayName = "Alsatian";
+		moves = "CfgMovesDogDZ";
+		gestures = "CfgGesturesDogDZ";
+		fsmDanger = "";
+		fsmFormation = "";
+	};
+	
+	class DZ_Fin : Fin {
+		scope = 2;
+		model = "\ca\animals2\Dogs\Fin\Fin";
+		displayName = "Fin";
+		moves = "CfgMovesDogDZ";
+		gestures = "CfgGesturesDogDZ";
+		fsmDanger = "";
+		fsmFormation = "";
+	};
 
 	/* class Soldier_Crew_PMC;
 	class Bandit1_DZ : Soldier_Crew_PMC {
