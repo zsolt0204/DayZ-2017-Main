@@ -1,7 +1,7 @@
 DayZ 2017 Project
 =================
 
-The Latest Fully Compiled Version Of DayZ 2017 (1.0) Can Be Downloaded From [Here] (http://opendayz.net/downloads/DayZ2017/@DayZ2017.rar).
+The Latest Fully Compiled Version Of DayZ 2017 (2.0.1) Can Be Downloaded From [Here] (http://opendayz.net/).
 
 Requirements
 ------------
