@@ -19,7 +19,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"ice_apo_resistance_patch", "sg_ira"};
+		requiredAddons[] = {};
 	};
 };
 
@@ -78869,41 +78869,42 @@ class CfgVehicles {
 	};
 	
 	class z_policeman : zZombie_Base {
-		model = "\ice_apo_resistance\soldier_hood_medium_beard";
+		model = "\ca\characters2\civil\Policeman\Policeman";
 		zombieLoot = "policeman";
 		
 		class Wounds {
 			tex[] = {};
-			mat[] = {"ice_apo_resistance\data\us_soldier_sabot_body.rvmat", "ice_apo_resistance\data\us_soldier_sabot_body_wound1.rvmat", "ice_apo_resistance\data\us_soldier_sabot_body_wound2.rvmat", "ice_apo_resistance\data\civil_tshirt_body.rvmat", "ice_apo_resistance\data\civil_tshirt_body_wound1.rvmat", "ice_apo_resistance\data\civil_tshirt_body_wound2.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_white.rvmat", "CA\characters\Heads\Male\DefaultHead\data\hhl_white_wounds.rvmat", "CA\characters\Heads\Male\DefaultHead\data\hhl_white_wounds2.rvmat"};
+			mat[] = {"ca\characters2\civil\policeman\data\policeman.rvmat", "ca\characters2\civil\policeman\data\w1_policeman.rvmat", "ca\characters2\civil\policeman\data\w2_policeman.rvmat", "ca\characters\heads\male\defaulthead\data\hhl.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_wounds.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_wounds.rvmat"};
 		};
 	};
 	
 	class z_suit1 : zZombie_Base {
-		model = "\ice_apo_resistance\soldier_helmet_medium";
-		//hiddenSelections[] = {"Camo"};
-		//hiddenSelectionsTextures[] = {"\ca\characters2\civil\functionary\data\functionary_co.paa"};
+		model = "\ca\characters2\civil\Functionary\Functionary";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\ca\characters2\civil\functionary\data\functionary_co.paa"};
 		zombieLoot = "generic";
 		
 		class Wounds {
 			tex[] = {};
-			mat[] = {"ice_apo_resistance\data\us_soldier_sabot_body.rvmat", "ice_apo_resistance\data\us_soldier_sabot_body_wound1.rvmat", "ice_apo_resistance\data\us_soldier_sabot_body_wound2.rvmat", "ice_apo_resistance\data\civil_tshirt_body.rvmat", "ice_apo_resistance\data\civil_tshirt_body_wound1.rvmat", "ice_apo_resistance\data\civil_tshirt_body_wound2.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_white.rvmat", "CA\characters\Heads\Male\DefaultHead\data\hhl_white_wounds.rvmat", "CA\characters\Heads\Male\DefaultHead\data\hhl_white_wounds2.rvmat"};
+			mat[] = {"ca\characters2\civil\Functionary\data\Functionary.rvmat", "ca\characters2\civil\Functionary\data\W1_Functionary.rvmat", "ca\characters2\civil\Functionary\data\W2_Functionary.rvmat", "ca\characters\heads\male\defaulthead\data\hhl.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_Wounds.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_Wounds.rvmat"};
 		};
 	};
 	
 	class z_suit2 : z_suit1 {
 		zombieLoot = "civilian";
-		//hiddenSelectionsTextures[] = {"\ca\characters2\civil\functionary\data\functionary2_co.paa"};
+		hiddenSelectionsTextures[] = {"\ca\characters2\civil\functionary\data\functionary2_co.paa"};
 	};
 	
 	class z_worker1 : zZombie_Base {
 		zombieLoot = "";
 		model = "\Ca\characters_E\Overall\Overall";
 		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\dayz\textures\2017zeds\Worker\overall\Data\overall1.paa"};
+		
 		class Wounds {
 			tex[] = {};
-			mat[] = {"ca\characters2\civil\Functionary\data\Functionary.rvmat", "ca\characters2\civil\Functionary\data\W1_Functionary.rvmat", "ca\characters2\civil\Functionary\data\W2_Functionary.rvmat", "ca\characters\heads\male\defaulthead\data\hhl.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_Wounds.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_Wounds.rvmat"};
+			mat[] = {"Ca\characters_E\Overall\Data\Overall.rvmat", "Ca\characters_E\Overall\Data\W1_Overall.rvmat", "Ca\characters_E\Overall\Data\W2_Overall.rvmat"};
 		};
+		hiddenSelectionsTextures[] = {"\dayz\textures\2017zeds\Worker\overall\Data\overall1.paa"};
 	};
 	
 	class z_worker2 : z_worker1 {
@@ -78915,92 +78916,189 @@ class CfgVehicles {
 	};
 	
 	class z_doctor : zZombie_Base {
-		model = "\ice_apo_resistance\soldier_hat_medium_clean";
+		model = "\ca\characters2\civil\Doctor\Doctor";
 		zombieLoot = "medical";
-		/*hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\dayz\textures\clothes\doctor_co.paa"};*/
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\dayz\textures\clothes\doctor_co.paa"};
 		
 		class Wounds {
 			tex[] = {};
-			mat[] = {"ice_apo_resistance\data\us_soldier_sabot_body.rvmat", "ice_apo_resistance\data\us_soldier_sabot_body_wound1.rvmat", "ice_apo_resistance\data\us_soldier_sabot_body_wound2.rvmat", "ice_apo_resistance\data\civil_tshirt_body.rvmat", "ice_apo_resistance\data\civil_tshirt_body_wound1.rvmat", "ice_apo_resistance\data\civil_tshirt_body_wound2.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_white.rvmat", "CA\characters\Heads\Male\DefaultHead\data\hhl_white_wounds.rvmat", "CA\characters\Heads\Male\DefaultHead\data\hhl_white_wounds2.rvmat"};
+			mat[] = {"ca\characters2\civil\doctor\data\doctor.rvmat", "ca\characters2\civil\doctor\data\W1_doctor.rvmat", "ca\characters2\civil\doctor\data\W2_doctor.rvmat", "ca\characters\heads\male\defaulthead\data\hhl.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_Wounds.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_Wounds.rvmat"};
 		};
 	};
 	
 	class z_teacher : z_doctor {
 		zombieLoot = "";
-		//hiddenSelectionsTextures[] = {"\dayz\textures\clothes\teacher_co.paa"};
+		hiddenSelectionsTextures[] = {"\dayz\textures\clothes\teacher_co.paa"};
 	};
 	
 	class z_hunter : zZombie_Base {
-		model = "\SG_IRA\IRA_Soldier_1";
-		faceType = "Man";
+		model = "\ca\characters2\civil\Woodlander\Woodlander";
+		zombieLoot = "hunter";
+		hiddenSelections[] = {"Camo"};
 		
 		class Wounds {
 			tex[] = {};
-			mat[] = {"ca\characters2\IndepIns\Data\soldier_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_flecktarn.RVmat", "ca\characters2\IndepIns\Data\soldier_flecktarn_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_flecktarn_W2.RVmat", "ca\characters2\IndepIns\Data\soldier2_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier2_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier2_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier2_woodland.RVmat", "ca\characters2\IndepIns\Data\soldier2_woodland_W1.RVmat", "ca\characters2\IndepIns\Data\soldier2_woodland_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_flecktarn.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_flecktarn_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_flecktarn_W2.RVmat", "ca\characters2\civil\worker\data\worker.rvmat", "ca\characters2\civil\worker\data\W1_worker.rvmat", "ca\characters2\civil\worker\data\W2_worker.rvmat", "ca\characters2\civil\Woodlander\data\Woodlander.rvmat", "ca\characters2\civil\Woodlander\data\W1_Woodlander.rvmat", "ca\characters2\civil\Woodlander\data\W2_Woodlander.rvmat", "ca\characters2\Civil\Villager\Data\villager.RVmat", "ca\characters2\Civil\Villager\Data\villager_w1.RVmat", "ca\characters2\Civil\Villager\Data\villager_w2.RVmat", "ca\characters2\IndepIns\Data\prizrak.rvmat", "ca\characters2\IndepIns\Data\W1_prizrak.rvmat", "ca\characters2\IndepIns\Data\W2_prizrak.rvmat", "ca\characters2\IndepIns\Data\soldier_back_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_back_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_back_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_back_woodland.RVmat", "ca\characters2\IndepIns\Data\soldier_back_woodland_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_back_woodland_W2.RVmat", "ca\characters2\Data\ghillie.rvmat", "ca\characters2\Data\w1_ghillie.rvmat", "ca\characters2\Data\w2_ghillie.rvmat", "ca\characters2\IndepIns\Data\soldier_com_flecktarn.RVmat", "ca\characters2\IndepIns\Data\soldier_com_flecktarn_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_com_flecktarn_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_com_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_com_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_com_khaki_W2.RVmat"};
+			mat[] = {"ca\characters2\civil\Woodlander\data\Woodlander.rvmat", "ca\characters2\civil\Woodlander\data\W1_Woodlander.rvmat", "ca\characters2\civil\Woodlander\data\W2_Woodlander.rvmat", "ca\characters\heads\male\defaulthead\data\hhl.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_Wounds.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_Wounds.rvmat"};
 		};
 	};
 	
 	class z_villager1 : zZombie_Base {
 		zombieLoot = "civilian";
-		model = "\SG_IRA\IRA_Soldier_3";
-		faceType = "Man";
+		model = "\ca\characters2\civil\Villager\Villager";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\ca\characters2\civil\villager\data\villager_co.paa"};
 		
 		class Wounds {
 			tex[] = {};
-			mat[] = {"ca\characters2\IndepIns\Data\soldier_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_flecktarn.RVmat", "ca\characters2\IndepIns\Data\soldier_flecktarn_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_flecktarn_W2.RVmat", "ca\characters2\IndepIns\Data\soldier2_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier2_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier2_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier2_woodland.RVmat", "ca\characters2\IndepIns\Data\soldier2_woodland_W1.RVmat", "ca\characters2\IndepIns\Data\soldier2_woodland_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_flecktarn.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_flecktarn_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_flecktarn_W2.RVmat", "ca\characters2\civil\worker\data\worker.rvmat", "ca\characters2\civil\worker\data\W1_worker.rvmat", "ca\characters2\civil\worker\data\W2_worker.rvmat", "ca\characters2\civil\Woodlander\data\Woodlander.rvmat", "ca\characters2\civil\Woodlander\data\W1_Woodlander.rvmat", "ca\characters2\civil\Woodlander\data\W2_Woodlander.rvmat", "ca\characters2\Civil\Villager\Data\villager.RVmat", "ca\characters2\Civil\Villager\Data\villager_w1.RVmat", "ca\characters2\Civil\Villager\Data\villager_w2.RVmat", "ca\characters2\IndepIns\Data\prizrak.rvmat", "ca\characters2\IndepIns\Data\W1_prizrak.rvmat", "ca\characters2\IndepIns\Data\W2_prizrak.rvmat", "ca\characters2\IndepIns\Data\soldier_back_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_back_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_back_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_back_woodland.RVmat", "ca\characters2\IndepIns\Data\soldier_back_woodland_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_back_woodland_W2.RVmat", "ca\characters2\Data\ghillie.rvmat", "ca\characters2\Data\w1_ghillie.rvmat", "ca\characters2\Data\w2_ghillie.rvmat", "ca\characters2\IndepIns\Data\soldier_com_flecktarn.RVmat", "ca\characters2\IndepIns\Data\soldier_com_flecktarn_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_com_flecktarn_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_com_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_com_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_com_khaki_W2.RVmat"};
+			mat[] = {"ca\characters\heads\male\defaulthead\data\hhl.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_Wounds.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_Wounds.rvmat", "ca\characters2\Civil\Villager\Data\villager.RVmat", "ca\characters2\Civil\Villager\Data\villager_w1.RVmat", "ca\characters2\Civil\Villager\Data\villager_w2.RVmat"};
 		};
 	};
 	
 	class z_villager2 : z_villager1 {
-		model = "\SG_IRA\IRA_Soldier_2";
-		faceType = "Man";
-		class Wounds {
-			tex[] = {};
-			mat[] = {"ca\characters2\IndepIns\Data\soldier_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_flecktarn.RVmat", "ca\characters2\IndepIns\Data\soldier_flecktarn_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_flecktarn_W2.RVmat", "ca\characters2\IndepIns\Data\soldier2_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier2_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier2_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier2_woodland.RVmat", "ca\characters2\IndepIns\Data\soldier2_woodland_W1.RVmat", "ca\characters2\IndepIns\Data\soldier2_woodland_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_flecktarn.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_flecktarn_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_flecktarn_W2.RVmat", "ca\characters2\civil\worker\data\worker.rvmat", "ca\characters2\civil\worker\data\W1_worker.rvmat", "ca\characters2\civil\worker\data\W2_worker.rvmat", "ca\characters2\civil\Woodlander\data\Woodlander.rvmat", "ca\characters2\civil\Woodlander\data\W1_Woodlander.rvmat", "ca\characters2\civil\Woodlander\data\W2_Woodlander.rvmat", "ca\characters2\Civil\Villager\Data\villager.RVmat", "ca\characters2\Civil\Villager\Data\villager_w1.RVmat", "ca\characters2\Civil\Villager\Data\villager_w2.RVmat", "ca\characters2\IndepIns\Data\prizrak.rvmat", "ca\characters2\IndepIns\Data\W1_prizrak.rvmat", "ca\characters2\IndepIns\Data\W2_prizrak.rvmat", "ca\characters2\IndepIns\Data\soldier_back_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_back_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_back_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_back_woodland.RVmat", "ca\characters2\IndepIns\Data\soldier_back_woodland_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_back_woodland_W2.RVmat", "ca\characters2\Data\ghillie.rvmat", "ca\characters2\Data\w1_ghillie.rvmat", "ca\characters2\Data\w2_ghillie.rvmat", "ca\characters2\IndepIns\Data\soldier_com_flecktarn.RVmat", "ca\characters2\IndepIns\Data\soldier_com_flecktarn_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_com_flecktarn_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_com_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_com_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_com_khaki_W2.RVmat"};
-		};
+		hiddenSelectionsTextures[] = {"\ca\characters2\civil\villager\data\villager_v2_co.paa"};
 	};
 	
 	class z_villager3 : z_villager1 {
-		model = "\SG_IRA\IRA_Soldier_1";
-		faceType = "Man";
-		class Wounds {
-			tex[] = {};
-			mat[] = {"ca\characters2\IndepIns\Data\soldier_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_flecktarn.RVmat", "ca\characters2\IndepIns\Data\soldier_flecktarn_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_flecktarn_W2.RVmat", "ca\characters2\IndepIns\Data\soldier2_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier2_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier2_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier2_woodland.RVmat", "ca\characters2\IndepIns\Data\soldier2_woodland_W1.RVmat", "ca\characters2\IndepIns\Data\soldier2_woodland_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_flecktarn.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_flecktarn_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_mg_flecktarn_W2.RVmat", "ca\characters2\civil\worker\data\worker.rvmat", "ca\characters2\civil\worker\data\W1_worker.rvmat", "ca\characters2\civil\worker\data\W2_worker.rvmat", "ca\characters2\civil\Woodlander\data\Woodlander.rvmat", "ca\characters2\civil\Woodlander\data\W1_Woodlander.rvmat", "ca\characters2\civil\Woodlander\data\W2_Woodlander.rvmat", "ca\characters2\Civil\Villager\Data\villager.RVmat", "ca\characters2\Civil\Villager\Data\villager_w1.RVmat", "ca\characters2\Civil\Villager\Data\villager_w2.RVmat", "ca\characters2\IndepIns\Data\prizrak.rvmat", "ca\characters2\IndepIns\Data\W1_prizrak.rvmat", "ca\characters2\IndepIns\Data\W2_prizrak.rvmat", "ca\characters2\IndepIns\Data\soldier_back_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_back_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_back_khaki_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_back_woodland.RVmat", "ca\characters2\IndepIns\Data\soldier_back_woodland_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_back_woodland_W2.RVmat", "ca\characters2\Data\ghillie.rvmat", "ca\characters2\Data\w1_ghillie.rvmat", "ca\characters2\Data\w2_ghillie.rvmat", "ca\characters2\IndepIns\Data\soldier_com_flecktarn.RVmat", "ca\characters2\IndepIns\Data\soldier_com_flecktarn_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_com_flecktarn_W2.RVmat", "ca\characters2\IndepIns\Data\soldier_com_khaki.RVmat", "ca\characters2\IndepIns\Data\soldier_com_khaki_W1.RVmat", "ca\characters2\IndepIns\Data\soldier_com_khaki_W2.RVmat"};
-		};
+		hiddenSelectionsTextures[] = {"\ca\characters2\civil\villager\data\villager_v3_co.paa"};
 	};
 	
 	class z_priest : zZombie_Base {
-		model = "\ice_apo_resistance\soldier_tank_light_clean";
+		model = "\ca\characters2\civil\Priest\Priest";
 		
-		/*class Wounds {
+		class Wounds {
 			tex[] = {};
 			mat[] = {"ca\characters2\civil\priest\data\priest.rvmat", "ca\characters2\civil\priest\data\W1_priest.rvmat", "ca\characters2\civil\priest\data\W2_priest.rvmat", "ca\characters\heads\male\defaulthead\data\hhl.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_Wounds.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_Wounds.rvmat"};
-		};*/
+		};
 	};
 	
 	class z_soldier : zZombie_Base {
 		displayName = "Zombie Soldier";
-		model = "\ice_apo_resistance\soldier_helmet_officer";
+		model = "\ca\characters2\Blufor\Soldier_Light";
 		zombieLoot = "military";
+		
+		class HitPoints : HitPoints {
+			class HitHead {
+				armor = 0.3;
+				material = -1;
+				name = "head_hit";
+				passThrough = true;
+			};
+			
+			class HitBody {
+				armor = 2.4;
+				material = -1;
+				name = "body";
+				passThrough = true;
+			};
+			
+			class HitHands {
+				armor = 1;
+				material = -1;
+				name = "hands";
+				passThrough = true;
+			};
+			
+			class HitLegs {
+				armor = 1;
+				material = -1;
+				name = "legs";
+				passThrough = true;
+			};
+		};
+		
 		class Wounds {
 			tex[] = {};
-			mat[] = {"ice_apo_resistance\data\us_soldier_sabot_body.rvmat", "ice_apo_resistance\data\us_soldier_sabot_body_wound1.rvmat", "ice_apo_resistance\data\us_soldier_sabot_body_wound2.rvmat", "ice_apo_resistance\data\civil_tshirt_body.rvmat", "ice_apo_resistance\data\civil_tshirt_body_wound1.rvmat", "ice_apo_resistance\data\civil_tshirt_body_wound2.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_white.rvmat", "CA\characters\Heads\Male\DefaultHead\data\hhl_white_wounds.rvmat", "CA\characters\Heads\Male\DefaultHead\data\hhl_white_wounds2.rvmat"};
-			};
+			mat[] = {"ca\characters2\Blufor\data\Soldier.RVmat", "ca\characters2\Blufor\data\Soldier_W1.RVmat", "ca\characters2\Blufor\data\Soldier_W2.RVmat", "ca\characters2\Blufor\data\Soldier_Light.RVmat", "ca\characters2\Blufor\data\Soldier_Light_W1.RVmat", "ca\characters2\Blufor\data\Soldier_Light_W2.RVmat", "ca\characters2\Blufor\data\Soldier_EQUIP_Light.RVmat", "ca\characters2\Blufor\data\Soldier_Light_EQUIP_W2.RVmat", "ca\characters2\Blufor\data\Soldier_Light_EQUIP_W1.RVmat", "ca\characters2\Blufor\data\Soldier_GL.RVmat", "ca\characters2\Blufor\data\Soldier_GL_W1.RVmat", "ca\characters2\Blufor\data\Soldier_GL_W2.RVmat", "ca\characters2\Blufor\data\Soldier_NCO.RVmat", "ca\characters2\Blufor\data\Soldier_NCO_W1.RVmat", "ca\characters2\Blufor\data\Soldier_NCO_W2.RVmat", "ca\characters2\Blufor\data\Soldier_MG.RVmat", "ca\characters2\Blufor\data\Soldier_MG_W1.RVmat", "ca\characters2\Blufor\data\Soldier_MG_W2.RVmat", "ca\characters2\Blufor\data\Soldier_AT.RVmat", "ca\characters2\Blufor\data\Soldier_AT_W1.RVmat", "ca\characters2\Blufor\data\Soldier_AT_W2.RVmat", "ca\characters2\Blufor\data\Soldier_CO.RVmat", "ca\characters2\Blufor\data\Soldier_CO_W1.RVmat", "ca\characters2\Blufor\data\Soldier_CO_W2.RVmat", "ca\characters2\Blufor\data\Soldier_CO_EQUIP.RVmat", "ca\characters2\Blufor\data\Soldier_CO_EQUIP_W1.RVmat", "ca\characters2\Blufor\data\Soldier_CO_EQUIP_W2.RVmat", "ca\characters2\Blufor\data\Soldier_Pilot.RVmat", "ca\characters2\Blufor\data\Soldier_Pilot_W1.RVmat", "ca\characters2\Blufor\data\Soldier_Pilot_W2.RVmat", "ca\characters2\Blufor\data\Soldier_Pilot_EQUIP.RVmat", "ca\characters2\Blufor\data\Soldier_Pilot_EQUIP_W1.RVmat", "ca\characters2\Blufor\data\Soldier_Pilot_EQUIP_W2.RVmat", "ca\characters2\Blufor\data\Soldier_Guard.RVmat", "ca\characters2\Blufor\data\Soldier_Guard_W1.RVmat", "ca\characters2\Blufor\data\Soldier_Guard_W2.RVmat", "ca\characters2\Blufor\data\Soldier_Crew.RVmat", "ca\characters2\Blufor\data\Soldier_Crew_W1.RVmat", "ca\characters2\Blufor\data\Soldier_Crew_W2.RVmat", "ca\characters2\Blufor\data\Soldier_Crew_EQUIP.RVmat", "ca\characters2\Blufor\data\Soldier_Crew_EQUIP_W1.RVmat", "ca\characters2\Blufor\data\Soldier_Crew_EQUIP_W2.RVmat", "ca\characters2\Blufor\data\Soldier_Guard_EQUIP.RVmat", "ca\characters2\Blufor\data\Soldier_Guard_EQUIP_W1.RVmat", "ca\characters2\Blufor\data\Soldier_Guard_EQUIP_W2.RVmat"};
+		};
 	};
 	
 	class z_soldier_pilot : z_soldier {
-		displayName = "Zombie Soldier";
-		model = "\ice_apo_resistance\soldier_helmet_officer";
-		zombieLoot = "military";
+		displayName = "Zombie Soldier (Pilot)";
+		model = "\ca\characters_d_BAF\BAF_Pilot_BAF";
+		hiddenSelections[] = {"Camo", "Camo2", "Camo3"};
+		hiddenSelectionsTextures[] = {"\ca\characters_W_baf\data\camo_dpm_co.paa", "\ca\characters_W_baf\data\armour_dpm_co.paa", "\ca\characters_W_baf\data\equip_dpm_co.paa"};
+		
+		class HitPoints : HitPoints {
+			class HitHead {
+				armor = 2;
+				material = -1;
+				name = "head_hit";
+				passThrough = true;
+			};
+			
+			class HitBody {
+				armor = 3;
+				material = -1;
+				name = "body";
+				passThrough = true;
+			};
+			
+			class HitHands {
+				armor = 1;
+				material = -1;
+				name = "hands";
+				passThrough = true;
+			};
+			
+			class HitLegs {
+				armor = 1;
+				material = -1;
+				name = "legs";
+				passThrough = true;
+			};
+		};
 	};
 	
 	class z_soldier_heavy : z_soldier {
-		displayName = "Zombie Soldier";
-		model = "\ice_apo_resistance\soldier_helmet_officer";
-		zombieLoot = "military";
+		displayName = "Zombie Soldier (Heavy)";
+		model = "\ca\characters2\Blufor\Soldier";
+		
+		class HitPoints : HitPoints {
+			class HitHead {
+				armor = 1;
+				material = -1;
+				name = "head_hit";
+				passThrough = true;
+			};
+			
+			class HitBody {
+				armor = 2.4;
+				material = -1;
+				name = "body";
+				passThrough = true;
+			};
+			
+			class HitHands {
+				armor = 1;
+				material = -1;
+				name = "hands";
+				passThrough = true;
+			};
+			
+			class HitLegs {
+				armor = 1;
+				material = -1;
+				name = "legs";
+				passThrough = true;
+			};
+		};
 	};
-
+	/*class Wreck_Base;	// External class reference
+	
+	class Body1 : Wreck_Base {
+		scope = public;
+		mapSize = 2;
+		displayName = "Dead Body 1";
+		model = "\dayz\objects\dead_soldier_0";
+	};
+	
+	class Body2 : Wreck_Base {
+		scope = public;
+		mapSize = 2;
+		displayName = "Dead Body 2";
+		model = "\dayz\objects\dead_soldier_1";
+	}; */
 	class Strategic;	// External class reference
 	
 	class Rubbish1 : Strategic {

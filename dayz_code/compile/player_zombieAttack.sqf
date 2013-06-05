@@ -55,13 +55,12 @@ if (_vehicle != player) then {
 				} else {
 					_wound = DAYZ_woundHit_ok call BIS_fnc_selectRandomWeighted;
 				};
-				_damage = 0.4 + random (0.9);
+				_damage = 0.1 + random (1.2);
 				//diag_log ("START DAM: Player Hit on " + _wound + " for " + str(_damage));
 				[player, _wound, _damage, _unit,"zombie"] call fnc_usec_damageHandler;
 				dayzHit =	[player,_wound, _damage, _unit,"zombie"];
 				publicVariable "dayzHit";
 				[_unit,"hit",0,false] call dayz_zombieSpeak;
-				[1] spawn bis_ew_fnc_screen; 	
 			} else {
 				/*
 				_isZombieInside = [_unit,_building] call fnc_isInsideBuilding;
@@ -71,8 +70,7 @@ if (_vehicle != player) then {
 					[player, _wound, _damage, _unit,"zombie"] call fnc_usec_damageHandler;
 					dayzHit =	[player,_wound, _damage, _unit,"zombie"];
 					publicVariable "dayzHit";
-					[_unit,"hit",0,false] call dayz_zombieSpeak;
-					[1] spawn bis_ew_fnc_screen; 	
+					[_unit,"hit",0,false] call dayz_zombieSpeak;	
 				};
 				*/
 			};

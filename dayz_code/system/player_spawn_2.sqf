@@ -145,7 +145,7 @@ while {true} do {
 	
 	//Sleep
 	if(dayz_sleep < 720) then {
-	dayz_sleep = dayz_sleep + (1/60);
+	dayz_sleep = dayz_sleep + 1;
 	player setVariable ["sleep",dayz_sleep,true];
 	};
 	2 call player_sleep_effects; //Loop for sleep effects

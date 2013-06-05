@@ -8,7 +8,7 @@ if (!isDedicated) then {
 	_config2 = 	configFile >> "CfgWeapons" >> "Loot";
 
 	"filmic" setToneMappingParams [0.07, 0.31, 0.23, 0.37, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";
-	bis_ew_fnc_screen = 		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_screen.sqf";
+
 	BIS_Effects_Burn = 			compile preprocessFile "\ca\Data\ParticleEffects\SCRIPTS\destruction\burn.sqf"; 
 	player_zombieCheck = 		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_zombieCheck.sqf";	//Run on a players computer, checks if the player is near a zombie
 	player_zombieAttack = 		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_zombieAttack.sqf";	//Run on a players computer, causes a nearby zombie to attack them
@@ -119,13 +119,6 @@ if (!isDedicated) then {
 		_myExp = _myExp * 0.7;
 		_myExp
 	};
-	
-		//weight system
-	if (!isDedicated) then
-		{
-		_void = [] execVM "\z\addons\dayz_code\R3F_Realism\R3F_Realism_Init.sqf";
-		};
-
 	
 	ui_initDisplay = {
 		private["_control","_ctrlBleed","_display","_ctrlFracture","_ctrlDogFood","_ctrlDogWater","_ctrlDogWaterBorder", "_ctrlDogFoodBorder"];
@@ -434,7 +427,7 @@ if (isServer) then {
 			_wounds,
 			[_legs,_arms],
 			_character getVariable["unconsciousTime",0],
-			_character getVariable["messing",[0,0]]
+			_character getVariable["messing",[0,0,0]]
 		];
 		_medical
 	};

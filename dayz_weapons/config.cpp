@@ -299,7 +299,7 @@ class cfgWeapons {
 		model = "\dayz_weapons\models\Winchester1866";
 		picture = "\dayz_weapons\textures\equip_winchester1866_CA.paa";
 		UiPicture = "\CA\weapons\data\Ico\i_regular_CA.paa";
-		magazines[] = {"Single_W1866_Slug"};
+		magazines[] = {"15Rnd_W1866_Slug", "15Rnd_W1866_Pellet"};
 		optics = true;
 		modelOptics = "-";
 		displayname = $STR_WPN_NAME_1;
@@ -339,7 +339,7 @@ class cfgWeapons {
 		picture = "\dayz_weapons\textures\equip_mr43_CA.paa";
 		displayname = $STR_WPN_NAME_5;
 		descriptionShort = $STR_WPN_DESC_5;
-		magazines[] = {"Single_Rnd_Pellet"};
+		magazines[] = {"2Rnd_shotgun_74Slug", "2Rnd_shotgun_74Pellets"};
 		
 		class Single : Mode_SemiAuto {
 			dispersion = 0.003;
@@ -365,14 +365,14 @@ class cfgWeapons {
 		picture = "\dayz_weapons\textures\equip_remington870_CA.paa";
 		displayname = $STR_WPN_NAME_2;
 		descriptionShort = $STR_WPN_DESC_2;
-		magazines[] = {"Single_W1866_Slug"};
+		magazines[] = {"8Rnd_B_Beneli_74Slug", "8Rnd_B_Beneli_Pellets"};
 	};
 	
 	class Remington870_lamp : Remington870 {
 		model = "\dayz_weapons\models\Remington870_lamp";
 		displayname = $STR_WPN_NAME_3;
 		descriptionShort = $STR_WPN_DESC_3;
-		magazines[] = {"Single_W1866_Slug"};
+		magazines[] = {"8Rnd_B_Beneli_74Slug", "8Rnd_B_Beneli_Pellets"};
 		
 		class FlashLight {
 			color[] = {0.9, 0.9, 0.7, 0.9};
@@ -547,43 +547,27 @@ class cfgMagazines {
 		ammo = "Crowbar_Swing_Ammo";
 	};
 	
-	//class 15Rnd_W1866_Slug : CA_Magazine {
-		//scope = public;
-		//displayName = $STR_MAG_NAME_2;
-		//ammo = "B_1866_Slug";
-		//model = "\dayz_weapons\models\8shells_slugs.p3d";
-		//picture = "\dayz_weapons\textures\equip_shells_ca.paa";
-		//count = 15;
-		//initSpeed = 396;
-		//descriptionShort = $STR_MAG_DESC_2;
-		//displayNameShort = "Slug";
-	//};
-	
-	class Single_W1866_Slug : CA_Magazine {
+	class 15Rnd_W1866_Slug : CA_Magazine {
 		scope = public;
-		displayName = "Single Slug";
+		displayName = $STR_MAG_NAME_2;
 		ammo = "B_1866_Slug";
-		model = "\dayz_weapons\models\shell.p3d";
+		model = "\dayz_weapons\models\8shells_slugs.p3d";
 		picture = "\dayz_weapons\textures\equip_shells_ca.paa";
-		count = 1;
+		count = 15;
 		initSpeed = 396;
-		descriptionShort = "Single Cartridge (Slugs)";
-		displayNameShort = "Slugs";
+		descriptionShort = $STR_MAG_DESC_2;
+		displayNameShort = "Slug";
 	};
 	
-	class Single_Rnd_Pellet : Single_W1866_Slug {
-		displayName = "Single Pellets";
-		descriptionShort = "Single Cartridge (Pellets)";
-		displayNameShort = "Pellets";
-		};
+	class 15Rnd_W1866_Pellet : 15Rnd_W1866_Slug {};
 	
-	/* class Single_B_Beneli_74Slug : CA_Magazine {
+	class 8Rnd_B_Beneli_74Slug : CA_Magazine {
 		scope = public;
-		displayName = "Single Beneli Slug";
+		displayName = "8Rnd. Slug";
 		model = "\dayz_weapons\models\8shells_slugs.p3d";
 		picture = "\dayz_weapons\textures\equip_shells_ca.paa";
 		ammo = "B_12Gauge_74Slug";
-		count = 1;
+		count = 8;
 		initSpeed = 396;
 		descriptionShort = "Caliber: 12 gauge <br/>Rounds: 8 <br/>Used in: M1014";
 		
@@ -591,19 +575,19 @@ class cfgMagazines {
 			class ReloadMag {
 				text = "Split into 4 x 2 rounds";
 				script = "spawn player_reloadMag;";
-				use[] = {"Single_B_Beneli_74Slug"};
-				output[] = {"Single_shotgun_74Slug", "Single_shotgun_74Slug", "Single_shotgun_74Slug", "Single_shotgun_74Slug"};
+				use[] = {"8Rnd_B_Beneli_74Slug"};
+				output[] = {"2Rnd_shotgun_74Slug", "2Rnd_shotgun_74Slug", "2Rnd_shotgun_74Slug", "2Rnd_shotgun_74Slug"};
 			};
 		};
 	};
 	
-	class Single_B_Beneli_Pellets : CA_Magazine {
+	class 8Rnd_B_Beneli_Pellets : CA_Magazine {
 		scope = public;
 		displayName = "8Rnd. Pellets";
 		model = "\dayz_weapons\models\8shells_pellets.p3d";
 		picture = "\dayz_weapons\textures\equip_pellets_ca.paa";
 		ammo = "B_12Gauge_Pellets";
-		count = 1;
+		count = 8;
 		initSpeed = 396;
 		descriptionShort = "Caliber: 12 gauge <br/>Rounds: 8 Pellets<br/>Used in: M1014";
 		displayNameShort = "Pellets";
@@ -612,13 +596,13 @@ class cfgMagazines {
 			class ReloadMag {
 				text = "Split into 4x2 rounds";
 				script = "spawn player_reloadMag;";
-				use[] = {"Single_B_Beneli_Pellets"};
+				use[] = {"8Rnd_B_Beneli_Pellets"};
 				output[] = {"2Rnd_shotgun_74Pellets", "2Rnd_shotgun_74Pellets", "2Rnd_shotgun_74Pellets", "2Rnd_shotgun_74Pellets"};
 			};
 		};
 	};
 	
-	class Single_shotgun_74Slug : Single_B_Beneli_74Slug {
+	class 2Rnd_shotgun_74Slug : 8Rnd_B_Beneli_74Slug {
 		displayName = "2Rnd. Slug";
 		count = 2;
 		descriptionShort = "Caliber: 12 gauge <br/>Rounds: 2 <br/>Used in: M1014";
@@ -627,13 +611,13 @@ class cfgMagazines {
 			class ReloadMag {
 				text = "Combine to 8 rounds";
 				script = "spawn player_reloadMag;";
-				use[] = {"Single_shotgun_74Slug", "Single_shotgun_74Slug", "Single_shotgun_74Slug", "Single_shotgun_74Slug"};
-				output[] = {"Single_B_Beneli_74Slug"};
+				use[] = {"2Rnd_shotgun_74Slug", "2Rnd_shotgun_74Slug", "2Rnd_shotgun_74Slug", "2Rnd_shotgun_74Slug"};
+				output[] = {"8Rnd_B_Beneli_74Slug"};
 			};
 		};
 	};
 	
-	class 2Rnd_shotgun_74Pellets : Single_B_Beneli_Pellets {
+	class 2Rnd_shotgun_74Pellets : 8Rnd_B_Beneli_Pellets {
 		displayName = "2Rnd. Pellets";
 		count = 2;
 		descriptionShort = "Caliber: 12 gauge <br/>Rounds: 2 Pellets<br/>Used in: M1014";
@@ -643,10 +627,10 @@ class cfgMagazines {
 				text = "Combine to 8 rounds";
 				script = "spawn player_reloadMag;";
 				use[] = {"2Rnd_shotgun_74Pellets", "2Rnd_shotgun_74Pellets", "2Rnd_shotgun_74Pellets", "2Rnd_shotgun_74Pellets"};
-				output[] = {"Single_B_Beneli_Pellets"};
+				output[] = {"8Rnd_B_Beneli_Pellets"};
 			};
 		};
-	}; */
+	};
 	class HandGrenade;	// External class reference
 	
 	class TrashJackDaniels : HandGrenade {

@@ -18,9 +18,6 @@ _num = switch (_type) do {
 	case "eat": 		{3};
 	case "cook": 		{2};
 	case "panic": 		{1};
-	case "dog_bark":	{4};
-	case "dog_growl":	{3};
-	case "dog_qq":		{2};
 };
 
 if (_type in ["shout","hit","attack","scream","breath"]) then {

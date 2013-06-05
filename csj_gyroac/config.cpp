@@ -31,6 +31,9 @@ class CfgPatches {
 	};
 };
 
+class Turrets;
+class MainTurret;
+
 class CfgSkeletons {
 	class Plane;	// External class reference
 	
@@ -704,6 +707,14 @@ class CfgVehicles {
 		transportMaxBackpacks = 1;
 		forceHideDriver = true;
 		castDriverShadow = true;
+		
+		class Turrets: Turrets//new
+		{
+		class MainTurret: MainTurret
+		{
+		gunnerOpticsModel = "\ca\weapons\optika_empty";
+		};
+		};
 		
 		// internal camera viewing limitations
 		class ViewPilot : ViewPilot {

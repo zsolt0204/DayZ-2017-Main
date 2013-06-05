@@ -47,7 +47,7 @@ if (r_player_blood > r_player_bloodTotal) then {
 	r_player_blood = r_player_bloodTotal;
 };
 
-player setVariable ["messing",[dayz_hunger,dayz_thirst],true];
+player setVariable ["messing",[dayz_hunger,dayz_thirst,dayz_sleep],true];
 player setVariable["USEC_BloodQty",r_player_blood,true];
 player setVariable["medForceUpdate",true];
 

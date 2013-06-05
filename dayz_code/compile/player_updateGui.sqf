@@ -5,9 +5,6 @@ _foodVal = 		1 - (dayz_hunger / SleepFood);
 _thirstVal = 	1 - (dayz_thirst / SleepWater);
 _tempVal 	= 	(dayz_temperatur / dayz_temperaturnormal);	//TeeChange
 _combatVal =	1 - dayz_combat; // May change later to be a range of red/green to loosely indicate 'time left in combat'
-_weightVal =	1 - dayz_weight;
-//_weightWarn = 50000;
-
 _sleepVal =     1 - (dayz_sleep / SleepSleep);
 
 if (uiNamespace getVariable ['DZ_displayUI', 0] == 1) exitWith {
@@ -26,19 +23,17 @@ _ctrlTemp 	= 	_display displayCtrl 1306;					//TeeChange
 _ctrlEar = 		_display displayCtrl 1304;
 _ctrlEye = 		_display displayCtrl 1305;
 _ctrlHumanity = _display displayCtrl 1207;
-//_ctrlCombat = _display displayCtrl 1307;
+_ctrlCombat = _display displayCtrl 1307;
 _ctrlFracture = 	_display displayCtrl 1203;
-_ctrlWeight = 	_display displayCtrl 1307;
-_ctrlSleep = _display displayCtrl 1209;
+_ctrlSleep = _display displayCtrl 1308;
 
 //Food/Water/Blood
 _ctrlBlood ctrlSetTextColor 	[(Dayz_GUI_R + (0.3 * (1-_bloodVal))),(Dayz_GUI_G * _bloodVal),(Dayz_GUI_B * _bloodVal), 0.5];
 _ctrlFood ctrlSetTextColor 		[(Dayz_GUI_R + (0.3 * (1-_foodVal))),(Dayz_GUI_G * _foodVal),(Dayz_GUI_B * _foodVal), 0.5];
 _ctrlThirst ctrlSetTextColor 	[(Dayz_GUI_R + (0.3 * (1-_thirstVal))),(Dayz_GUI_G * _thirstVal),(Dayz_GUI_B * _thirstVal), 0.5];
 _ctrlTemp ctrlSetTextColor 		[(Dayz_GUI_R + (0.3 * _tempVal)),(Dayz_GUI_G * _tempVal),(Dayz_GUI_B + (0.25 * (1/_tempVal))), 0.5];	//TeeChange Coulor should change into red if value is higher as normale temp and into blue if coulor is lower as normal temp
-//_ctrlCombat ctrlSetTextColor		[(Dayz_GUI_R + (0.3 * (1-_combatVal))),(Dayz_GUI_G * _combatVal),(Dayz_GUI_B * _combatVal), 0.5];
+_ctrlCombat ctrlSetTextColor		[(Dayz_GUI_R + (0.3 * (1-_combatVal))),(Dayz_GUI_G * _combatVal),(Dayz_GUI_B * _combatVal), 0.5];
 _ctrlSleep ctrlSetTextColor [(Dayz_GUI_R + (0.3 * (1-_sleepVal))),(Dayz_GUI_G * _sleepVal),(Dayz_GUI_B * _sleepVal), 0.5];
-_ctrlWeight ctrlSetTextColor		[(Dayz_GUI_R + (0.3 * (1-_weightVal))),(Dayz_GUI_G * _weightVal),(Dayz_GUI_B * _weightVal), 0.5];
 
 /*
 _humanity = player getVariable["humanity",0];
@@ -69,9 +64,9 @@ if (_audible > 0) then {_audibletext = "\z\addons\dayz_code\gui\val_" + str(_aud
 _ctrlEye ctrlSetText _visualtext;
 _ctrlEar ctrlSetText _audibletext;
 
-//if (_combatVal == 0) then {
-//	_ctrlCombat call player_guiControlFlash;
-//};
+if (_combatVal == 0) then {
+	_ctrlCombat call player_guiControlFlash;
+};
 
 if (_bloodVal < 0.2) then {
 	_ctrlBlood call player_guiControlFlash;
@@ -87,10 +82,6 @@ if (_foodVal < 0.2) then {
 
 if (_sleepVal < 0.1) then {
     _ctrlSleep call player_guiControlFlash;
-};
-
-if (_weightVal == 0) then {	
-	_ctrlWeight call player_guiControlFlash;
 };
 
 if (_tempVal < 0.833) then {	//TeeChange

@@ -118,19 +118,19 @@ class RscDisplayGenderSelect
 	enableDisplay = 1;
 	class controls
 	{
-		class GenderPic_Man : RscActiveText
-		{
-			idc = -1;
-			style = 48;
-			text = "z\addons\dayz_code\gui\gender_menu_man.paa";
-			x = 0.28 * safezoneW + safezoneX;
-			y = 0.24 * safezoneH + safezoneY;
-			w = 0.117188 * safezoneW;
-			h = 0.542373 * safezoneH;
-			color[] = { 0.5, 0.5, 0.5, 1 };
-			colorActive[] = { 1, 1, 1, 1 };
-			action = "closeDialog 0;dayz_selectGender = 'Survivor2_DZ';";
-		};
+        class GenderPic_Man : RscActiveText
+        {
+            idc = -1;
+            style = 48;
+            text = "z\addons\dayz_code\gui\gender_menu_man.paa";
+            x = 0.28 * safezoneW + safezoneX;
+            y = 0.24 * safezoneH + safezoneY;
+            w = 0.117188 * safezoneW;
+            h = 0.542373 * safezoneH;
+            color[] = { 0.5, 0.5, 0.5, 1 };
+            colorActive[] = { 1, 1, 1, 1 };
+            action = "closeDialog 0;dayz_selectGender = ['Beard_DZ','Dimitry_DZ','Alexej_DZ','Stanislav_DZ'] select floor (random 4);";
+        };
 		class GenderPic_Woman : RscActiveText
 		{
 			idc = -1;
@@ -1031,6 +1031,15 @@ class RscTitles
 		name = "statusBorder";
 		onLoad = "uiNamespace setVariable ['DAYZ_GUI_display', _this select 0];";
 		class ControlsBackground {
+		    class RscPicture_1209: RscPictureGUI
+			{
+			    idc = 1209;
+				text = "\z\addons\dayz_code\gui\status_sleep_border_ca.paa";
+				x = 0.955313 * safezoneW + safezoneX;
+				y = 0.58 * safezoneH + safezoneY;
+				w = 0.06;
+				h = 0.08;
+			};
 			class RscPicture_1201: RscPictureGUI
 			{
 				idc = 1201;
@@ -1069,7 +1078,7 @@ class RscTitles
 			};
 			class RscPicture_1207 : RscPictureGUI {
 				idc = 1207;
-				text = "\z\addons\dayz_code\gui\status_weight_border_ca.paa";
+				text = "\z\addons\dayz_code\gui\status_combat_border_ca.paa";
 				x = "0.955313 * safezoneW + safezoneX";
 				y = "0.65 * safezoneH + safezoneY";
 				w = 0.06;
@@ -1080,7 +1089,7 @@ class RscTitles
 				idc = 1203;
 				text = "\z\addons\dayz_code\gui\status_fracture_ca.paa";
 				x = 0.955313 * safezoneW + safezoneX;
-				y = 0.51 * safezoneH + safezoneY;
+				y = 0.58 * safezoneH + safezoneY;
 				w = 0.06;
 				h = 0.08;
 				colorText[] = {1,1,1,1};
@@ -1090,7 +1099,7 @@ class RscTitles
 				idc = 1204;
 				text = "\z\addons\dayz_code\gui\status_connection_ca.paa";
 				x = 0.955313 * safezoneW + safezoneX;
-				y = 0.44 * safezoneH + safezoneY;
+				y = 0.51 * safezoneH + safezoneY;
 				w = 0.06;
 				h = 0.08;
 				colorText[] = {1,1,1,1};
@@ -1131,16 +1140,17 @@ class RscTitles
 				w = 0.04;
 				h = 0.053333;
 			};
-			class RscPicture_1309 : RscPictureGUI {
-				idc = 1309;
-				text = "\z\addons\dayz_code\gui\status_sleep_border_ca.paa";
-				x = "0.955313 * safezoneW + safezoneX";
-				y = "0.58 * safezoneH + safezoneY";
+		};
+		class Controls{
+		    class RscPicture_1308: RscPictureGUI
+			{
+			    idc = 1308;
+				text = "\z\addons\dayz_code\gui\status_sleep_inside_ca.paa";
+				x = 0.955313 * safezoneW + safezoneX;
+				y = 0.58 * safezoneH + safezoneY;
 				w = 0.06;
 				h = 0.08;
 			};
-		};
-		class Controls{
 			class RscPicture_1301: RscPictureGUI
 			{
 				idc = 1301;
@@ -1207,7 +1217,7 @@ class RscTitles
 			};
 			class RscPicture_1307 : RscPictureGUI {
 				idc = 1307;
-				text = "\z\addons\dayz_code\gui\status_weight_inside_ca.paa";
+				text = "\z\addons\dayz_code\gui\status_combat_inside_ca.paa";
 				x = "0.955313 * safezoneW + safezoneX";
 				y = "0.65 * safezoneH + safezoneY";
 				w = 0.06;
@@ -1232,138 +1242,6 @@ class RscTitles
 				w = 0.04;
 				h = 0.053333;
 			};
-			class RscPicture_1209 : RscPictureGUI {
-				idc = 1209;
-				text = "\z\addons\dayz_code\gui\status_sleep_inside_ca.paa";
-				x = "0.955313 * safezoneW + safezoneX";
-				y = "0.58 * safezoneH + safezoneY";
-				w = 0.06;
-				h = 0.08;
-			};
 		};
 	};
-	
-// Blood starts here	
-	
-//===================================
-//============ Screen ===============
-//===================================
-	class screen
-	{ 
-		idd=-1; 
-		movingEnable=1; 
-		duration=10e10; 
-		fadein=0;
-		fadeout=1;
-		name="Screen"; 
-		onload = "uinamespace setvariable ['str_screen',_this select 0];";
-		class controlsbackground
-		{
-			class vignette: RscPicture 
-			{
-				idc = -1;
-				text="ca\missions_ew\img\vignette_ca.paa";
-				x=safezoneX;
-				y=safezoneY;
-				w=safezoneW;
-				h=safezoneH;
-				colortext[] = {1,1,1,0.7};
-			};
-		};
-		class controls
-		{
-			class screen_0: RscPicture 
-			{
-				idc = 1000;
-				text="ca\missions_ew\img\screen_dirt_ca.paa";
-				x=safezoneX;
-				y=safezoneY;
-				w=0;
-				h=0;	  
-			};
-			class screen_1: screen_0	{idc = 1001; text="ca\missions_ew\img\screen_blood_1_ca.paa";};
-			class screen_2: screen_0	{idc = 1002; text="ca\missions_ew\img\screen_blood_2_ca.paa";};
-			class screen_3: screen_0	{idc = 1003; text="ca\missions_ew\img\screen_blood_3_ca.paa";};
-			class screen_4: screen_0	{idc = 1004; text="ca\missions_ew\img\screen_blood_1_ca.paa";};
-			class screen_5: screen_0	{idc = 1005; text="ca\missions_ew\img\screen_blood_2_ca.paa";};
-			class screen_6: screen_0	{idc = 1006; text="ca\missions_ew\img\screen_blood_3_ca.paa";};
-		};
-	};
-	
-	//===============================
-	//==== Camera borders smooth ====
-	//===============================
-	class camerabordersmooth
-	{
-		name = "camera border smooth";
-		duration = 10e10;
-		fadein = 0;
-		idd = -1;
-		movingEnable = false;
-		onload = "uinamespace setvariable ['str_border',_this select 0];";
-		class controls
-		{
-			class Top:RscPicture
-			{
-				idc = 100001;
-				access=3;
-				x = safezoneX;
-				y = safezoneY;
-				w = safezoneW;
-				h = 0.125;
-				text="ca\missions_ew\img\cameraborder_top_ca.paa";
-				colorBackground[]={0,0,0,1};
-			};
-			class Bottom:RscPicture
-			{
-				idc = 100002;
-				access=3;
-				x = safezoneX;
-				y = safezoneY + safezoneH - 0.125;
-				w = safezoneW;
-				h = 0.125;
-				text="ca\missions_ew\img\cameraborder_bottom_ca.paa";
-				colorBackground[]={0,0,0,1};
-			};
-		};
-	};
-	
-	//===============================
-//======= Camera borders ========
-//===============================
-	class cameraborder
-	{
-		name = "camera border";
-		duration = 10e10;
-		fadein = 0;
-		idd = -1;
-		movingEnable = false;
-		onload = "uinamespace setvariable ['str_border',_this select 0];";
-		class controls
-		{
-			class Top:RscText
-			{
-				idc = 100001;
-				access=3;
-				x = safezoneX;
-				y = safezoneY;
-				w = safezoneW;
-				h = 0.125;// - safezoneY;
-				text="";
-				colorBackground[]={0,0,0,1};
-			};
-			class Bottom:RscText
-			{
-				idc = 100002;
-				access=3;
-				x = safezoneX;
-				y = safezoneY + safezoneH - 0.125;
-				w = safezoneW;
-				h = 0.125;// - safezoneY;
-				text="";
-				colorBackground[]={0,0,0,1};
-			};
-		};
-	};
-
 };

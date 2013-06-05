@@ -71,9 +71,6 @@ if (_damage > 0.4) then {
 	if (_ammo != "zombie") then {
 		_scale = _scale + 50;
 	};
-	if (_ammo == "zombie") then {
-		_scale = _scale + 600;
-	};
 	if (_isHeadHit) then {
 		_scale = _scale + 500;
 	};

@@ -24,7 +24,7 @@ sleep 1;
 if (_item == "ItemWaterbottle") then {
 	player addMagazine "ItemWaterbottleUnfilled";
 };
-player setVariable ["messing",[dayz_hunger,dayz_thirst],true];
+player setVariable ["messing",[dayz_hunger,dayz_thirst,dayz_sleep],true];
 
 /*
 _update = player getVariable["updatePlayer",[false,false,false,false,false]];

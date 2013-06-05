@@ -180,7 +180,7 @@ dayzHideBody = objNull;
 //DayZ settings
 dayz_dawn = 6;
 dayz_dusk = 18;
-dayz_maxAnimals = 5;
+dayz_maxAnimals = 7;
 DAYZ_agentnumber = 0;
 dayz_animalDistance = 800;
 dayz_zSpawnDistance = 1000;
@@ -281,7 +281,6 @@ if(!isDedicated) then {
 	dayz_scaleLight = 		0;
 	dayzDebug = false;
 	dayzState = -1;
-	dayz_weight = 0;
 	//uiNamespace setVariable ['DAYZ_GUI_display',displayNull];
 	//if (uiNamespace getVariable ['DZ_displayUI', 0] == 2) then {
 	//	dayzDebug = true;

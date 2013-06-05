@@ -50,5 +50,6 @@ if (!isDedicated) then {
 	"changeCharacter"	addPublicVariableEventHandler {(_this select 1) call player_serverModelChange};
 	"dayzSwitch"		addPublicVariableEventHandler {(_this select 1) call server_switchPlayer};
 	"dayzFire"			addPublicVariableEventHandler {nul=(_this select 1) spawn BIS_Effects_Burn};
+	"sleepTent"         addPublicVariableEventHandler {[] spawn {player playMove "AidlPpneMstpSnonWnonDnon_SleepC_layDown";sleep 3;cutText ["Sleeping...","BLACK OUT",2];sleep 10;cutText ["","BLACK IN",2];player playMove "AidlPpneMstpSnonWnonDnon_SleepC_standUp";};};
 	//"dayz_combatLog"	addPublicVariableEventHandler {nul=(_this select 1) spawn player_combatLogged};
 };
